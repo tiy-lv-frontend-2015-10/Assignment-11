@@ -1,40 +1,90 @@
+body {
+	background: #F5F5F1;
+	font-family: Arial;
+}
+
 #navBar {
-	border-bottom: 1px solid black;
-	height:70px;
+	border-bottom: 1px solid #E1E3DF;
+	height:80px;
 	width:100%;
+	background: #fff;
 }
 h1 {
 	float: left;
 	position: relative;
 	left:40px;
+	top:20px;
+	margin:0px;
+	color:#F56400
 }
 #searchBar {
 	float: left;
 	position: relative;
-	top:30px;
+	top:25px;
 	left:60px;
+	height:30px;
+	width:230px;
 	background: #FFFFFF;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+	border:1px solid #CFCBC8;
 }
-
+#searchButton {
+	position: absolute;
+	left:362px;
+	top:25px;
+	height:34px;
+	width:80px;
+	border-top-right-radius:3px;
+	border-bottom-right-radius:3px;
+	outline: none;
+	border:none;
+	background-color: #34A8C4;
+	color:white;
+	font-weight: bold;
+	font-size: 14px;
+}
 #options {
 	float: right;
+	position: relative;
+	top:15px;
+
+
 }
 #options li{
 	float:left;
 	display: inline;
 	position: relative;
 	padding-right: 15px;
+	color:#0192B5;
+}
+
+#signInButton {
+	height:35px;
+	position: relative;
+	top:-10px;
+	background:#fff;
+	border:1px solid #0192B5;
+	border-radius: 3px;
 }
 
 .clearfix {
 	content: "";
 	display: block;
 	clear: both;
+
 }
 
 #categories {
-	height:30px;
-	border-bottom:1px solid black;
+	height:40px;
+	border-bottom:1px solid #E1E3DF;
+	background: #fff;
+	color:#5D5D5D;
+}
+#catList {
+	margin:0;
+	position: relative;
+	top:10px;
 }
 #catList li{
 	float:left;
