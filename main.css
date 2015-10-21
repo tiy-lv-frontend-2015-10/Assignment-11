@@ -92,3 +92,33 @@ h1 {
 	position: relative;
 	padding-right:10px;
 }
+
+h3 {
+	font-size: 14px;
+}
+
+#allCategories {
+	height:380px;
+	width:230px;
+	background-color: white;
+	border-radius:3px;
+	border:1px solid #E1E3DF;
+}
+
+#allCat {
+	position: relative;
+	top:10px;
+	left:10px;
+}
+#allCatList {
+	padding:0px;
+	position: relative;
+	left:30px;
+}
+
+#allCatList li{
+	list-style: none;
+	margin-bottom: 7px;
+	font-size: 12px;
+	color:#0192B5;
+}
