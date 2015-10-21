@@ -1,0 +1,44 @@
+#navBar {
+	border-bottom: 1px solid black;
+	height:70px;
+	width:100%;
+}
+h1 {
+	float: left;
+	position: relative;
+	left:40px;
+}
+#searchBar {
+	float: left;
+	position: relative;
+	top:30px;
+	left:60px;
+	background: #FFFFFF;
+}
+
+#options {
+	float: right;
+}
+#options li{
+	float:left;
+	display: inline;
+	position: relative;
+	padding-right: 15px;
+}
+
+.clearfix {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+#categories {
+	height:30px;
+	border-bottom:1px solid black;
+}
+#catList li{
+	float:left;
+	display: inline;
+	position: relative;
+	padding-right:10px;
+}
