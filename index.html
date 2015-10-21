@@ -7,99 +7,152 @@
 </head>
 <body>
   <div class="header">
-    <div id = "searchForm">
-      <form>
-        <h1>Etsy</h1>
-        <input type="text" placeholder="Whiskey">
-        <button type="submit"> Search </button>
-      </form>
-    </div>
-    <div id="headerContainer">
-      <ul>
-        <li><a href="#">Sell on Etsy</a></li>
-        <li><a href="#">Register</a></li>
-        <li><a href="#"><button>Sign In</button></a></li>
-        <li><a href="#">Cart</a></li>
-      </ul>
-    <div id="headerList">
-      <ul>
-        <li>Clothing & Accessories</li>
-        <li>Jewlery</li>
-        <li>Craft Supplies & Tools</li>
-        <li>Weddings</li>
-        <li>Entertainment</li>
-        <li>Home & Living</li>
-        <li>Kids & Baby</li>
-        <li>Vintage</li>
-      </ul>
-    </div>
-  </div>
-  <div id="categoriesContainer">
-    <h3>Show results for:</h3>
-      <ul>
-        <li> All Categories</li>
-        <li><a href="#">Home & Living</a></li>
-        <li><a href="#">Art & Collectibles</a></li>
-        <li><a href="#">Weddings</li></a>
-        <li><a href="#">Clothing</li></a>
-        <li><a href="#">Paper & Party Supplies</a></li>
-        <li><a href="#">Jewlery</a></li>
-        <li><a href="#">Accessories</a></li>
-        <li><a href="#">Craft Supplies & Tools</a></li>
-        <li><a href="#">Bags & Purses</a></li>
-        <li><a href="#">Bath & Beauty</a></li>
-        <li><a href="#">Shoes</a></li>
-        <li><a href="#">Books, Movies & Music</a></li>
-        <li><a href="#">Electronics & Accessories</a></li>
-        <li><a href="#">Toys & Games</a></li>
-        <li><a href="#">Pet Supplies</a></li>
-      </ul>
-  </div>
-  <h3 id="searchRefine">Refine your search</h3>
-  <div class="searchContainer">
-    <div id="typeButtons">
-      <form>
+      <div id = "searchForm">
+        <form>
+          <h1>Etsy</h1>
+          <input type="text" placeholder="Whiskey">
+          <button type="submit"> Search </button>
+        </form>
+      </div>
+      <div id="headerContainer">
         <ul>
-          <li>Item Type</li>
-          <li><input type="radio">All Items</li>
-          <li><input type="radio">Handmade</li>
-          <li><input type="radio">Vintage</li>
+          <li><a href="#">Sell on Etsy</a></li>
+          <li><a href="#">Register</a></li>
+          <li><button>Sign In</button></li>
+          <li><a href="#">Cart</a></li>
         </ul>
-      </form>
-    </div>
-    <div id="priceRange">
-      <ul>
-        <li>Price</li>
-        <li><input type="number" placeholder="Low"> to <input type="number" placeholder="High"> <input type="button"></li>
-      </ul>
-    </div>
-    <div id="filterColor">
-      <li>Filter by Color</li>
-      <li><input type="button" placeholder="Red"><input type="button" placeholder="Orange"><input type="button" placeholder="Yellow"><input type="button" placeholder="Green"><input type="button" placeholder="Blue"><input type="button" placeholder="Purple"><input type="button" placeholder="Black"><input type="button" placeholder="White"></li>
-    </div>
-    <div id="orderingOptions">
-    </div>
-    <div id="shopLocation">
-    </div>
-    <div id="shipTo">
+      <div id="headerList">
+        <ul>
+          <li>Clothing & Accessories</li>
+          <li>Jewlery</li>
+          <li>Craft Supplies & Tools</li>
+          <li>Weddings</li>
+          <li>Entertainment</li>
+          <li>Home & Living</li>
+          <li>Kids & Baby</li>
+          <li>Vintage</li>
+        </ul>
+      </div>
     </div>
   </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <div id="categoriesContainer">
+      <h3>Show results for:</h3>
+        <ul>
+          <li> All Categories</li>
+          <li><a href="#">Home & Living</a></li>
+          <li><a href="#">Art & Collectibles</a></li>
+          <li><a href="#">Weddings</a></li>
+          <li><a href="#">Clothing</a></li>
+          <li><a href="#">Paper & Party Supplies</a></li>
+          <li><a href="#">Jewlery</a></li>
+          <li><a href="#">Accessories</a></li>
+          <li><a href="#">Craft Supplies & Tools</a></li>
+          <li><a href="#">Bags & Purses</a></li>
+          <li><a href="#">Bath & Beauty</a></li>
+          <li><a href="#">Shoes</a></li>
+          <li><a href="#">Books, Movies & Music</a></li>
+          <li><a href="#">Electronics & Accessories</a></li>
+          <li><a href="#">Toys & Games</a></li>
+          <li><a href="#">Pet Supplies</a></li>
+        </ul>
+    </div>
+    <h3 id="searchRefine">Refine your search</h3>
+    <div class="searchContainer">
+      <div id="typeButtons">
+        <form>
+          <ul>
+            <li>Item Type</li>
+            <li><input type="radio"><a href="#">All Items</a></li>
+            <li><input type="radio"><a href="#">Handmade</a></li>
+            <li><input type="radio"><a href="#">Vintage</a></li>
+          </ul>
+        </form>
+      </div>
+      <div id="priceRange">
+        <ul>
+          <li>Price</li>
+          <li><input type="number" placeholder="Low"> to <input type="number" placeholder="High"> <input type="button" value="price"></li>
+        </ul>
+      </div>
+      <div id="filterColor">
+        <ul>
+          <li>Filter by Color</li>
+          <li><input type="button" value="red"></li>
+          <li><input type="button" value="Orange"></li>
+          <li><input type="button" value="Yellow"></li>
+          <li><input type="button" value="Green"></li>
+          <li><input type="button" value="Blue"></li>
+          <li><input type="button" value="Purple"></li>
+          <li><input type="button" value="Black"></li>
+          <li><input type="button" value="White"></li>
+        </ul>
+      </div>
+      <div id="orderingOptions">
+        <ul>
+          <li>Ordering Options</li>
+          <li><input type="checkbox"><a href="#"> Accepts Etsy Gift Cards</a></li>
+          <li><input type="checkbox"><a href="#">Customizable</a></li>
+        </ul>
+      </div>
+      <div id="shopLocation">
+        <ul>
+          <li>Shop Location</li>
+          <li><input type="radio"><a href="#"> Anywhere</a></li>
+          <li><input type="radio"><a href="#"> United States</a></li>
+          <li><a href="#">Choose a custom location</a></li>
+        </ul>
+      </div>
+      <div id="shipTo">
+        <ul>
+          <li>Ship To</li>
+          <li>
+          <select>
+            <option value="United States">United States</option>
+            <option value="Canada">Canada</option>
+            <option value="Mexico">Mexico</option>
+          </select>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="pictureContainer">
+      <div id="topCategories">
+      </div>
+      <div class="allOtherCategories">
+        <div id="rowOne">
+        </div>
+        <div id="rowTwo">
+        </div>
+        <div id="rowThree">
+        </div>
+        <div id="rowFour">
+        </div>
+        <div id="rowFive">
+        </div>
+        <div id="rowSix">
+        </div>
+        <div id="rowSeven">
+        </div>
+        <div id="rowEight">
+        </div>
+        <div id="rowNine">
+        </div>
+        <div id="rowTen">
+        </div>
+        <div id="rowEleven">
+        </div>
+        <div id="rowTwelve">
+        </div>
+        <div id="rowThirteen">
+        </div>
+        <div id="rowFourteen">
+        </div>
+        <div id="rowFifteen">
+        </div>
+        <div id="rowSixteen">
+        </div>
+      </div>
+    </div>
   <script type="text/javascript" src="main.js"></script>
   <script type="text/javascript" src="data.js"></script>
 </body>
