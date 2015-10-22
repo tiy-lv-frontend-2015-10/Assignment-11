@@ -1,0 +1,21 @@
+* {
+  list-style-type: none;
+}
+
+.header {
+  border-bottom: solid 1px grey;
+}
+
+#searchForm {
+  float: left;
+}
+
+#searchForm h1 {
+  color: #f45800;
+}
+
+#headerContainer {
+  float: right;
+}
+
+
