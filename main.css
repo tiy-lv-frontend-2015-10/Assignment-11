@@ -10,7 +10,18 @@
 body {
 	font-family: "Helvetica", "sans-serif";
 	margin: 0 auto;
+	background-color: #f5f5f1;
 }
+* {
+	border-box: box-sizing;
+}
+
+#mainContainer {
+	margin: 0 auto;
+	padding: 0px;
+	width: 100%;
+}
+
 /* 
 X
 x
@@ -20,10 +31,10 @@ X
 
 #header {     /*<!--this is the top header with Etsy, search etc.-->*/
 	height: 81px;
-	width: 1000px;
+	width: 100%;
 	margin: 0px;
 	padding: 0px;
-	background-color: #CCCCCC;
+	background-color: #FFFFFF;
 	display: block;
 	border-bottom: 1px solid black;
 }
@@ -143,23 +154,28 @@ li {
 #searchList li {
 	text-decoration: none;
 	float: left;
-	padding-right: 10px;
+	padding-right: 15px;
 	margin-top:25px;
 	color: #3064e0;
 	font-size: 12px;
+	text-align: center;
 }
 
 .blueLine {
 	border: 1px #3064e0 solid;
+	border-radius: 5px;
+	text-align: center;
+	padding-left: 10px;
 }
 
 #navHeader { /*<!--This is the navigation header-->*/
 	height: 43px;
-	width: 1000px;
+	width: 100%;
 	margin: 0px;
 	padding: 0px;
 	background-color: #FFFFFF;
 	clear: both;
+	border-bottom: 1px solid black;
 }
 
 #navHeaderList {  /* this is the list in the nav bar */
@@ -178,8 +194,8 @@ li {
 #navHeaderList li {
 	float: left;
 	text-decoration: none;
-	padding-right: 20px;
-	padding-left: 20px;
+	padding-right: 30px;
+	padding-left: 30px;
 	font-size: 13px;
 	margin: 0 auto;
 }
@@ -201,9 +217,8 @@ X
 
 #container {  /*<!-- This is the div containing the elements on the body of the page-->*/
 	background-color: #f5f5f1;
-	width: 995px;
-	margin: 0px;
-	border-top: 1px gray solid;
+	width: 1000px;
+	margin: 0 auto;
 }
 
 #clearfix {   /* <!--this is to clear the area between the two product areas--> */
@@ -237,6 +252,7 @@ X
 	float:left;
 	position: relative;
 	margin-top: 10px;
+	margin-right: 20px;
 }
 /* 
 X
@@ -311,19 +327,16 @@ X
 #topBox { /*<!-- This is the div around the top two lines of products-->*/
 	width: 735px;
 	height: 427px;
-	display: inline;
-	float: right;
+	float: left;
 	position: relative;
 	margin: 0;
 	padding: 0;
-	clear: both;
+	clear: right;
 }
 
 #boxOne { /*<!-- This is the div for the top line of items for sale-->*/
 	width: 735px;
 	height: 253px;
-	display: inline;
-	float: right;
 	margin: 0;
 	padding: 0;
 	position: relative;
@@ -332,18 +345,15 @@ X
 #boxOne img {
 	width: 349px;
 	height: 278px;
-	display: inline;
 	margin: 0;
 	padding: 0;
-	float:left;
+	float: left;
 }	
 
 #boxTwo { /*<!-- This is the div for the second line of items for sale--> */
 	width: 735px;
 	height: 198px;
-	display: inline;
-	float: left;
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
 	position: relative;
 }	
@@ -352,7 +362,6 @@ X
 	width: 226px;
 	height: 180px;
 	display: inline;
-	float: left;
 	margin: 0;
 	padding: 0;
 	position: relative;

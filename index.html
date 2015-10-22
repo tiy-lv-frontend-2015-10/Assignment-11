@@ -6,6 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
+	<div id="mainContainer"> <!-- the container that wraps around everything-->
 	<div id="header"> <!--this is the top header with Etsy, search etc.-->
 		<div id="headerLogo"><img src="assets/Etsylogo.jpg"></div>
 		<div id="searchWrapper"> <!-- this wraps around the search box and button-->
@@ -17,7 +18,7 @@
 			<ul id="searchList">
 				<li class="blue">Sell on Etsy</li>
 				<li>Register</li>
-				<li .class="blueLine">Sign in</li>
+				<li class="blueLine">Sign in</li>
 				<li><img src="assets/cart.png"></br>Cart</li>
 			</ul>
 		</div> <!-- searchList-->
@@ -79,47 +80,50 @@
 
 			<div id="clearfix"></div> <!--this is to clear the area between the two product areas-->
 
-			<script src="data.js"></script>"
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.0/mustache.min.js"></script>
 			<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+			
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.0/mustache.min.js"></script>
+			<script src="data.js"></script>
 			<script src="main.js"></script>
 			
  		
- 		<div id="pictureContainer"> <!-- This is the div for the 16 lines of products at the bottom-->
+ 		<div id="pictureContainer"></div> <!--pictureContainer--> <!-- This is the div for the 16 lines of products at the bottom-->
  
- 			<script type="x-tmpl-mustache" id="allOtherCategoriesTemplate">
-	 			<ul>
-	 			<li>
-	 			<div = "itemContainer">
-	 			
-	 			{{#Images}}
-	 			<img id = "itemImage" src ={{url_fullxfull}}/>
-	 			{{/#Images}}
-	 			{{#title}}
-	 			<h4 id="itemTitle"></h4>
-	 			{{/title}}
-	 			{{#shop_name}}
-	 			<p id="ownerName"></p>
-	 			{{/#shop_name}}
-	 			{{#price}}
-	 			<span id= "itemPrice"></span>
-	 			{{/#price}}
-	 			{{#currency_code}}
-	 			<span id = "itemCurrencyCode"></span>
-	 			{{/#currency_code}}
+ 			<script type="x-tmpl-mustache" id="listItemTemplate">
+	 			<div id = "itemContainer">
 	 			{{#results}}
+
+	 			{{#Images}}
+	 			<img src ="{{url_170x135}}"/>
+	 			{{/Images}}
+	 			
+	 			{{#title}}
+	 			<p id="itemTitle">{{title}}</p>
+	 			{{/title}}
+
+	 			{{#shop_name}}
+	 			<p id="shopName">{{shop_name}}</p>
+	 			{{/shop_name}}
+
+	 			{{#price}}
+	 			<p id="price">{{price}}</p>
+	 			{{/price}}
+
+	 			{{#currency_code}}
+	 			<p id="currencyCode">{{currency_code}}</p>
+	 			{{/currency_code}}
+
+	 			{{/results}}
 	 			</div>
-	 			</li>
-	 			</ul>
  			</script>
 
-			</div> <!--pictureContainer-->
+			
 
 		
 	</div> <!-- container -->
 
 
-
+	</div> <!--mainContainer-->
 
 </body>
 </html>
