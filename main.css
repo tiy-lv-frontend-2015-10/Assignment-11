@@ -80,6 +80,7 @@ h1 {
 	border-bottom:1px solid #E1E3DF;
 	background: #fff;
 	color:#5D5D5D;
+	margin-bottom: 30px;
 }
 #catList {
 	margin:0;
@@ -94,11 +95,11 @@ h1 {
 }
 
 h3 {
-	font-size: 14px;
+	font-size: 12px;
 }
 
 #allCategories {
-	height:380px;
+	
 	width:230px;
 	background-color: white;
 	border-radius:3px;
@@ -109,11 +110,12 @@ h3 {
 	position: relative;
 	top:10px;
 	left:10px;
+	font-size: 12px;
 }
 #allCatList {
 	padding:0px;
 	position: relative;
-	left:30px;
+	left:25px;
 }
 
 #allCatList li{
