@@ -1,0 +1,71 @@
+body {
+    font-family: arial, sans-serif;
+}
+
+#container {
+    padding: 1em 0em;
+}
+
+#main {
+    background-color: rgb(245, 245, 241);
+    padding: 0 0 0 6em;
+}
+
+.orange {
+    color: rgb(247, 100, 0);
+}
+
+h1 {
+    font-family: 'Slabo 27px', serif;
+    float: left;
+    letter-spacing: .05em;
+    font-size: 50px;
+    margin: 4px 0 0 0;
+    padding: 0 0 0 2em;
+}
+
+#search {
+    padding: 10px;
+    margin: 20px 0px 0 25px;
+}
+
+#searchBtn {
+    padding: 10px 20px;
+    background-color: rgb(43, 168, 198);
+    color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-left: -6px;
+}
+
+#navBar ul {
+    padding: 0 0 0 5em;
+}
+
+#navBar li {
+    float: left;
+    padding: 20px;
+    color: rgb(85, 85, 85);
+}
+
+.fl {
+    float: left;
+}
+
+.clearFloat {
+    clear: both;
+    margin: 0;
+    padding: 0;
+}
+
+#allCategories {
+    background-color: white;
+}
+
+#itemType {
+    background-color: white;
+}
+
+ul {
+    list-style: none;
+}

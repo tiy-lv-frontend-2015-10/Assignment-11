@@ -1,6 +1,7 @@
 # 10/21/15 
 
-___This homework is due by 8am, on 10/26/15___
+___This homework is due by 8am, on 10/26/15___  
+This will be challenging! -KW
 
 ### Learning Objectives
 
