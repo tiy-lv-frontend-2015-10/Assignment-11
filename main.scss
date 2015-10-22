@@ -210,4 +210,37 @@ input #button {
   background-color: white;
 }
 
+.categoriesContainer {
+  width: 735px;
+  height: 427px;
+  margin-left: 20px;
+  margin-top: -45px;
+  float: left;
+}
+
+.categoriesContainer p {
+  font-weight: bold;
+}
+
+.top2 {
+  width: 349px;
+  height: 278px;
+  display: inline;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+.top3 {
+  width: 226px;
+  height: 180px;
+  display: inline;
+  border-radius: 5px;
+  margin-left: 7px;
+}
+
+#allCategories {
+  margin-top: 50px;
+}
+
+
 
