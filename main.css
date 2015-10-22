@@ -30,17 +30,23 @@ input {
     border: 1px solid #c8c8c8;
 }
 
+input:hover{
+	border: 1px solid #3399cc;
+}
+
 .butt {
 	float: left;
 	position: relative;
 	top: 8px;
-	width: 90px;
+	width: 78px;
 	height: 34px;
-	left: 25px;
-	border-top-right-radius: 5px;
-	border-bottom-right-radius: 5px;
-	border:none;
-	background-color: #3399CC;
+	left: 24px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	border: 1px solid #0099cc;
+	background-color: #3399cc;
+	color: white;
+	font-size: 15px;
 
 }
 
@@ -48,11 +54,27 @@ input {
 	list-style: none;
 	position: relative;
 	float: left;
-	top: 20px;
-	left: 200px;
-	padding-left: 20px;
+	margin-left: 15px;
+	left: 260px;
 }
 
 a {
 	text-decoration: none;
+}
+
+.list1 {
+	color: #3399cc;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+.cart {
+	font-family: sans-serif;
+	font-size: 14px;
+	color: #b0b0b0;
+}
+
+.signIn {
+	height: 35px;
+	width: 65px;
 }
