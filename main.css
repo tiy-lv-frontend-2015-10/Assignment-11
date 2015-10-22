@@ -185,6 +185,11 @@ hr {
 	float: left;
 }
 
+#container {
+	float: right;
+	width:650px;
+}
+
 #refineSearch li {
 	color:#0192B5;
 	font-size: 14px;

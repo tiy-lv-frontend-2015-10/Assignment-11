@@ -73,10 +73,10 @@
 	<div class="clearfix"></div>
 
 
-	<div id="container"></div>
+	
 
 	<h3>Refine your search</h3>
-
+	<div id="container"></div>
 	<div id="refineSearch">
 
 		<span id="itemType">Item Type</span>
@@ -155,12 +155,14 @@
 	<ul id="mylist">
 		<li>
 			<div id="itemContainer">
-				{{#"url_170x135"}}
-				<img src={{.}}>
-				{{/"url_170x135"}}
-				<h4></h4>
-				<p></p>
-				<span></span>
+				{{#results}}
+					{{#Images}}
+					<img src={{url_170x135}}>
+					{{/Images}}
+					<h4></h4>
+					<p></p>
+					<span></span>
+				{{/results}}
 			</div>
 		</li>
 	</ul>
