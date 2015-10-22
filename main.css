@@ -1,0 +1,73 @@
+body {
+	background: #F5F5F1;
+}
+
+.container {
+	width: 980px;
+	margin: 0 auto;
+}
+
+.top-wrap {
+	background: #FFFFFF;
+	margin: 0;
+	padding: 0;
+}
+
+.container.top-bar {
+	background:  #FFFFFF;
+	height: 40px;
+	padding: 20px 0 20px 0;
+}
+.line-em {
+	height: 1px;
+	border-bottom: 1px solid #DCDCD9;
+}
+
+#etsy {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 2.6rem;
+	color: #F56400;
+	margin: 0 -8px 0 0;
+	width: 100px;
+}
+#search-window {
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	padding: 5px;
+	border: 1px solid #BCB7B3;
+	border-radius: 3px;
+	width: 300px;
+	height: 25px;
+
+}
+#search-window #search-box {
+	display: inline;
+	font-size: 1rem;
+	width: 220px;
+	padding: 5px;
+	margin-top: -3px;
+	border: none;
+}
+#search-button {
+	position: relative;
+	top: -31px;
+	right: -210px;
+	width: 75px;
+	display: inline-block;
+	padding: 10px;
+	border-radius: 3px;
+	background: #34A8C4;
+	text-align: center;
+}
+#search-button a {
+	color: white;
+	text-decoration: none;
+
+}
+.container.nav-bar {
+	background: #FFFFFF;
+	height: 35px;
+}
+/*#34A8C4 teal from search button & other stuff on left of page */
