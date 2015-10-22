@@ -79,101 +79,47 @@
 
 			<div id="clearfix"></div> <!--this is to clear the area between the two product areas-->
 
-			<div id="bottomBox"> <!-- This is the div for the 16 lines of products at the bottom-->
+			<script src="data.js"></script>"
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.0/mustache.min.js"></script>
+			<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+			<script src="main.js"></script>
+			
+ 		
+ 		<div id="pictureContainer"> <!-- This is the div for the 16 lines of products at the bottom-->
+ 
+ 			<script type="x-tmpl-mustache" id="allOtherCategoriesTemplate">
+	 			<ul>
+	 			<li>
+	 			<div = "itemContainer">
+	 			
+	 			{{#Images}}
+	 			<img id = "itemImage" src ={{url_fullxfull}}/>
+	 			{{/#Images}}
+	 			{{#title}}
+	 			<h4 id="itemTitle"></h4>
+	 			{{/title}}
+	 			{{#shop_name}}
+	 			<p id="ownerName"></p>
+	 			{{/#shop_name}}
+	 			{{#price}}
+	 			<span id= "itemPrice"></span>
+	 			{{/#price}}
+	 			{{#currency_code}}
+	 			<span id = "itemCurrencyCode"></span>
+	 			{{/#currency_code}}
+	 			{{#results}}
+	 			</div>
+	 			</li>
+	 			</ul>
+ 			</script>
 
-			 
-       
-
-
-				<div id="boxBottomOne"> <!-- This is the div for the top line of items for sale in the bottom box-->
-					<div id="boxBottomOneItemOne" class="threeAcross"></div>
-					<div id="boxBottomOneItemTwo" class="threeAcross"></div>
-					<div id="boxBottomOneItemThree"class="threeAcross"></div>
-				</div> <!-- boxBottomOne -->
-				<div id="boxBottomTwo"> <!-- This is the div for the second line of items for sale in the bottom box-->
-					<div id="boxBottomTwoItemOne" class="threeAcross"></div>
-					<div id="boxBottomTwoItemTwo" class="threeAcross"></div>
-					<div id="bboxBottomTwoItemThree" class="threeAcross"></div>
-				</div> <!-- boxBottomTwo -->
-				<div id="boxBottomThree"> <!-- This is the div for the third line of items for sale in the bottom box-->
-					<div id="boxBottomThreeItemOne" class="threeAcross"></div>
-					<div id="boxBottomThreeItemTwo" class="threeAcross"></div>
-					<div id="bboxBottomThreeItemThree" class="threeAcross"></div>
-				</div> <!-- boxBottomThree-->
-				<div id="boxBottomFour"> <!-- This is the div for the fourth line of items for sale in the bottom box-->
-					<div id="boxBottomFourItemOne" class="threeAcross"></div>
-					<div id="boxBottomFourItemTwo" class="threeAcross"></div>
-					<div id="bboxBottomFourItemThree" class="threeAcross"></div>
-				</div> <!-- boxBottomFour-->
-				<div id="boxBottomFive"> <!-- This is the div for the fifth line of items for sale in the bottom box-->
-					<div id="boxBottomFiveItemOne" class="threeAcross"></div>
-					<div id="boxBottomFiveItemTwo" class="threeAcross"></div>
-					<div id="bboxBottomFiveItemThree" class="threeAcross"></div>
-				</div> <!-- boxBottomFive-->
-				<div id="boxBottomSix"> <!-- This is the div for the sixth line of items for sale in the bottom box-->
-					<div id="boxBottomSixItemOne" class="threeAcross"></div>
-					<div id="boxBottomSixItemTwo" class="threeAcross"></div>
-					<div id="bboxBottomSixItemThree" class="threeAcross"></div>
-				</div> <!-- boxBottomSix-->
-				<div id="boxBottomSeven"> <!-- This is the div for the seventh line of items for sale in the bottom box-->
-					<div id="boxBottomSevenItemOne" class="threeAcross"></div>
-					<div id="boxBottomSevenItemTwo" class="threeAcross"></div>
-					<div id="bboxBottomSevenItemThree" class="threeAcross"></div>
-				</div> <!-- boxBottomSeven-->
-				<div id="boxBottomEight"> <!-- This is the div for the eighth line of items for sale in the bottom box-->
-					<div id="boxBottomEightItemOne" class="threeAcross"></div>
-					<div id="boxBottomEightItemTwo" class="threeAcross"></div>
-					<div id="bboxBottomEightItemThree" class="threeAcross"></div>
-				</div> <!-- boxBottomEight-->
-				<div id="boxBottomNine"> <!-- This is the div for the ninth line of items for sale in the bottom box-->
-					<div id="boxBottomNineItemOne" class="threeAcross"></div>
-					<div id="boxBottomNineItemTwo" class="threeAcross"></div>
-					<div id="bboxBottomNineItemThree" class="threeAcross"></div>
-				</div> <!-- boxBottomNine-->
-				<div id="boxBottomTen"> <!-- This is the div for the Tenth line of items for sale in the bottom box-->
-					<div id="boxBottomTenItemOne" class="threeAcross"></div>
-					<div id="boxBottomTenItemTwo" class="threeAcross"></div>
-					<div id="bboxBottomTenItemThree" class="threeAcross"></div>
-				</div> <!-- boxBottomTen-->
-				<div id="boxBottomEleven"> <!-- This is the div for the eleventh line of items for sale in the bottom box-->
-					<div id="boxBottomElevenItemOne" class="threeAcross"></div>
-					<div id="boxBottomElevenItemTwo" class="threeAcross"></div>
-					<div id="bboxBottomElevenItemThree" class="threeAcross"></div>
-				</div> <!-- boxBottomEleven-->
-				<div id="boxBottomTwelve"> <!-- This is the div for the twelth line of items for sale in the bottom box-->
-					<div id="boxBottomTwelveItemOne" class="threeAcross"></div>
-					<div id="boxBottomTwelveItemTwo" class="threeAcross"></div>
-					<div id="bboxBottomTwelveItemThree" class="threeAcross"></div>
-				</div> <!-- boxBottomTwelve-->
-				<div id="boxBottomThirteen"> <!-- This is the div for the thirteenth line of items for sale in the bottom box-->
-					<div id="boxBottomThirteenItemOne" class="threeAcross"></div>
-					<div id="boxBottomThirteenItemTwo" class="threeAcross"></div>
-					<div id="bboxBottomThirteenItemThree" class="threeAcross"></div>
-				</div> <!-- boxBottomThirteen-->
-				<div id="boxBottomFourteen"> <!-- This is the div for the fourteenth line of items for sale in the bottom box-->
-					<div id="boxBottomFourteenItemOne" class="threeAcross"></div>
-					<div id="boxBottomFourteenItemTwo" class="threeAcross"></div>
-					<div id="bboxBottomFourteenItemThree" class="threeAcross"></div>
-				</div> <!-- boxBottomFourteen-->
-				<div id="boxBottomFifteen"> <!-- This is the div for the fifteenth line of items for sale in the bottom box-->
-					<div id="boxBottomFifteenItemOne" class="threeAcross"></div>
-					<div id="boxBottomFifteenItemTwo" class="threeAcross"></div>
-					<div id="bboxBottomFifteenItemThree" class="threeAcross"></div>
-				</div> <!-- boxBottomFifteen-->
-				<div id="boxBottomSixteen"> <!-- This is the div for the sixteenth line of items for sale in the bottom box-->
-					<div id="boxBottomSixteenItemOne" class="threeAcross"></div>
-					<div id="boxBottomSixteenItemTwo" class="threeAcross"></div>
-					<div id="bboxBottomSixteenItemThree" class="threeAcross"></div>
-				</div> <!-- boxBottomSixteen-->
-			</div> <!--bottomBox-->
+			</div> <!--pictureContainer-->
 
 		
 	</div> <!-- container -->
 
 
 
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.0/mustache.min.js"></script>
-	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-	<script src="main.js"></script>"
+
 </body>
 </html>

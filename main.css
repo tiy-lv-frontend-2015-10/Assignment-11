@@ -386,11 +386,16 @@ x
 X
 5. PRODUCT BOXES - LOWER AREA */
 
-#bottomBox { /*<!-- This is the div for the 16 lines of products at the bottom--> */
+#pictureContainer { /*<!-- This is the div for the 16 lines of products at the bottom--> */
 	width: 1000px;
 }
 
 .threeAcross { /* this is the class for the three across boxes in the lower area */
 	width: 244px;
 	height: 245px;
+}
+
+#itemImage {
+	width: 225px;
+	height: 179px;
 }

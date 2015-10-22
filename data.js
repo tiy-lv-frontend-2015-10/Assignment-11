@@ -1,3 +1,4 @@
+var data= {
 {
 count: 26393,
 results: [
@@ -5448,3 +5449,4 @@ effective_page: 1,
 next_page: 2
 }
 }
+};
