@@ -96,6 +96,7 @@ h1 {
 
 h3 {
 	font-size: 12px;
+
 }
 
 #allCategories {
@@ -130,9 +131,12 @@ h3 {
 	font-size: 12px;
 
 }
-
+hr {
+	margin-top:30px;
+}
 #refineSearch {
 	width:230px;
+	height:500px;
 	background-color: white;
 	border-radius:3px;
 	border:1px solid #E1E3DF;
@@ -147,7 +151,8 @@ h3 {
 	list-style: none;
 	padding:0px;
 	position: relative;
-
+	margin:0px;
+	top:5px;
 }
 .btn {
 	margin-right: 5px;
@@ -174,4 +179,64 @@ h3 {
 	border:1px solid #CFCBC8;
 	text-align: center;
 
+}
+
+#goBtn {
+	width:40px;
+	height:34px;
+	border-radius: 3px;
+	border:1px solid #CFCBC8;
+	text-align: center;
+	position: relative;
+	top:8px;
+	left:4px;
+	background:#fff;
+
+}
+
+.colorDiv {
+	height:18px;
+	width:18px;
+	border:1px solid black;
+	float: left;
+	margin-right: 6px;
+	border-radius:2px;
+}
+
+#redBox {
+	background: red;
+}
+
+#orangeBox {
+	background: orange;
+}
+
+
+#yellowBox {
+	background: yellow;
+}
+
+
+#greenBox {
+	background: green;
+}
+
+
+#blueBox {
+	background: blue;
+}
+
+
+#purpleBox {
+	background: purple;
+}
+
+
+#blackBox {
+	background: black;
+}
+
+
+#whiteBox {
+	background: #fff;
 }
