@@ -1,5 +1,3 @@
-$(document).ready(function() {
-
 var data = {
 "count": 26394,
 "results": [
@@ -4495,8 +4493,4 @@ var data = {
 "next_page": 2
 }
 }
-  var template = $("#allOtherCategoriesTemplate").text();
-  var listHTML = Mustache.render(template, data);
-  $("#pictureContainer").html(listHTML);
 
-});
