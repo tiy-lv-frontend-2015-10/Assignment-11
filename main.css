@@ -1,0 +1,396 @@
+
+/* CSS MENU
+1. HEADER AREA
+2. CONTAINER
+3. LEFT SIDEBARS
+4. PRODUCT BOXES - TOP AREA 
+5. PRODUCT BOXES - LOWER AREA
+*/
+
+body {
+	font-family: "Helvetica", "sans-serif";
+	margin: 0 auto;
+}
+/* 
+X
+x
+x
+X
+1. HEADER AREA */
+
+#header {     /*<!--this is the top header with Etsy, search etc.-->*/
+	height: 81px;
+	width: 1000px;
+	margin: 0px;
+	padding: 0px;
+	background-color: #CCCCCC;
+	display: block;
+	border-bottom: 1px solid black;
+}
+
+#headerLogo {
+	width: 120px;
+	height: 81px;
+	margin: 0px;
+	padding: 0px;
+	display: inline;
+	float:left;
+}
+
+#headerLogo img {
+	width: 112px;
+	height: 80px;
+	margin: 0px;
+	padding: 0px;
+	display: inline;
+}
+
+#searchWrapper { /*!-- this wraps around the search box and button-->*/
+	width: 340px;
+	height: 34px;
+	border: 1px solid #D3D3D3;
+	float: left;
+	border-radius: 5px;
+	display: inline;
+	margin-top: 20px;
+	background-color: #FFFFFF;
+}
+
+#searchBox { /*<!--this is the area with the search box -->*/
+	width: 259px;
+	height: 33px;
+	display:inline;	
+	padding: 0px;
+	margin: 0px;
+	border: none;
+	float:left;
+}
+
+#search {
+	display: inline;
+}
+
+#search input {
+	width: 259px;
+	height: 31px;
+	padding: 0px;
+	font-size: 12px;
+	padding: 0px;
+	margin: 0px;
+	display: inline;
+}
+
+#searchButton { /*  <!--this is the area with the search button --> */
+	width: 81px;
+	height: 34px;
+	background-color: #34a8c4;
+	color: #FFFFFF;
+	font-weight: bold;
+	float: left;
+	padding: 0px;
+	margin: 0px;
+	border-radius: 5px;
+}
+
+button { /*  <!--this is the search button --> */
+	width: 79px;
+	height: 34px;
+	background-color: #34a8c4;
+	color: #FFFFFF;
+	font-weight: bold;
+	border-radius: 5px;	
+	text-align: center;
+	display: inline;
+	float: left;
+	padding: 0px;
+	margin: 0px;
+}
+
+li {
+	text-decoration: none;
+	list-style-type: none;
+}
+
+#searchListDiv { /*< !--this is the the section with the links and search box on the top right-->*/
+	width: 334px;
+	height: 81px;
+	float: right;
+	display: inline;
+}
+
+.blue {
+	color: #3064e0;
+}
+
+#searchList { /* this is the UL in the searchbox div*/
+	color: #000000;
+	font-size: 11px;
+	display: inline;
+	float: left;
+	margin: 0 auto;
+	padding-left: 3px;
+	padding-right: 3px;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+#searchList img {
+	width: 15px;
+	height: 15px;
+	margin-top:-5px;
+}
+
+#searchList li {
+	text-decoration: none;
+	float: left;
+	padding-right: 10px;
+	margin-top:25px;
+	color: #3064e0;
+	font-size: 12px;
+}
+
+.blueLine {
+	border: 1px #3064e0 solid;
+}
+
+#navHeader { /*<!--This is the navigation header-->*/
+	height: 43px;
+	width: 1000px;
+	margin: 0px;
+	padding: 0px;
+	background-color: #FFFFFF;
+	clear: both;
+}
+
+#navHeaderList {  /* this is the list in the nav bar */
+	font-size: 11px;
+	color: #000000;
+	display: inline;
+	float: left;
+	margin: 0 auto;
+	padding-right: 5px;
+	padding-left: 5px;
+	list-style-type: none;
+	text-decoration: none;
+	margin-top: 10px;
+}
+
+#navHeaderList li {
+	float: left;
+	text-decoration: none;
+	padding-right: 20px;
+	padding-left: 20px;
+	font-size: 13px;
+	margin: 0 auto;
+}
+
+#navHeaderList a {
+	text-decoration: none;
+	color: #000000;
+}
+
+
+/* 
+X
+x
+x
+x
+x
+X
+2. CONTAINER */
+
+#container {  /*<!-- This is the div containing the elements on the body of the page-->*/
+	background-color: #f5f5f1;
+	width: 995px;
+	margin: 0px;
+	border-top: 1px gray solid;
+}
+
+#clearfix {   /* <!--this is to clear the area between the two product areas--> */
+	width: 717px;
+	height: 54px;
+	background-color: #f5f5f1;
+	margin: 0px;
+	padding: 0px;
+}
+
+#containerTop {
+	width: 1000px;
+	height: 50px;
+	background-color: #f5f5f1;
+	clear: both;
+}
+
+#showResults {
+	width: 275px;
+	font-size: 10px;
+	font-weight: bold;
+	float:left;
+	position: relative;
+	margin-top: 10px;
+}
+
+#TopCategories {
+	width: 245px;
+	font-size: 12px;
+	font-weight: bold;
+	float:left;
+	position: relative;
+	margin-top: 10px;
+}
+/* 
+X
+x
+x
+x
+x
+X
+3. LEFT SIDEBARS */
+
+#categoryBar { /*<!-- This is the div for the category link bar on the left hand side-->*/
+	width: 245px;
+	height: 408px;
+	color: #3064e0;
+	border: 1px solid #D3D3D3;
+	display: inline;
+	position: relative;
+	float: left;
+	background-color: #FFFFFF;
+}
+
+#categoryTitle {
+	color: black;
+	font-weight: bold;
+	background-color: #f5f5f1;
+	font-size: 11px;
+}
+.categoryBarSpan {
+	color: #000000;
+/* change padding/margin so this moves back more left from the list*/
+}
+
+.categoryBarSpan a {
+	text-decoration: none;
+	color: #000000;
+}
+
+#categoriesList { /*<!-- This is the list of categories on the upper left area-->*/
+	font-size: 10px;
+	color: #3064e0;
+	display: inline-block;
+	margin: 0 auto;
+	padding-left: 15px;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+#categoriesList a {
+	text-decoration: none;
+}
+
+#lowerRightSearch { /* <!--This is the div for the lower right search box area--> */
+	width: 245px;
+	height: 775px;
+	color: #3064e0;
+	border: 1px solid #D3D3D3;
+	/* low price and high price boxes are 72 x 38, arrow button is 38 x 38 */
+	/* color codes are red f40b32, orange ff7f00, yellow f3cc0c, green 0ac20a, blue 0cccf3, purple a60cf3, the color boxes are 22x22 */ 
+} 
+
+
+
+/* 
+X
+x
+x
+x
+x
+X
+4.PRODUCT BOXES - TOP AREA */
+
+#topBox { /*<!-- This is the div around the top two lines of products-->*/
+	width: 735px;
+	height: 427px;
+	display: inline;
+	float: right;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	clear: both;
+}
+
+#boxOne { /*<!-- This is the div for the top line of items for sale-->*/
+	width: 735px;
+	height: 253px;
+	display: inline;
+	float: right;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}	
+
+#boxOne img {
+	width: 349px;
+	height: 278px;
+	display: inline;
+	margin: 0;
+	padding: 0;
+	float:left;
+}	
+
+#boxTwo { /*<!-- This is the div for the second line of items for sale--> */
+	width: 735px;
+	height: 198px;
+	display: inline;
+	float: left;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}	
+
+#boxTwo img {
+	width: 226px;
+	height: 180px;
+	display: inline;
+	float: left;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}		
+
+.ctwoAcross { /*This is the class for the two products across the top line */
+	width: 349px;
+	height: 278px;
+	display: inline;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+.threeAcrossTop { /*This is the class for the three products across the top line, second line */
+	width: 226px;
+	height: 180px;
+	display: inline;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+
+/* 
+X
+x
+x
+x
+x
+X
+5. PRODUCT BOXES - LOWER AREA */
+
+#bottomBox { /*<!-- This is the div for the 16 lines of products at the bottom--> */
+	width: 1000px;
+}
+
+.threeAcross { /* this is the class for the three across boxes in the lower area */
+	width: 244px;
+	height: 245px;
+}
