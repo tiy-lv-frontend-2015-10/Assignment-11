@@ -1,6 +1,7 @@
 body {
 	background: #F5F5F1;
 	font-family: Arial;
+	height:3800px;
 }
 
 #navBar {
@@ -99,6 +100,11 @@ h3 {
 
 }
 
+#bodyContainer {
+	height:3050px;
+	border-bottom:1px solid black;
+}
+
 #allCategories {
 	
 	width:230px;
@@ -136,7 +142,6 @@ hr {
 }
 #refineSearch {
 	width:230px;
-	height:500px;
 	background-color: white;
 	border-radius:3px;
 	border:1px solid #E1E3DF;
@@ -147,6 +152,10 @@ hr {
 	padding-bottom: 10px;
 }
 
+#refineSearch li {
+	color:#0192B5;
+	font-size: 14px;
+}
 #radioList {
 	list-style: none;
 	padding:0px;
@@ -160,8 +169,8 @@ hr {
 #radioList li{
 	list-style: none;
 	margin-bottom: 9px;
-	font-size: 14px;
-	color:#0192B5;
+	
+
 }
 
 #priceLow {
@@ -201,6 +210,7 @@ hr {
 	float: left;
 	margin-right: 6px;
 	border-radius:2px;
+	margin-bottom: 30px;
 }
 
 #redBox {
@@ -240,3 +250,21 @@ hr {
 #whiteBox {
 	background: #fff;
 }
+
+ul {
+	padding:0px;
+}
+
+#selectCountry {
+	width:205px;
+	height:50px;
+}
+
+#grayBar {
+	height:15px;
+	background: grey;
+}
+#subscribeDiv {
+	text-align: center;
+}
+
