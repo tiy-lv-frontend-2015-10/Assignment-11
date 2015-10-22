@@ -1,10 +1,10 @@
 #container {
-	width: 990px;
+	width: 980px;
 	margin: auto;
 }
 
 .header {
-	height: 50px;
+	height: 65px;
 	position: relative;
 }
 
@@ -15,6 +15,7 @@ h1 {
 	font-size: 40px;
 	font-weight: normal;
 	color: #FF6633;
+	font-family: serif;
 
 }
 
@@ -27,7 +28,7 @@ input {
     left: 25px;
     border-top-left-radius: 2px;
     border-bottom-left-radius: 2px;
-    border: 1px solid #3399cc;
+    border: 1px solid #2F98B1;
     font-size: 14px;
     padding-left: 10px;
 }
@@ -46,7 +47,7 @@ input:hover{
 	border-top-right-radius: 3px;
 	border-bottom-right-radius: 3px;
 	border: 1px solid #0099cc;
-	background-color: #3399cc;
+	background-color: #2F98B1;
 	color: white;
 	font-size: 15px;
 
@@ -57,7 +58,7 @@ input:hover{
 	position: relative;
 	float: left;
 	margin-left: 15px;
-	left: 250px;
+	left: 270px;
 	top: 20px;
 }
 
@@ -66,34 +67,39 @@ a {
 }
 
 .header {
-	color: #3399cc;
+	color: #2F98B1;
 	font-family: sans-serif;
 	font-size: 14px;
 }
 
 .cart {
 	font-family: sans-serif;
-	font-size: 14px;
+	font-size: 12px;
 	color: #b0b0b0;
 }
 
 .signIn {
-	height: 35px;
-	width: 65px;
+	height: 32px;
+	width: 62px;
 	background-color: white;
-	border: 1px solid #3399cc;
+	border: 1px solid #2F98B1;
 	font-family: sans-serif;
 	font-size: 14px;
-	color: #3399cc;
+	color: #2F98B1;
 	border-radius: 3px;
 	position: relative;
 	bottom: 10px;
 }
 
-.nav {
-	width: 990px;
-	height: 60px;
-	margin: auto;
+.signIn:hover {
+	background-color: #F0FBFD;
+}
+
+#nav_container {
+	width: 1270px;
+	height: 50px;
+	border-top: 1px solid #E1E3DF;
+	border-bottom: 1px solid #E1E3DF;
 }
 
 .nav_list li{
@@ -102,12 +108,12 @@ a {
 	position: relative;
 	font-family: arial;
 	font-size: 14px;
-	top: 20px;
-	padding-left: 25px;
-	right: 100px;
 	color: #707070;
+	margin-right: 25px;
+	right: 70px;
 }
 
 .nav_list li:hover{
 	border-bottom: 3px solid #ff6633;
+	padding-bottom: 16px;
 }
