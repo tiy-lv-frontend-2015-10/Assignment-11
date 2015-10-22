@@ -104,6 +104,7 @@ h3 {
 	background-color: white;
 	border-radius:3px;
 	border:1px solid #E1E3DF;
+	margin-bottom: 30px;
 }
 
 #allCat {
@@ -120,7 +121,57 @@ h3 {
 
 #allCatList li{
 	list-style: none;
-	margin-bottom: 7px;
+	margin-bottom: 9px;
 	font-size: 12px;
 	color:#0192B5;
+}
+
+#itemType {
+	font-size: 12px;
+
+}
+
+#refineSearch {
+	width:230px;
+	background-color: white;
+	border-radius:3px;
+	border:1px solid #E1E3DF;
+	margin-bottom: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+	box-sizing:border-box;
+	padding-bottom: 10px;
+}
+
+#radioList {
+	list-style: none;
+	padding:0px;
+	position: relative;
+
+}
+.btn {
+	margin-right: 5px;
+}
+#radioList li{
+	list-style: none;
+	margin-bottom: 9px;
+	font-size: 14px;
+	color:#0192B5;
+}
+
+#priceLow {
+	width:60px;
+	height:30px;
+	border-radius: 3px;
+	border:1px solid #CFCBC8;
+	text-align: center;
+}
+
+#priceHigh {
+	width:60px;
+	height:30px;
+	border-radius: 3px;
+	border:1px solid #CFCBC8;
+	text-align: center;
+
 }
