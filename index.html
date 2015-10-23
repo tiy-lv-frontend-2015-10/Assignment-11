@@ -9,7 +9,7 @@
 	<div id="head_container">
 		<div class="header">
 			<h1>Etsy</h1>
-			<input placeholder="Search for items or shops"/>
+			<input placeholder="Search for items or shops" class="search_bar"/>
 			<button class="butt">Search</button>
 			<ul class="list">
 				<li><a href="#" class="header">Sell on Etsy</a></li>
@@ -132,14 +132,49 @@
 					<li><a href="#">Pet Supplies</a></li>
 				</ul>	
 			</div>
-			<h5 class="r_search">Refine your search</h5>
-			<div id="mid_container">
-				<div class="radiobtn">
-				<p>Item Types</p>
-					<input type="radio" name="item" value="All Items">All Items<br />
-					<input type="radio" name="item" value="Handmade">Handmade<br />
-					<input type="radio" name="item" value="Vintage">Vintage<br />
-				</div>
+			<h5 class="h_0">Refine your search</h5>
+			<div class="categories">
+				<p><a href="#" class="all">Item Type</a></p>
+				<ul class="item_list">
+					<li><input type="radio" name="item" value="allItems" class="radio"/> All Items<br/></li>
+					<li><input type="radio" name="item" value="handmade" class="radio"/> Handmade<br/></li>
+					<li><input type="radio" name="item" value="allItems" class="radio"/> Vintage<br/></li>
+				</ul>
+				<hr>
+				<p class="all">Price</p>
+				<input placeholder="Low" class="price">
+				<span>to</span>
+				<input placeholder="High" class="price">
+				<button class="arrow"></button>
+				<hr>
+				<p class="all">Filter by Color</p>
+				<ul class="colorbox">
+					<li><button class="red"></button></li>
+					<li><button class="orange"></button></li>
+					<li><button class="yellow"></button></li>
+					<li><button class="green"></button></li>
+					<li><button class="blue"></button></li>
+					<li><button class="purple"></button></li>
+					<li><button class="black"></button></li>
+					<li><button class="white"></button></li>
+				</ul>
+				<br>
+				<hr>
+				<p class="all">Ordering Options</p>
+				<ul class="options">
+					<li><input type="checkbox" name="option" value="accepts">Accepts Etsy Gift Cards</li>
+					<li><input type="checkbox" name="option" value="custom">Customizable</li>
+				</ul>
+				<hr>
+				<p class="all">Shop Location</p>
+				<ul class="location">
+					<li><input type="radio" name="item" value="anywhere">Anywhere</li>
+					<li><input type="radio" name="item" value="us">United States</li>
+				</ul>
+				<p class="all">Ship Location</p>
+				<select>
+					<option value="united">United States</option>
+				</select>
 			</div>
 		</div>
 	</div>
