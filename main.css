@@ -186,9 +186,10 @@ PANEL2
 }
 
 .popular{
-	float:left;
-	display: inline;
-	position: relative;
+    float: left;
+    position: relative;
+    left: 190px;
+    bottom: 520px;
 }
 
 .popular span{
@@ -339,8 +340,12 @@ MAIN CONTENT
 
 	background: blue;
 	float:right;
-
+	width: 75%;
 	position: relative;
+}
+
+.allCat-head{
+	display: inline-block;
 }
 
 /************************
@@ -360,6 +365,16 @@ CAT AD
 	float: left;
 }
 
+.catAd img{
+	display: inline;
+	float: left;
+}
+
+
+.relatedTo{
+	clear:both;
+	width: 70%;
+}
 
 
 
