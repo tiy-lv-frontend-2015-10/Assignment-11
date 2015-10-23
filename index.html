@@ -76,7 +76,9 @@
 	
 
 	<h3>Refine your search</h3>
+
 	<div id="container"></div>
+
 	<div id="refineSearch">
 
 		<span id="itemType">Item Type</span>
@@ -152,20 +154,40 @@
 </div>
 
 <script type="tmpl.mustache" id="listItemTemplate">
-	<ul id="mylist">
-		<li>
-			<div id="itemContainer">
+	
+			<div id="myList">
 				{{#results}}
 					{{#Images}}
 					<img src={{url_170x135}}>
 					{{/Images}}
-					<h4></h4>
-					<p></p>
-					<span></span>
+					
+					
+
+					{{#title}}
+					<div>
+						<h4>{{title}}</h4>
+					</div>
+					{{/title}}
+
+					
+					{{#shop}}
+					<div>
+						<p>{{shop_name}}</p>
+					</div>
+					{{/shop}}
+
+				
+
+
+					{{#price}}
+					<div>
+						<span>{{price}}</span>
+					</div>
+					{{/price}}
+
 				{{/results}}
 			</div>
-		</li>
-	</ul>
+		
 </script>
 
 

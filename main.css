@@ -187,8 +187,14 @@ hr {
 
 #container {
 	float: right;
-	width:650px;
+	width:700px;
 }
+
+#itemContainer img {
+	width:225px;
+	height:179px;
+}
+
 
 #refineSearch li {
 	color:#0192B5;
