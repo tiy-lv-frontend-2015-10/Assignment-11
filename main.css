@@ -131,10 +131,51 @@ h3 {
 }
 
 #categoryGrid div {
-
-
 	float: left;
 }
+
+#categoryGrid img {
+	z-index: 0;
+	position: relative;
+}
+.whiteLabel {
+	background: red;
+	z-index: 1;
+	position: relative;
+	
+	margin:auto;
+}
+
+#one {
+
+	background-image:url("https://img1.etsystatic.com/067/0/10424705/il_340x270.757475485_b1ig.jpg");
+	background-repeat:no-repeat;
+}
+
+#two {
+	
+	background-image:url("https://img1.etsystatic.com/000/0/6374837/il_340x270.284032277.jpg");
+	background-repeat:no-repeat;
+}
+
+#three{
+	
+	background-image:url("https://img0.etsystatic.com/047/1/7101908/il_340x270.713153156_i7yn.jpg");
+	background-repeat:no-repeat;
+}
+
+#four {
+	
+	background-image:url("https://img0.etsystatic.com/057/1/10345019/il_340x270.763319240_5yxw.jpg");
+	background-repeat:no-repeat;
+}
+
+#five{
+	
+	background-image:url("https://img0.etsystatic.com/070/0/9138920/il_340x270.820008594_2juk.jpg");
+	background-repeat:no-repeat;
+}
+
 
 .large {
 	width:356px;
@@ -199,6 +240,8 @@ img {
 	position: relative;
 	float: left;
 }
+
+
 
 #container {
 	float: right;
@@ -320,9 +363,11 @@ li {
 }
 
 #selectCountry {
+	height:40px;
+	background-color: white;
 	width:205px;
-	height:50px;
 }
+
 
 #myList {
 	float: left;
