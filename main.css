@@ -303,6 +303,25 @@ ul {
 	width:205px;
 	height:50px;
 }
+#myList ul {
+	padding: 0px;
+}
+#myList li {
+	display: inline;
+}
+
+#myListImg {
+	height:200px;
+	float: left;
+}
+
+#myListTitle {
+	width:300px;
+}
+
+#myListPrice {
+	float: left;
+}
 
 .grayBar {
 	height:10px;

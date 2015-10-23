@@ -153,39 +153,34 @@
 <hr class="grayBar" />
 </div>
 
-<script type="tmpl.mustache" id="listItemTemplate">
+<script type="x-tmpl.mustache" id="listItemTemplate">
 	
 			<div id="myList">
-				{{#results}}
-					{{#Images}}
-					<img src={{url_170x135}}>
-					{{/Images}}
+				{{#mapData}}
+					<ul>
+						<li>
+					<img id="myListImg" src={{url_170x135}}>
 					
-					
-
-					{{#title}}
 					<div>
-						<h4>{{title}}</h4>
+						<h4 id="myListTitle">{{title}}</h4>
 					</div>
-					{{/title}}
-
-					
-					{{#shop}}
-					<div>
-						<p>{{shop_name}}</p>
-					</div>
-					{{/shop}}
-
 				
 
-
-					{{#price}}
+					
+			
 					<div>
-						<span>{{price}}</span>
-					</div>
-					{{/price}}
+						<p id="myListShopName">{{shop_name}}</p>
+					
+				
 
-				{{/results}}
+					
+						<span id="myListPrice">{{price}}</span>
+					</div>
+
+				</li>
+			</ul>
+
+				{{/mapData}}
 			</div>
 		
 </script>
