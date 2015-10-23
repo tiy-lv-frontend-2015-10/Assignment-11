@@ -115,7 +115,7 @@ a:hover {
 }
 
 #categoriesContainer li {
-  padding: 10px;
+  padding: 5px;
 }
 
 #searchRefine {
@@ -131,7 +131,6 @@ a:hover {
   font-size: 12px;
 }
 
-
 .searchContainer {
   border: solid 1px #E1E3DF;
   border-radius: 3px;
@@ -141,7 +140,18 @@ a:hover {
   font-size: 13px;
   background: white;
   float: left;
+  padding: 10px;
 
+}
+
+#shipTo h3 {
+  color: #555;
+}
+
+#shipTo select {
+  background: white;
+  width: 200px;
+  height: 50px;
 }
 
 .movingInside li {
@@ -261,6 +271,8 @@ input #button {
   border: solid 1px #E1E3DF;
   margin: 10px;
   height: 227px;
+  background: white;
+  border-radius: 3px;
 }
 
 #pictureContainer {
