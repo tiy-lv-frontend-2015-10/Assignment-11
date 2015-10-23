@@ -9,9 +9,13 @@
 </head>
 <body>
     <div id="container">
-        <div id="header"><h1><span class="orange">Etsy</span></h1>
+        <div id="header"><h1>Etsy</h1>
         <input type="text" placeholder="search for items or shops" size="35" id="search">
             <button id="searchBtn"><b>Search</b></button>
+            <p class="headerRight">Sell on Etsy &nbsp;&nbsp;&nbsp;&nbsp;Register&nbsp;&nbsp;&nbsp;&nbsp;<button id="signInBtn">Sign in</button></p>
+            <p class="clearFloat"></p>
+            <p class="fr"><img id="cart" src="assets/cart.png"></p>
+        
         </div><!--closes header-->
         <div id="navBar">
             <ul>
@@ -32,7 +36,7 @@
            <p class="clearFloat"></p>
             <div id="allCategories">
                 <ul>
-                    <li><b>All Categories</b></li>
+                    <li><a href="https://www.etsy.com/search?q=whiskey"> </a><b>All Categories</b></li>
                     <li><a href="https://www.etsy.com/search/home-and-living?q=whiskey">Home &amp; Living</a></li>
                     <li><a href="https://www.etsy.com/search/art-and-collectibles?q=whiskey">Art &amp; Collectibles</a></li>
                     <li><a href="https://www.etsy.com/search/weddings?q=whiskey">Weddings</a></li>
@@ -50,19 +54,70 @@
                     <li><a href="https://www.etsy.com/search/pet-supplies?q=whiskey">Pet Supplies</a></li>
                 </ul>
             </div><!--closes all categories-->
+            <div id="topCatWhiskey"></div><!--closes top cat whiskey-->
             <p><b>Refine your search</b></p>
             <div id="itemType">
                 <ul>
-                    <li>Item Type</li>
-                    <li>All Items</li>
-                    <li>Handmade</li>
-                    <li>Vintage</li>
+                    <li><b>Item Type</b></li>
+                    <li><input type="radio" name="input" value="all items" checked><b>All Items</b></li>
+                    <li><input type="radio" name="input" value="handmade">Handmade</li>
+                    <li><input type="radio" name="input" value="vintage">Vintage</li>
                 </ul>
+                <hr width="90%">
+                <p><b>Price</b></p>
+                <p>&#36;<input class="lowHigh" type="text" placeholder="Low" size="6">&nbsp;&nbsp;to&nbsp;&nbsp;&#36;<input class="lowHigh" type="text" placeholder="High" size="6"></p>
+                
+                <!--<p class="arrow-right"></p>-->
+                <hr width="90%">
+                <p><b>Filter by color</b></p>
+                <ul id="boxes">
+                    <li id="boxRed" class="colorBoxes"></li>
+                    <li id="boxOrange" class="colorBoxes"></li>
+                    <li id="boxYellow" class="colorBoxes"></li>
+                    <li id="boxGreen" class="colorBoxes"></li>
+                    <li id="boxBlue" class="colorBoxes"></li>
+                    <li id="boxPurple" class="colorBoxes"></li>
+                    <li id="boxBlack" class="colorBoxes"></li>
+                    <li class="colorBoxes"></li>
+                </ul>
+                <p class="clearFloat"></p>
+                <hr width="90%">
+                <p><b>Ordering Options</b></p>
+                
+                    <input type="checkbox"><a>Accepts Etsy Gift Cards</a><br>
+                    <input type="checkbox"><a>Customizable</a>
+                
+                <hr width="90%">
+                
+                <p><b>Shop Location</b></p>
+                <input type="radio"><b>Anywhere</b><br>
+                <input type="radio"><b>United States</b>
+                <p><a>Choose a custom location</a></p>
             </div><!--closes item type-->    
-            <div id="topCatWhiskey"></div><!--closes top Cat Whiskey-->
-            <div id="allCatWhiskey"></div><!--closes all Cat Whiskey-->
+           
+            <div id="allCatWhiskey"></div><!--closes all cat whiskey-->
         </div><!--closes main-->
-        <div id="relatedToWhiskey"></div><!--closes realted To Whiskey-->
+        <div id="relatedToWhiskey">
+            <p>Related to <b>whiskey</b></p>
+            <ul id="whiskeyDecanter">
+                <li><a href="https://www.etsy.com/search?q=whiskey+decanter&ref=related">whiskey decanter</a></li>
+                <li><a href="https://www.etsy.com/search?q=whiskey+barrel&ref=related">whiskey barrel</a></li>
+                <li><a href="https://www.etsy.com/search?q=whiskey+stones&ref=related">whiskey stones</a></li>
+                <li><a href="https://www.etsy.com/search?q=bourbon&ref=related">bourbon</a></li>
+            </ul>
+            <ul id="jackDaniel">
+                <li><a href="https://www.etsy.com/search?q=jack+daniels&ref=related">jack daniels</a></li>
+                <li><a href="https://www.etsy.com/search?q=cigar&ref=related">cigar</a></li>
+                <li><a href="https://www.etsy.com/search?q=scotch&ref=related">scotch</a></li>
+                <li><a href="https://www.etsy.com/search?q=beer&ref=related">beer</a></li>
+            </ul>
+            <ul id="whiskeyBottle">
+                <li><a href="https://www.etsy.com/search?q=whiskey+bottle&ref=related">whiskey bottle</a></li>
+                <li><a href="https://www.etsy.com/search?q=jameson&ref=related">jameson</a></li>
+            </ul>
+            <p class="clearFloat"></p>
+            <p>Looking for shops? <a>whiskeynweddingbells</a>, <a>WhiskeyDogWares</a>, <a>WhiskeysWhims</a>. <a>See more.</a></p>
+        </div><!--closes realted To Whiskey-->
         <div id="subscribe"></div><!--closes subscribe-->
         <div id="siteIndex"></div><!--closes site Index-->
         <div id="footer"></div><!--closes footer-->	
@@ -70,7 +125,8 @@
 
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-<script type="text/javascript" src="main.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/data.js"></script>
 <script id="template" type="x-tmpl-mustache" src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.0/mustache.min.js"></script>
 </body>
 </html>
