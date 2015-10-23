@@ -1,7 +1,7 @@
 body {
 	background: #F5F5F1;
 	font-family: Arial;
-	height:3000px;
+	height:100%;
 	
 }
 
@@ -130,10 +130,17 @@ h3 {
 	border:1px solid black;
 }
 
+#categoryGrid div {
+
+
+	float: left;
+}
+
 .large {
 	width:356px;
 	height:250px;
 	margin-bottom: 8px;
+	margin-right: 10px;
 }
 
 .small {
@@ -306,6 +313,10 @@ img {
 
 ul {
 	padding:0px;
+}
+
+li {
+	list-style:none;
 }
 
 #selectCountry {
