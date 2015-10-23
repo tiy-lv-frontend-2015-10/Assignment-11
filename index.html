@@ -74,11 +74,23 @@
 					<div id="boxTwoItemThree"class="threeAcrossTop"><img class="top3"src="https://img0.etsystatic.com/070/0/9138920/il_340x270.820008594_2juk.jpg"></div>
 				</div> <!-- boxTwo -->
 			</div> <!--topBox-->
+			<div id ="refineYourSearch">
+				<p class="categoryBarSpan">Refine Your Search</p>
+			</div>
 			<div id="lowerRightSearch"> <!--This is the div for the lower right search box area-->
+			<form id="itemType" class="bluespan">
+				<p><span class="categoryBarSpan">Item Type</span></br>
+				<input type="radio" name="itemtype" checked><span class="blueSpan"><a href="#">All Items</a></span></input></br>
+				<input type="radio" name="handmade"><span class="blueSpan"><a href="#">Handmade</a></span></input></br>
+				<input type="radio" name="vintage"><span class="blueSpan"><a href="#">Vintage</a></span></input></br>
+				</p>
+			</form>
+ 
+
 			</div><!-- lowerRightSearch--> 
 
 
-			<div id="clearfix"></div> <!--this is to clear the area between the two product areas-->
+			<!--<div id="clearfix"></div> <!--this is to clear the area between the two product areas-->
 
 			<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 			
@@ -90,31 +102,22 @@
  		<div id="pictureContainer"></div> <!--pictureContainer--> <!-- This is the div for the 16 lines of products at the bottom-->
  
  			<script type="x-tmpl-mustache" id="listItemTemplate">
-	 			<div id = "itemContainer">
-	 			{{#results}}
-
-	 			{{#Images}}
-	 			<img src ="{{url_170x135}}"/>
-	 			{{/Images}}
 	 			
-	 			{{#title}}
+	 			{{#mapData}}
+				<div id = "itemContainer">
+	 			<img id="image" src ="{{url_170x135}}"/>
+	 		
 	 			<p id="itemTitle">{{title}}</p>
-	 			{{/title}}
-
-	 			{{#shop_name}}
-	 			<p id="shopName">{{shop_name}}</p>
-	 			{{/shop_name}}
-
-	 			{{#price}}
-	 			<p id="price">{{price}}</p>
-	 			{{/price}}
-
-	 			{{#currency_code}}
-	 			<p id="currencyCode">{{currency_code}}</p>
-	 			{{/currency_code}}
-
-	 			{{/results}}
+				<p id="shopName">{{shop_name}}
+					<span id="currencyCode">{{currency_code}}<span>
+	 				<span id="price">{{price}}&nbsp</span>
+	 			</p>
+	 			
+	 			
 	 			</div>
+	 			 
+	 			{{/mapData}}
+	 			
  			</script>
 
 			

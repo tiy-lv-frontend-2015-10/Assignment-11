@@ -12,9 +12,9 @@ body {
 	margin: 0 auto;
 	background-color: #f5f5f1;
 }
-* {
+//* {
 	border-box: box-sizing;
-}
+}*/
 
 #mainContainer {
 	margin: 0 auto;
@@ -300,6 +300,26 @@ X
 /* change padding/margin so this moves back more left from the list*/
 }
 
+.blueSpan {
+	color: #34a8c4;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.blueSpan a {
+	color: #34a8c4;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.blueSpan a:hover {
+	color: #000000;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
 .categoryBarSpan a {
 	text-decoration: none;
 	color: #000000;
@@ -307,7 +327,7 @@ X
 
 #categoriesList { /*<!-- This is the list of categories on the upper left area-->*/
 	font-size: 12px;
-	color: ##34a8c4;
+	color: #34a8c4;
 	display: inline-block;
 	margin: 0 auto;
 	padding-left: 15px;
@@ -320,14 +340,29 @@ X
 	text-decoration: none;
 	color: #34a8c4;
 }
-
-#lowerRightSearch { /* <!--This is the div for the lower right search box area--> */
-	width: 245px;
-	height: 775px;
-	color: #3064e0;
-	border: 1px solid #D3D3D3;
+#refineYourSearch {
+	width: 1000px;
+	height: 30px;
 	float: left;
-	/* low price and high price boxes are 72 x 38, arrow button is 38 x 38 */
+	display: inline-block;
+	border: 1px solid red;
+}
+#lowerRightSearch { /* <!--This is the div for the lower right search box area--> */
+	width: 235px;
+	height: 365px;
+	border: 2px solid #D3D3D3;
+	float: left;
+	background-color: #FFFFFF;	
+	display: inline-block;
+	margin: 0 auto;
+	padding-top: 0px;
+	padding-left: 15px;
+	list-style-type: none;
+	text-decoration: none;
+	line-height: 1.75em;
+	margin-right: 25px;
+	position: relative;
+}
 	/* color codes are red f40b32, orange ff7f00, yellow f3cc0c, green 0ac20a, blue 0cccf3, purple a60cf3, the color boxes are 22x22 */ 
 } 
 
@@ -343,8 +378,8 @@ X
 4.PRODUCT BOXES - TOP AREA */
 
 #topBox { /*<!-- This is the div around the top two lines of products-->*/
-	width: 550px;
-	height: 427px;
+	width: 500px;
+	height: 385px;
 	float: left;
 	position: relative;
 	margin: 0 auto;
@@ -358,6 +393,7 @@ X
 	margin: 0 auto;
 	padding: 0;
 	position: relative;
+	display: inline;
 }	
 
 #boxOne img {
@@ -370,12 +406,13 @@ X
 }	
 
 #boxTwo { /*<!-- This is the div for the second line of items for sale--> */
-	width: 625px;
-	height: 198px;
+	width: 650px;
+	height: 168px;
 	margin: 0 auto;
 	padding: 0;
 	position: relative;
 	clear: right;
+	display: inline;
 }	
 
 #boxTwo img {
@@ -385,26 +422,11 @@ X
 	margin: 0;
 	padding: 0;
 	position: relative;
-	margin-right: 7px;
+	margin-right: 11px;
+	float:left;
 }		
 
-.ctwoAcross { /*This is the class for the two products across the top line */
-	width: 349px;
-	height: 278px;
-	display: inline;
-	margin: 0;
-	padding: 0;
-	position: relative;
-}
 
-.threeAcrossTop { /*This is the class for the three products across the top line, second line */
-	width: 226px;
-	height: 180px;
-	display: inline;
-	margin: 0;
-	padding: 0;
-	position: relative;
-}
 
 
 /* 
@@ -417,15 +439,66 @@ X
 5. PRODUCT BOXES - LOWER AREA */
 
 #pictureContainer { /*<!-- This is the div for the 16 lines of products at the bottom--> */
-	width: 1000px;
+	width: 700px;
+	float: right;
 }
 
-.threeAcross { /* this is the class for the three across boxes in the lower area */
-	width: 244px;
-	height: 245px;
+#itemContainer {
+	width: 200px;
+	float: left;
+	margin-right: 20px;
+	background-color: #FFFFFF;
 }
 
-#itemImage {
-	width: 225px;
-	height: 179px;
+#image {
+	width: 200px;
+	height: 200px;
+	margin-right: 20px;
+}
+
+#whiteInfoBox {
+	width: 200px;
+	margin-right: 20px;
+	padding: 0px;
+	background-color: #FFFFFF;
+
+}
+
+#itemTitle {
+	color: #000000;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: 12px;
+	padding: 0;
+	padding-left:3px;
+	margin: 0;
+	margin-bottom: 4px;
+}
+
+#shopName {
+	color: #D3D3D3;
+	font-size: 11px;
+	width: 200px;
+	padding: 0;
+	padding-left:3px;
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+#price {
+	color: green;
+	font-size: 12px;
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+#price::before {
+    content: "$";
+}
+
+#currencyCode {
+	color: green;
+	font-size: 12px;
+	float: right;
 }
