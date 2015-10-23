@@ -154,9 +154,15 @@ PANEL
 /************************
 PANEL2
 ****************************/
+.top-cat{
+	position:inline-block;
+	float: left;
+}
+
+
 .panel2{
     position: relative;
-    /* display: inline; */
+    display: inline; 
     float: left;
     left: 75px;
     width: 24%;
@@ -188,8 +194,8 @@ PANEL2
 .popular{
     float: left;
     position: relative;
-    left: 190px;
-    bottom: 520px;
+    
+  
 }
 
 .popular span{
@@ -218,9 +224,9 @@ PANEL2
 
 
 .most{
-	float:left;
+	float:right;
 	position: relative;
-	left:100px;
+
 }
  .img-cap{
 	position: absolute;
