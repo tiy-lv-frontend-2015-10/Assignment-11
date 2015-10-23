@@ -3,17 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+ <link rel="stylesheet" href="normalize.css" > 
+ <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
+ <link rel="stylesheet" href="main.css" >
 
 </head>
 <body>
   <header>
 	<h1>Etsy</h1>
-	   	<input id="search" name="search" placeholder="whiskey"><button>search</button>
-	   	<a href="#">sell on Etsy</a>
-	   	<a href="#">Register</a>
-	   	<a href="#"><button>sign in</button></a>
+
+	<div class="searchbar">
+	   	<input id="search" name="search" placeholder="whiskey" />
+	   	<button class="searchB">search</button>
+	</div>
+
+	<div class="signup">
+		<ul>
+		   	<a href="#">sell on Etsy</a>
+		   	<a href="#">Register</a>
+		   	<a href="#"><button class="siBtn">sign in</button></a>
+		   	<div class="cart">cart</div>
+	   	</ul>
+	</div>
+</header>
 <!--nav bar -->
-	<nav class="navbar">
+<div class="navbar">
+	<nav>
 		<ul>
 			<li>Clothing & Accessories</li>
 			<li>Jewelry</li>
@@ -25,12 +40,13 @@
 			<li>Vintage</li>
 		</ul>
 	</nav>
-  </header>
+</div>
+  <div class="background"></div>
 
-
-  		<span>Show results for:</span><!--panel-->
 		<div class="panel">
+			  		<p>Show results for:</p><!--panel-->
 				<ul>
+				<span id="panel-span"> All Categories </span>
 					<li>Home & Living </li>
 					<li>Art & Collectibles</li>
 					<li>Weddings</li>
@@ -50,7 +66,9 @@
 		</div>
 
 		<div class="top-cat">
-			<span>Top categories for "Whiskey"</span> <!--top categories-->
+	
+			<div class="popular">
+					<span>Top categories for "Whiskey"</span> <!--top categories-->
 				<img src="http://placehold.it/350x250" />
 					<div class="img-cap">
 						<p>Home & Living</p>
@@ -61,6 +79,8 @@
 						<p>Art & Collectibles</p>
 						<a href"#">4,505 Items</a>
 					</div>
+			</div>
+			<div class="most">
 				<img src="http://placehold.it/240x200" />
 					<div class="img-cap">
 						<p>Weddings</p>
@@ -76,15 +96,19 @@
 						<p>Paper & Party Supplies</p>
 						<a href"#">1,321 Items</a>
 					</div>
+			</div>
 		</div>
 
-		<span>Refine your search </span>
+		
 			<div class="panel2">
+			<span>Refine your search </span>
 				<div class="item-type"> <!--radio button-->
+				
 					<h6>Item Type</h6>
-					<button type="radio">All Items</button>
-					<button type="radio">Handmade</button>
-					<button type="radio">Vintage</button>
+					<button type="radio" name="item" checked="checked" class="rBtn1" ></button><p class="radio1">All Items</p>
+					<button type="radio" name="item" checked="checked" class="rBtn2" ></button><p class="radio2">Handmade</p>
+					<button type="radio" name="item" checked="checked" class="rBtn3" ></button><p class="radio3">Vintage</p>
+
 				</div>
 
 				<div class="price"> <!--price -->
@@ -97,14 +121,14 @@
 
 				<div class="buttoncolor"> <!--filter color -->
 					<h6>Filter by Color</h6>
-						<button class="red"></button>
-						<button class="orange"></button>
-						<button class="yellow"></button>
-						<button class="green"></button>
-						<button class="blue"></button>
-						<button class="purple"></button>
-						<button class="black"></button>
-						<button class="white"></button>
+						<button class="red square"></button>
+						<button class="orange square"></button>
+						<button class="yellow square"></button>
+						<button class="green square"></button>
+						<button class="blue square"></button>
+						<button class="purple square"></button>
+						<button class="black square"></button>
+						<button class="white square"></button>
 				</div>
 
 				<div class="ordering"> <!-- ordering Options-->
@@ -115,6 +139,7 @@
 				</div>
 		 		
 		 		<div class="ship">
+		 		<h6>Ship To</h6>
 		 			<select>
 			 			<option Name="United States" value="United States">United States</option>
 			 			<option Name="United States" value="United States">Canada</option>
@@ -142,7 +167,7 @@
 					  <p>Custom Jack Daniels Mini bottle ..</p>
 						<div class="AdDescrip">
 							<p>LiquidCourage</p>
-							<p class="price">$25.00 USD</p>
+							<p class="adprice">$25.00 USD</p>
 						</div>
 					</div>
 				</div>
@@ -154,7 +179,7 @@
 					  <p>Custom Jack Daniels Mini bottle ..</p>
 						<div class="AdDescrip">
 							<p>LiquidCourage</p>
-							<p class="price">$25.00 USD</p>
+							<p class="adprice">$25.00 USD</p>
 						</div>
 					</div>
 				</div>
@@ -165,7 +190,7 @@
 					  <p>Custom Jack Daniels Mini bottle ..</p>
 						<div class="AdDescrip">
 							<p>LiquidCourage</p>
-							<p class="price">$25.00 USD</p>
+							<p class="adprice">$25.00 USD</p>
 						</div>
 					</div>
 				</div>
@@ -176,7 +201,7 @@
 					  <p>Custom Jack Daniels Mini bottle ..</p>
 						<div class="AdDescrip">
 							<p>LiquidCourage</p>
-							<p class="price">$25.00 USD</p>
+							<p class="adprice">$25.00 USD</p>
 						</div>
 					</div>
 				</div>
@@ -187,7 +212,7 @@
 					  <p>Custom Jack Daniels Mini bottle ..</p>
 						<div class="AdDescrip">
 							<p>LiquidCourage</p>
-							<p class="price">$25.00 USD</p>
+							<p class="adprice">$25.00 USD</p>
 						</div>
 					</div>
 				</div>
@@ -198,7 +223,7 @@
 					  <p>Custom Jack Daniels Mini bottle ..</p>
 						<div class="AdDescrip">
 							<p>LiquidCourage</p>
-							<p class="price">$25.00 USD</p>
+							<p class="adprice">$25.00 USD</p>
 						</div>
 					</div>
 				</div>
@@ -209,7 +234,7 @@
 					  <p>Custom Jack Daniels Mini bottle ..</p>
 						<div class="AdDescrip">
 							<p>LiquidCourage</p>
-							<p class="price">$25.00 USD</p>
+							<p class="adprice">$25.00 USD</p>
 						</div>
 					</div>
 				</div>
@@ -220,7 +245,7 @@
 					  <p>Custom Jack Daniels Mini bottle ..</p>
 						<div class="AdDescrip">
 							<p>LiquidCourage</p>
-							<p class="price">$25.00 USD</p>
+							<p class="adprice">$25.00 USD</p>
 						</div>
 					</div>
 				</div>
@@ -231,7 +256,7 @@
 					  <p>Custom Jack Daniels Mini bottle ..</p>
 						<div class="AdDescrip">
 							<p>LiquidCourage</p>
-							<p class="price">$25.00 USD</p>
+							<p class="adprice">$25.00 USD</p>
 						</div>
 					</div>
 				</div>
@@ -276,7 +301,7 @@
 
 	<section class="subscribe">
 		<p>Get top trends and fresh editors' picks in your inbox with Etsy Finds.</p>
-			<input id="search" name="search" placeholder="Enter your email"><button class="subBtn">Subscribe</button>
+			<input id="search" name="search" placeholder="Enter your email" /><button class="subBtn">Subscribe</button>
 
 	</section>
 
@@ -354,8 +379,7 @@
 	</footer>
 
 
-
-
+<script src="https://api.etsy.com/v2/listings/active?api_key=h9oq2yf3twf4ziejn10b717i&keywords=whiskey&includes=Images,Shop" type="x-tmpl-mustache" id="etsyTemp"></script>
 
 
 </body>
