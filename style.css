@@ -1,0 +1,236 @@
+a {
+	text-decoration: none
+}
+
+#header{
+	height: 100px;
+	width: 1400px;
+	margin: 5px;
+	
+}
+#header h1{
+	font-size: 40px;
+	padding-left: 50px;
+	display: inline-block;
+}
+#header h1 a{
+	color: #F86500;
+}
+#searchBar .atcbutton{
+	color: white;
+	font-size: 20px;
+	background-color: #3CB1CB;
+	height:40px;
+	width: 100px;
+	border-radius: 5%;
+}
+#searchBar .searchInput{
+	height:34px;
+	width: 200px;
+	background-color: #F0F0F0;
+}
+#searchBar{
+	display: inline-block;
+}
+#searchBar input{
+	height: 25px;
+	width: 75px;
+	border-radius: 5%;
+}
+
+#userOpts{
+	list-style: none;
+	display: inline-block;
+	margin-bottom: -20px;
+	padding-left: 400px;
+}
+#userOpts a{
+	color: #3CB1CB;
+	
+}
+#userOpts a span{
+	border: 1px solid #3CB1CB;
+	color: #3CB1CB;
+}
+#userOpts li{
+	float: left;
+	padding-right: 20px;
+	color: #3CB1CB;
+	font-size: 17px;
+	font-weight: bold;
+}
+#userOpts li a img{
+	float: right;
+
+}
+#navigation{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	height: 50px;
+	width: 1400px;
+}
+#navigator{
+	list-style: none;
+	padding-left: 50px;
+}
+#navigator li{
+	float: left;
+	padding-right:20px; 
+}
+#navigator a {
+	color: #3E3E3E;
+}
+#pageBody{
+	background-color:#F5F5F1;
+	width: 1400px;
+	padding-left: 50px
+}
+#pageBody h3{
+	margin:20px;
+}
+#showResults{
+	display: inline-block;
+	width: 300px;
+	float: left;
+}
+#showResults h3{
+	display: inline-block;
+}
+#allCat{
+	background-color: white;
+	width: 300px;
+	display: inline-block;
+	height: 500px;
+	margin-bottom: 10px;
+}
+#allCat h4{
+	margin-top: 15px;
+	margin-bottom: 0px;
+	display: inline-block;
+}
+#categories{
+	list-style: none;
+	margin-top: 3px;
+	display: inline-block;
+}
+#categories li{
+	margin: 10px;
+}
+#topCategories{
+	display: inline-block;
+	width: 850px;
+}
+#topCategories h4{
+	display: inline-block;
+}
+#topWhiskey{
+	list-style: none;
+	display: inline-block;
+}
+#topWhiskey li{
+	float: left;
+	margin: 5px;
+	display: inline-block;
+}
+#refineSearch{
+display: inline-block;
+clear: both;
+float: left;
+background-color: white;
+margin-top: 15px;
+width: 300px;
+
+}
+#color{
+	list-style: none;
+}
+#color li{
+	float: left;
+	padding-left: 5px;
+}
+#red{
+	height: 20px;
+	width: 20px;
+	background-color: #F40B32;
+	border: #E2E2E2
+}
+#orange{
+	height: 20px;
+	width: 20px;
+	background-color: #FF7F00;
+	border: #E2E2E2
+}
+#yellow{
+	height: 20px;
+	width: 20px;
+	background-color: #F3CC0C;
+	border: #E2E2E2
+}
+#green{
+	height: 20px;
+	width: 20px;
+	background-color: #0AC20A;
+	border: #E2E2E2
+}
+#blue{
+	height: 20px;
+	width: 20px;
+	background-color: #0CCCF3;
+	border: #E2E2E2
+}
+#purple{
+	height: 20px;
+	width: 20px;
+	background-color: #A60CF3;
+	border: #E2E2E2
+}
+#black{
+	height: 20px;
+	width: 20px;
+	background-color: #000000;
+	border: #E2E2E2
+}
+#white{
+	height: 20px;
+	width: 20px;
+	background-color: #FFFFFF;
+	border: #E2E2E2
+}
+
+#bottom{
+	width: 1400px;
+	padding-left: 50px;
+	background-color:#F5F5F1;
+}
+
+#subscribeBox{
+	border: 10px solid #EFEFEB;
+	width: 1000px;
+	height: 150px;
+	font-size: 25px;
+	text-align: center;
+}
+#allWhiskey{
+	display: inline-block;
+	margin: 20px;
+	width: 850px;
+}
+#whiskeyProducts{
+	list-style: none;
+}
+#whiskeyProducts li{
+	padding-left: 10px;
+	float: left;
+}
+#jtc{
+	display: inline-block;
+}
+#das{
+	display: inline-block;
+}
+#gtku{
+	display: inline-block;
+}
+#folet{
+	display: inline-block;
+}
