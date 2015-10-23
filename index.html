@@ -11,17 +11,21 @@
 <body>
 	<div class="top-wrap">
 				<div class="container top-bar">
-					<h1 id='etsy'>Etsy</h1>
+					<a href="https://www.etsy.com/"><img src="assets/etsy-logo.png" id="etsy"/></a>
 					<div id='search-window'>
 						<input type="text" id="search-box" placeholder="Search for items or shops" />
+					</div>
 						<span id="search-button">
 							<a href="#">Search</a>
 						</span>
+
+					<span class="top-links"><a href="#">Sell on Etsy</a></span>
+					<span class="top-links"><a href="#">Register</Register></a></span>
+					<span class="top-links" id="sign-in"><a href="#">Sign In</a></span>
+					<div class="top-links" id="cart"><a href="#">
+						<img src="assets/cart.png" />
+					</a><p>Cart</p>
 					</div>
-					<span class="top-links">Sell on Etsy</span>
-					<span class="top-links">Register</Register></span>
-					<span class="top-links" id="sign-in">Sign In</span>
-					<div class="top-links" id="cart">Cart</div>
 				</div>
 	</div>
 		<div class='line-em'></div>
@@ -43,47 +47,91 @@
 
 	<div class="container body-wrap">
 			<div id="left-panel">
-				<p id="left-panel-top-box-above">Show results for:</p>
-					<div id="box-left-top">
-						<p>All Categories</p>
-							<div id="top-side-list">
-								<ul>
-									<li class="top-side-list"><a href="#">Home & Living</a></li>
-									<li class="top-side-list"><a href="#">Weddings</a></li>
-									<li class="top-side-list"><a href="#">Art & Collectibles</a></li>
-									<li class="top-side-list"><a href="#">Clothing</a></li>
-									<li class="top-side-list"><a href="#">Jewelry</a></li>
-									<li class="top-side-list"><a href="#">Paper & Party Supplies</a></li>
-									<li class="top-side-list"><a href="#">Accessories</a></li>
-									<li class="top-side-list"><a href="#">Bags & Purses</a></li>
-									<li class="top-side-list"><a href="#">Bath & Beauty</a></li>
-									<li class="top-side-list"><a href="#">Craft Supplies & Tools</a></li>
-									<li class="top-side-list"><a href="#">Books Movies & Music</a></li>
-									<li class="top-side-list"><a href="#">Electronics & Accessories</a></li>
-									<li class="top-side-list"><a href="#">Pet Supplies</a></li>
-									<li class="top-side-list"><a href="#">Toys & Games</a></li>
-									<li class="top-side-list"><a href="#">Shoes</a></li>
-								</ul>
-							</div>
+					<p id="left-panel-top-box-above">Show results for:</p>
+						<div id="box-left-top">
+							<p>All Categories</p>
+								<div id="top-side-list">
+									<ul>
+										<li class="top-side-list"><a href="#">Home & Living</a></li>
+										<li class="top-side-list"><a href="#">Weddings</a></li>
+										<li class="top-side-list"><a href="#">Art & Collectibles</a></li>
+										<li class="top-side-list"><a href="#">Clothing</a></li>
+										<li class="top-side-list"><a href="#">Jewelry</a></li>
+										<li class="top-side-list"><a href="#">Paper & Party Supplies</a></li>
+										<li class="top-side-list"><a href="#">Accessories</a></li>
+										<li class="top-side-list"><a href="#">Bags & Purses</a></li>
+										<li class="top-side-list"><a href="#">Bath & Beauty</a></li>
+										<li class="top-side-list"><a href="#">Craft Supplies & Tools</a></li>
+										<li class="top-side-list"><a href="#">Books Movies & Music</a></li>
+										<li class="top-side-list"><a href="#">Electronics & Accessories</a></li>
+										<li class="top-side-list"><a href="#">Pet Supplies</a></li>
+										<li class="top-side-list"><a href="#">Toys & Games</a></li>
+										<li class="top-side-list"><a href="#">Shoes</a></li>
+									</ul>
+								</div>
+						</div>
+					<p class="left-panel-inner-above">Refine your search</p>
+					<div id="box-left-lower">
+						<div id="box-left-item-type">
+									<p>Item Type</p>
+									<div id="i-types">
+						        <input type="radio" name="iType" id='allItems' class="spaced" value="allItems" checked />
+						        <label for="allItems" class="spaced">All Items</label><br />
+						        <input type="radio" name="iType" id='handmade' class="spaced" value="handmade"/>
+						        <label for="handmade" class="spaced">Handmade</label><br />
+						        <input type="radio" name="iType" id='vintage' class="spaced" value="vintage"/>
+						        <label for="vintage" class="spaced">Vintage</label><br />
+						      </div>
+						</div>
+					<hr width=90% color="#DCDCD9" noshade />
+						<p class="left-panel-inner-above">Price</p>
+								<div id="price" class="choices">
+										<div class="price-box" id="low-price">
+											<p>$</p>
+											<input type="text" placeholder="Low" class="price-input"/>
+										</div>
+											<p>to</p>
+										<div class="price-box">
+											<p>$</p>
+											<input type="text" placeholder="High" class="price-input"/>
+										</div>
+										<div class="price-box" id="arrow">
+											<p><b>=></b></p>
+										</div>
+
+								</div>
+							<hr width=90% color="#DCDCD9" noshade />
+								<p class="left-panel-inner-above">Filter by Color</p>
+										<div id="color_filter" class="choices">
+											<ul id="colours">
+												<li class="swatch-box"><a href="#"></a></li>
+												<li class="swatch-box"><a href="#"></a></li>
+												<li class="swatch-box"><a href="#"></a></li>
+												<li class="swatch-box"><a href="#"></a></li>
+												<li class="swatch-box"><a href="#"></a></li>
+												<li class="swatch-box"><a href="#"></a></li>
+												<li class="swatch-box"><a href="#"></a></li>
+												<li class="swatch-box"><a href="#"></a></li>
+											</ul>
+										</div>
+							<hr width=90% color="#DCDCD9" noshade />
+								<p class="left-panel-inner-above">Ordering Options</p>
+										<div id="ordering-options" class="choices">
+
+										</div>
+							<hr width=90% color="#DCDCD9" noshade />
+								<p class="left-panel-inner-above">Shop Location</p>
+										<div id="shop-location" class="choices">
+
+										</div>
 					</div>
-				<p id="left-panel-middle-box-above">Refine your search</p>
-				<div id="box-left-middle">
-							<p>Item Type</p>
-							<div id="i-types">
-				        <input type="radio" name="iType" id='allItems' class="spaced" value="allItems" checked />
-				        <label for="allItems" class="spaced">All Items</label><br />
-				        <input type="radio" name="iType" id='handmade' class="spaced" value="handmade"/>
-				        <label for="handmade" class="spaced">Handmade</label><br />
-				        <input type="radio" name="iType" id='vintage' class="spaced" value="vintage"/>
-				        <label for="vintage" class="spaced">Vintage</label><br />
-				      </div>
+
 				</div>
-			</div>
 
 			<div id="right-panel">
 				<p>Top Categories for "whiskey"</p>
-
 			</div>
+
 	</div>
 
 

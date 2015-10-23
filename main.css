@@ -3,7 +3,7 @@ body {
 }
 
 .container {
-	width: 980px;
+	width: 1080px;
 	margin: 0 auto;
 }
 
@@ -25,65 +25,116 @@ body {
 	height: 1px;
 	border-bottom: 1px solid #DCDCD9;
 }
+a:link {
+	text-decoration: none;
+}
+a:visited{
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+
+}
 
 #etsy {
 	display: inline-block;
 	vertical-align: middle;
-	font-size: 2.6rem;
-	color: #F56400;
-	margin: 0 -8px 0 0;
-	width: 100px;
+	height: 35px;
+	width: 80px;
+	margin: 0 20px 0 0;
 }
 #search-window {
+	background: #F5F5F1;
 	position: relative;
 	display: inline-block;
 	vertical-align: middle;
 	padding: 5px;
 	border: 1px solid #BCB7B3;
-	border-radius: 3px;
-	width: 300px;
-	height: 25px;
-	margin-right: 280px;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+	width: 263px;
+	height: 28px;
+	margin-right: -4px;
 }
 
 #search-window #search-box {
 	display: inline;
+	background: #F5F5F1;
 	font-size: 1rem;
 	width: 220px;
 	padding: 5px;
-	margin-top: -3px;
+	margin-top: -1px;
 	border: none;
 }
 #search-button {
-	position: relative;
+	/*position: relative;
 	top: -31px;
-	right: -210px;
+	right: -210px;*/
 	width: 75px;
 	display: inline-block;
-	padding: 10px;
-	border-radius: 3px;
+	vertical-align: middle;
+	padding: 12px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
 	background: #34A8C4;
 	text-align: center;
+	font-family: Arial, sans-serif;
+	margin-right: 290px;
 }
 #search-button a {
 	color: white;
 	text-decoration: none;
 
 }
+.top-links {
+	font-family: Arial, sans-serif;
+	font-size: 0.9rem;
+	margin-right: 10px;
+	/*color: #34A8C4;*/
+}
+.top-links a {
+	color: #34A8C4;
+}
+#sign-in {
+	border: 1px solid #34A8C4;
+	border-radius: 4px;
+	padding: 10px;
+}
+#cart {
+	vertical-align: top;
+	padding-left: 15px;
+	padding-right: -15px;
+	border-left: 1px solid #DDD9D9;
+}
+#cart p {
+	color: #A09F9F;
+	font-size: 0.8rem;
+}
+#cart img {
+	height: 25px;
+	width: 25px;
+	padding-left: -3px;
+	opacity: 0.6;
+}
+
 .container.nav-bar {
 	background: #FFFFFF;
-	padding: 12px;
 }
 
 #main-nav .main-nav-link {
 	display: inline-block;
+	padding: 12px;
 	margin-right: 10px;
 }
 #main-nav .main-nav-link a {
 	font-family: Arial, sans-serif;
 	font-size: 0.9rem;
-	color: #ABABAB;
+	color: #454545;
 }
+#main-nav .main-nav-link:hover {
+	border-bottom: 2px solid red;
+}
+
 #left-panel {
 	display: inline-block;
 	margin-top: 30px;
@@ -100,19 +151,20 @@ body {
 }
 
 #left-panel-top-box-above {
-	font-size: 0.8rem;
+	font-size: 0.9rem;
 	font-weight: bold;
-	color: black;
+	color: #454545;
 	margin-bottom: 10px;
 }
 #box-left-top {
 	background: #FFFFFF;
 	padding: 10px;
 	border-radius: 3px;
-	font-size: 0.8rem;
+	font-size: 0.9rem;
 }
 #box-left-top p {
 	font-weight: bold;
+	color: #454545;
 }
 .top-side-list {
 	padding: 10px 0 2px 10px;
@@ -120,29 +172,63 @@ body {
 .top-side-list a {
 	color: #34A8C4;
 }
-#left-panel-middle-box-above {
-	font-size: 0.8rem;
+.left-panel-inner-above {
+	font-size: 0.9rem;
 	font-weight: bold;
-	color: black;
-	margin-top: 25px;
-	margin-bottom: 10px;
+	color: #454545;
+
+	padding: 15px;
 }
-#box-left-middle {
+#box-left-lower {
 	background: #FFFFFF;
-	padding: 10px;
-	height: 400px;
-	/*border: 1px solid blue;*/
-	border-radius: 3px;
-	font-size: 0.8rem;
 }
-#box-left-middle p {
+#box-left-item-type {
+	padding: 10px;
+	border-radius: 3px;
+	font-size: 0.9rem;
+}
+#box-left-item-type p {
 	font-weight: bold;
 	padding: 10px 0 5px 10px;
 }
 #i-types {
 	padding: 5px;
 }
-#i-types
+#i-types input[type=radio] {
+	padding: 4px;
+	border: 3px solid grey;
+}
+#i-types label {
+	color: #34A8C4;
+}
+#i-types input[type=radio]:checked + label {
+	color: #454545;
+	font-weight: bold;
+}
 .spaced {
 	margin-bottom: 10px;
+}
+.choices {
+	padding: 20px;
+}
+#low-price {
+	margin-left: 10px;
+}
+#price p {
+	display: inline-block;
+}
+.price-box {
+	display: inline-block;
+	border: 1px solid #BAB2B2;
+	border-radius: 3px;
+	padding: 10px;
+}
+#arrow {
+	padding: 12px;
+	margin-left: 5px;
+}
+.price-input {
+	width: 40px;
+	font-size: 0.9rem;
+	border: none;
 }
