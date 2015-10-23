@@ -225,6 +225,7 @@ X
 	background-color: #f5f5f1;
 	width: 1000px;
 	margin: 0 auto;
+	clear: both;
 }
 
 #clearfix {   /* <!--this is to clear the area between the two product areas--> */
@@ -262,6 +263,8 @@ X
 	margin-top: 8px;
 	margin-right: 20px;
 	margin-left:25px;
+	margin-bottom: 0px;
+	padding: 0px;
 }
 /* 
 X
@@ -348,7 +351,7 @@ X
 	border: 1px solid red;
 }
 #lowerRightSearch { /* <!--This is the div for the lower right search box area--> */
-	width: 235px;
+	width: 230px;
 	height: 365px;
 	border: 2px solid #D3D3D3;
 	float: left;
@@ -385,6 +388,7 @@ X
 	margin: 0 auto;
 	padding: 0;
 	clear: right;
+
 }
 
 #boxOne { /*<!-- This is the div for the top line of items for sale-->*/
@@ -394,6 +398,7 @@ X
 	padding: 0;
 	position: relative;
 	display: inline;
+	margin-right: 5px;
 }	
 
 #boxOne img {
@@ -440,7 +445,7 @@ X
 
 #pictureContainer { /*<!-- This is the div for the 16 lines of products at the bottom--> */
 	width: 700px;
-	float: right;
+	float: left;
 }
 
 #itemContainer {
@@ -448,6 +453,8 @@ X
 	float: left;
 	margin-right: 20px;
 	background-color: #FFFFFF;
+	border: 1px solid #D3D3D3;
+	margin-bottom: 15px;
 }
 
 #image {
@@ -479,11 +486,12 @@ X
 #shopName {
 	color: #D3D3D3;
 	font-size: 11px;
-	width: 200px;
+	width: 196px;
 	padding: 0;
 	padding-left:3px;
 	margin: 0;
 	margin-bottom: 10px;
+	margin-right:3px;
 }
 
 #price {
