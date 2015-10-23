@@ -2,7 +2,7 @@ $(document).ready(function(){
 
 	var mapData = data.results.map(function(obj){
 		return {
-			'title': obj.title,
+			'title': unescape(obj.title),
 			'price': obj.price,
 			'shop_name': obj.Shop.shop_name,
 			'currency_code':obj.currency_code,
