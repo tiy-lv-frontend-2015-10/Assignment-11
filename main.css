@@ -123,7 +123,7 @@ li {
 }
 
 #searchListDiv { /*< !--this is the the section with the links and search box on the top right-->*/
-	width: 334px;
+	width: 425px;
 	height: 81px;
 	float: right;
 	display: inline;
@@ -159,6 +159,12 @@ li {
 	color: #3064e0;
 	font-size: 12px;
 	text-align: center;
+	height: 20px;
+}
+
+#searchList a {
+	color: #34a8c4;
+	text-decoration: none;
 }
 
 .blueLine {
@@ -194,8 +200,8 @@ li {
 #navHeaderList li {
 	float: left;
 	text-decoration: none;
-	padding-right: 30px;
-	padding-left: 30px;
+	padding-right: 20px;
+	padding-left: 20px;
 	font-size: 13px;
 	margin: 0 auto;
 }
@@ -222,11 +228,13 @@ X
 }
 
 #clearfix {   /* <!--this is to clear the area between the two product areas--> */
-	width: 717px;
-	height: 54px;
+	width: 100%;
+	height: 40px;
 	background-color: #f5f5f1;
 	margin: 0px;
 	padding: 0px;
+	float: left;
+	position: relative;
 }
 
 #containerTop {
@@ -237,8 +245,8 @@ X
 }
 
 #showResults {
-	width: 275px;
-	font-size: 10px;
+	width: 247px;
+	font-size: 12px;
 	font-weight: bold;
 	float:left;
 	position: relative;
@@ -246,13 +254,14 @@ X
 }
 
 #TopCategories {
-	width: 245px;
-	font-size: 12px;
+	width: 250px;
+	font-size: 13px;
 	font-weight: bold;
 	float:left;
 	position: relative;
-	margin-top: 10px;
+	margin-top: 8px;
 	margin-right: 20px;
+	margin-left:25px;
 }
 /* 
 X
@@ -265,13 +274,14 @@ X
 
 #categoryBar { /*<!-- This is the div for the category link bar on the left hand side-->*/
 	width: 245px;
-	height: 408px;
+	height: 365px;
 	color: #3064e0;
-	border: 1px solid #D3D3D3;
+	border: 2px solid #D3D3D3;
 	display: inline;
 	position: relative;
 	float: left;
 	background-color: #FFFFFF;
+	margin-right: 25px;
 }
 
 #categoryTitle {
@@ -279,9 +289,14 @@ X
 	font-weight: bold;
 	background-color: #f5f5f1;
 	font-size: 11px;
+	margin-left:5px;
 }
+
 .categoryBarSpan {
 	color: #000000;
+	padding-left: 5px;
+	font-size: 12px;
+	font-weight: bold;
 /* change padding/margin so this moves back more left from the list*/
 }
 
@@ -291,17 +306,19 @@ X
 }
 
 #categoriesList { /*<!-- This is the list of categories on the upper left area-->*/
-	font-size: 10px;
-	color: #3064e0;
+	font-size: 12px;
+	color: ##34a8c4;
 	display: inline-block;
 	margin: 0 auto;
 	padding-left: 15px;
 	list-style-type: none;
 	text-decoration: none;
+	line-height: 1.75em;
 }
 
 #categoriesList a {
 	text-decoration: none;
+	color: #34a8c4;
 }
 
 #lowerRightSearch { /* <!--This is the div for the lower right search box area--> */
@@ -309,6 +326,7 @@ X
 	height: 775px;
 	color: #3064e0;
 	border: 1px solid #D3D3D3;
+	float: left;
 	/* low price and high price boxes are 72 x 38, arrow button is 38 x 38 */
 	/* color codes are red f40b32, orange ff7f00, yellow f3cc0c, green 0ac20a, blue 0cccf3, purple a60cf3, the color boxes are 22x22 */ 
 } 
@@ -325,46 +343,49 @@ X
 4.PRODUCT BOXES - TOP AREA */
 
 #topBox { /*<!-- This is the div around the top two lines of products-->*/
-	width: 735px;
+	width: 550px;
 	height: 427px;
 	float: left;
 	position: relative;
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
 	clear: right;
 }
 
 #boxOne { /*<!-- This is the div for the top line of items for sale-->*/
-	width: 735px;
-	height: 253px;
-	margin: 0;
-	padding: 0;
-	position: relative;
-}	
-
-#boxOne img {
-	width: 349px;
-	height: 278px;
-	margin: 0;
-	padding: 0;
-	float: left;
-}	
-
-#boxTwo { /*<!-- This is the div for the second line of items for sale--> */
-	width: 735px;
-	height: 198px;
+	width: 625px;
+	height: 230px;
 	margin: 0 auto;
 	padding: 0;
 	position: relative;
 }	
 
+#boxOne img {
+	width: 285px;
+	height: 226px;
+	margin: 0;
+	padding: 0;
+	float: left;
+	margin-right: 23px;
+}	
+
+#boxTwo { /*<!-- This is the div for the second line of items for sale--> */
+	width: 625px;
+	height: 198px;
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+	clear: right;
+}	
+
 #boxTwo img {
-	width: 226px;
-	height: 180px;
+	width: 190px;
+	height: 151px;
 	display: inline;
 	margin: 0;
 	padding: 0;
 	position: relative;
+	margin-right: 7px;
 }		
 
 .ctwoAcross { /*This is the class for the two products across the top line */
