@@ -103,6 +103,10 @@ a:hover {
   font-size: 15px;
   color: #555; }
 
+#otherCategories {
+  margin-left: 400px;
+  font-size: 12px; }
+
 .searchContainer {
   border: solid 1px #E1E3DF;
   border-radius: 3px;
