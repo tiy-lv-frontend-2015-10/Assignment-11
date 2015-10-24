@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Etsy</title>
 	<link rel="stylesheet" href="main.css"/>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
 </head>
 <body>
 	<div id="head_container">
@@ -109,7 +110,7 @@
 			</ul>
 		</div>
 	</div>
-	<div id="main_container">
+	<div id="main_container" class="clearfix">
 		<div class="main">
 			<h5 class="h_0">Show results for:</h5>
 			<div class="categories">
@@ -140,12 +141,15 @@
 					<li><input type="radio" name="item" value="handmade" class="radio"/> Handmade<br/></li>
 					<li><input type="radio" name="item" value="allItems" class="radio"/> Vintage<br/></li>
 				</ul>
+				<br/>
 				<hr>
 				<p class="all">Price</p>
 				<input placeholder="Low" class="price">
 				<span>to</span>
 				<input placeholder="High" class="price">
 				<button class="arrow"></button>
+				<br/>
+				<br/>
 				<hr>
 				<p class="all">Filter by Color</p>
 				<ul class="colorbox">
@@ -158,23 +162,42 @@
 					<li><button class="black"></button></li>
 					<li><button class="white"></button></li>
 				</ul>
-				<br>
+				<br/>
 				<hr>
 				<p class="all">Ordering Options</p>
 				<ul class="options">
 					<li><input type="checkbox" name="option" value="accepts">Accepts Etsy Gift Cards</li>
 					<li><input type="checkbox" name="option" value="custom">Customizable</li>
 				</ul>
+				<br/>
 				<hr>
 				<p class="all">Shop Location</p>
 				<ul class="location">
 					<li><input type="radio" name="item" value="anywhere">Anywhere</li>
 					<li><input type="radio" name="item" value="us">United States</li>
 				</ul>
+				<p class="choose">Choose a custom location</p>
+				<br/>
+				<hr>
 				<p class="all">Ship Location</p>
-				<select>
-					<option value="united">United States</option>
+				<select style="width: 200px;">
+					<option class="select" value="united">United States</option>
 				</select>
+				<br>
+			</div>
+		</div>
+		<div class="main_right">
+			<p class="top">Top categories for "whiskey"</p>
+			<div class="images">
+				<div class="main_imgs">
+					<img src="https://placehold.it/340x270">
+					<img src="https://placehold.it/340x270">
+				</div>
+				<div class="small_imgs">
+					<img src="https://placehold.it/227x280">
+					<img src="https://placehold.it/227x280">
+					<img src="https://placehold.it/227x280">
+				</div>
 			</div>
 		</div>
 	</div>
