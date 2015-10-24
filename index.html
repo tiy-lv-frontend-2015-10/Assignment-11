@@ -8,6 +8,7 @@
 </head>
 <body>
 <div id="navBar">
+	
 	<h1>Etsy</h1>
 	<input id="searchBar"></input>
 	<button id="searchButton">Search</button>
@@ -17,10 +18,10 @@
 			<li>Sell on Etsy</li>
 			<li>Register</li>
 			<li><button id="signInButton">Sign In</button></li>
-			<li>Cart</li>
+			<li id="cart"><span>Cart</span></li>
 		</ul>
 	</div>
-
+	
 </div>
 	
 	<div class="clearfix"></div>
@@ -45,21 +46,21 @@
 	<div id="allCategories">
 		<span id="allCat">All Categories</span>
 		<ul id="allCatList">
-			<li>Home &amp; Living</li>
-			<li>Art &amp; Collectibles</li>
-			<li>Weddings</li>
-			<li>Clothing</li>
-			<li>Paper &amp; Party Supplies</li>
-			<li>Jewelery</li>
-			<li>Accessories</li>
-			<li>Craft Supplies &amp; Tools</li>
-			<li>Bags &amp; Purses</li>
-			<li>Bath &amp; Beauty</li>
-			<li>Shoes</li>
-			<li>Books, Movies &amp; Music</li>
-			<li>Electronics &amp; Accessories</li>
-			<li>Toys &amp; Games</li>
-			<li>Pet Supplies</li>
+			<li><a href="#">Home &amp; Living</li>
+			<li><a href="#">Art &amp; Collectibles</a></li>
+			<li><a href="#">Weddings</a></li>
+			<li><a href="#">Clothing</a></li>
+			<li><a href="#">Paper &amp; Party Supplies</a></li>
+			<li><a href="#">Jewelery</a></li>
+			<li><a href="#">Accessories</a></li>
+			<li><a href="#">Craft Supplies &amp; Tools</a></li>
+			<li><a href="#">Bags &amp; Purses</a></li>
+			<li><a href="#">Bath &amp; Beauty</a></li>
+			<li><a href="#">Shoes</a></li>
+			<li><a href="#">Books, Movies &amp; Music</a></li>
+			<li><a href="#">Electronics &amp; Accessories</li>
+			<li><a href="#">Toys &amp; Games</a></li>
+			<li><a href="#">Pet Supplies</a></li>
 		</ul>
 	</div>
 
@@ -72,17 +73,17 @@
 		</div>
 		<div  id="two" class="large">
 
-		<span class="whiteLabel">test</span>
+		<span class="whiteLabel">Art &amp; Collectibles</span>
 			
 		</div>
 		<div id="three" class="small">
-			<span class="whiteLabel">test</span>
+			<span class="whiteLabel">Weddings</span>
 		</div>
 		<div id="four" class="small">
-			<span class="whiteLabel">test</span>
+			<span class="whiteLabel">Clothing</span>
 		</div>
 		<div id="five" class="small">
-			<span class="whiteLabel">test</span>
+			<span class="whiteLabel">Paper and Party Supplies</span>
 		</div>
 	</div>
 	<div class="clearfix"></div>
@@ -98,9 +99,9 @@
 
 		<span id="itemType">Item Type</span>
 		<ul id="radioList">
-			<li><input type="radio" class="btn">All items</input></li>
-			<li><input type="radio" class="btn">Handmade</input></li>
-			<li><input type="radio" class="btn">Vintage</input></li>
+			<li><input type="radio" class="btn"><a href="#">All items</a></input></li>
+			<li><input type="radio" class="btn"><a href="#">Handmade</a></input></li>
+			<li><input type="radio" class="btn"><a href="#">Vintage</a></input></li>
 		</ul>
 		
 		<hr />
@@ -130,16 +131,16 @@
 		<h3>Ordering Options</h3>
 
 		<ul id="checkList">
-			<li><input class="btn" type="checkbox">Accepts Etsy Gift Cards</input></li>
-			<li><input class="btn"  type="checkbox">Customizable</input></li>
+			<li><input class="btn" type="checkbox"><a href="#">Accepts Etsy Gift Cards</a></input></li>
+			<li><input class="btn"  type="checkbox"><a href="#">Customizable</a></input></li>
 		</ul>
 		
 		<h3>Shop Location</h3>
 
 		<ul id="radioList">
-			<li><input type="radio" class="btn">Anywhere</input></li>
-			<li><input type="radio" class="btn">United States</input></li>
-			<li>Choose a custom Location</li>
+			<li><input type="radio" class="btn"><a href="#">Anywhere</a></input></li>
+			<li><input type="radio" class="btn"><a href="#">United States</a></input></li>
+			<li><a href="#">Choose a custom Location</a></li>
 		</ul>
 
 		<hr />
@@ -156,18 +157,81 @@
 	</div>	
 
 </div>
-<hr class="grayBar" />
+
+<div class="clearfix"></div>
+
+
+
 <div id="subscribeDiv">
 
-	
+	<div id="subContainer">
 
-	<h2 id="topTrends">Get top trends and fresh editors' picks in your inbox with Etsy Finds.</h2>
-	
-	<input id="emailBar"></input>
-	<button id="emailBtn"></button>
-
+		<h2 id="topTrends">Get top trends and fresh editors' picks in your inbox with Etsy Finds.</h2>
+		
+		<input id="emailBar" placeholder="Enter your email"></input>
+		<button id="emailBtn">Subscribe</button>
+	</div>
 </div>
-<hr class="grayBar" />
+
+
+
+<div id="footerlinks">
+	<div class="footer">
+		<ul class="footerList">
+			<li>Turn your passion into a business.</li>
+			<li><button>Open a shop</button></li>
+			<li>Sell on Etsy</li>
+			<li><a href="#">Seller Handbook</a></li>
+			<li><a href="#">Etsy credit card reader</a></li>
+		</ul>
+	</div>
+	
+	<div class="footer">
+		<ul class="footerList">
+			<li>Join the community</li>
+			<li><a href="#">Teams</a></li>
+			<li><a href="#">Forms</a></li>
+			<li><a href="#">Upcomming events</a></li>
+			<li><a href="#">Affiliates</a></li>
+		</ul>
+	</div>
+	<div class="footer">
+		<ul class="footerList">
+			<li>Discover and shop</li>
+			<li><a href="#">Gift cards</a></li>
+			<li><a href="#">Blog</a></li>
+			<li><a href="#">Tastemakers</a></li>
+			<li><a href="#">Mobile apps</a></li>
+			<li><a href="#">Gift registeries</a></li>
+			<li><a href="#">Wholesale</a></li>
+			<li><a href="#">Manufacturing</a></li>
+			<li><a href="#">Search</a></li>
+			<li><a href="#">Etsy Finds</a></li>
+		</ul>
+	</div>
+
+	<div class="footer">
+		<ul class="footerList">
+			<li>Get to know us</li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Policies</a></li>
+			<li><a href="#">Careers</a></li>
+			<li><a href="#">Press</a></li>
+			<li><a href="#">Developers</a></li>
+			<li><a href="#">Investors</a></li>
+		</ul>
+	</div>
+	<div class="footer">
+		<ul class="footerList">
+			<li>Follow Etsy</li>
+			<li><a href="#">Facebook</a></li>
+			<li><a href="#">Twitter</a></li>
+			<li><a href="#">Pinterest</a></li>
+			<li><a href="#">Instagram</a></li>
+		</ul>
+	</div>
+	
+
 </div>
 
 <script type="x-tmpl.mustache" id="listItemTemplate">
