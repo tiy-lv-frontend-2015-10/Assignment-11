@@ -50,10 +50,12 @@ img#cart{
     padding: 10px 20px;
     background-color: rgb(43, 168, 198);
     color: white;
+    border: 1px solid rgb(0, 146, 183);
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     margin-left: -6px;
 }
+
 
 #navBar ul {
     padding: 0 0 0 5em;

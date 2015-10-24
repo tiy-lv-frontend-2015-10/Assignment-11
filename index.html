@@ -32,29 +32,33 @@
         <p class="clearFloat"></p>
         <div id="main">
            <p class="fl"><b>Show results for:</b></p>
-           <p class="fl"><b>Top categories for "whiskey"</b></p>
+           <p class="topCatForWhis"><b>Top categories for "whiskey"</b></p>
            <p class="clearFloat"></p>
             <div id="allCategories">
                 <ul>
-                    <li><a href="https://www.etsy.com/search?q=whiskey"> </a><b>All Categories</b></li>
-                    <li><a href="https://www.etsy.com/search/home-and-living?q=whiskey">Home &amp; Living</a></li>
-                    <li><a href="https://www.etsy.com/search/art-and-collectibles?q=whiskey">Art &amp; Collectibles</a></li>
-                    <li><a href="https://www.etsy.com/search/weddings?q=whiskey">Weddings</a></li>
-                    <li><a href="https://www.etsy.com/search/clothing?q=whiskey">Clothing</a></li>
-                    <li><a href="https://www.etsy.com/search/paper-and-party-supplies?q=whiskey">Paper &amp; Party Supplies</a></li>
-                    <li><a href="https://www.etsy.com/search/jewelry?q=whiskey">Jewelry</a></li>
-                    <li><a href="https://www.etsy.com/search/accessories?q=whiskey">Accessories</a></li>
-                    <li><a href="https://www.etsy.com/search/craft-supplies-and-tools?q=whiskey">Craft Supplies &amp; Tools</a></li>
-                    <li><a href="https://www.etsy.com/search/bags-and-purses?q=whiskey">Bags &amp; Purses</a></li>
-                    <li><a href="https://www.etsy.com/search/bath-and-beauty?q=whiskey">Bath &amp; Beauty</a></li>
-                    <li><a href="https://www.etsy.com/search/shoes?q=whiskey">Shoes</a></li>
-                    <li><a href="https://www.etsy.com/search/books-movies-and-music?q=whiskey">Books, Movies &amp; Music</a></li>
-                    <li><a href="https://www.etsy.com/search/electronics-and-accessories?q=whiskey">Electronics &amp; Accessories</a></li>
-                    <li><a href="https://www.etsy.com/search/toys-and-games?q=whiskey">Toys &amp; Games</a></li>
-                    <li><a href="https://www.etsy.com/search/pet-supplies?q=whiskey">Pet Supplies</a></li>
+                    <li><b>All Categories</b></li>
+                    <li>Home &amp; Living</li>
+                    <li>Art &amp; Collectibles</li>
+                    <li>Weddings</li>
+                    <li>Clothing</li>
+                    <li>Paper &amp; Party Supplies</li>
+                    <li>Jewelry</li>
+                    <li>Accessories</li>
+                    <li>Craft Supplies &amp; Tools</li>
+                    <li>Bags &amp; Purses</li>
+                    <li>Bath &amp; Beauty</li>
+                    <li>Shoes</li>
+                    <li>Books, Movies &amp; Music</li>
+                    <li>Electronics &amp; Accessories</li>
+                    <li>Toys &amp; Games</li>
+                    <li>Pet Supplies</li>
                 </ul>
             </div><!--closes all categories-->
-            <div id="topCatWhiskey"></div><!--closes top cat whiskey-->
+            <div id="topCatWhiskey">
+                
+                
+                
+            </div><!--closes top cat whiskey-->
             <p><b>Refine your search</b></p>
             <div id="itemType">
                 <ul>
@@ -127,6 +131,13 @@
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
 <script type="text/javascript" src="js/data.js"></script>
+<script type="x-tmpl-mustache" id="listingTemplate">
+{{#listings}}
+    <span>{{listingID}}</span>
+    <span>{{categoryId}}</span>
+    <img src="{{url_75x75}}" />
+{{/listings}}
+</script>
 <script id="template" type="x-tmpl-mustache" src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.0/mustache.min.js"></script>
 </body>
 </html>
