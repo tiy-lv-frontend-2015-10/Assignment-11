@@ -493,9 +493,10 @@ li {
 }
 
 #related {
-	width:500px;
+	width:700px;
 	height:150px;
-	margin:auto;
+	margin-left:380px;
+
 }
 
 .relatedList {
@@ -504,11 +505,14 @@ li {
 	font-size: 12px;
 }
 
+#lookShops {
+	font-size: 14px;
+}
 
 #subscribeDiv {
 	text-align: center;
 	position: relative;
-	top:100px;
+	top:40px;
 }
 
 #subContainer {
@@ -595,7 +599,7 @@ li {
 	width:400px;
 	height:100px;
 	position: relative;
-	top:30px;
+	top:80px;
 }
 
 
