@@ -131,11 +131,16 @@ h1 {
 	background: #fff;
 	color:#5D5D5D;
 	margin-bottom: 30px;
+
 }
 
 
 #categories li:hover {
 	border-bottom: 5px solid orange;
+}
+
+.wrapperDiv {
+	width:900px;
 }
 #catList {
 	margin:0;
