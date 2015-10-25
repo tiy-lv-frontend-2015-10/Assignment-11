@@ -1,3 +1,5 @@
+/* GLOBAL**********************************************************/
+
 body {
 	background: #F5F5F1;
 }
@@ -5,25 +7,6 @@ body {
 .container {
 	width: 1080px;
 	margin: 0 auto;
-}
-
-.top-wrap {
-	background: #FFFFFF;
-	margin: 0;
-	padding: 0;
-}
-
-.container.top-bar {
-	background:  #FFFFFF;
-	height: 40px;
-	padding: 20px 0 20px 0;
-}
-.top-bar .top-links {
-	display: inline-block;
-}
-.line-em {
-	height: 1px;
-	border-bottom: 1px solid #DCDCD9;
 }
 a:link {
 	text-decoration: none;
@@ -33,9 +16,29 @@ a:visited{
 }
 a:hover {
 	text-decoration: underline;
-
 }
 
+/*Extends whitespace to edges of window****************************/
+.top-wrap {
+	background: #FFFFFF;
+	margin: 0;
+	padding: 0;
+}
+/*Logo, search box, register sign-in, cart***************************/
+.container.top-bar {
+	background:  #FFFFFF;
+	height: 40px;
+	padding: 20px 0 20px 0;
+}
+.top-bar .top-links {
+	display: inline-block;
+}
+/*<hr> mini-hack ********************************************************/
+.line-em {
+	height: 1px;
+	border-bottom: 1px solid #DCDCD9;
+}
+/* Logo &  other top bar styling****************************************/
 #etsy {
 	display: inline-block;
 	vertical-align: middle;
@@ -116,7 +119,7 @@ a:hover {
 	padding-left: -3px;
 	opacity: 0.6;
 }
-
+/*MAIN NAV MENU (2nd from Top) ***********************************************/
 .container.nav-bar {
 	background: #FFFFFF;
 }
@@ -135,7 +138,7 @@ a:hover {
 #main-nav .main-nav-link:hover {
 	border-bottom: 2px solid red;
 }
-
+/*BIG wrapper divs for both sides of page*****************************************/
 #left-panel {
 	display: inline-block;
 	margin-top: 30px;
@@ -151,7 +154,7 @@ a:hover {
 	width: 74%;
 	border: 1px solid blue;
 }
-
+/*LEFT PANEL styling***********************************************************/
 #left-panel-top-box-above {
 	font-size: 0.9rem;
 	font-weight: bold;
@@ -174,16 +177,18 @@ a:hover {
 .top-side-list a {
 	color: #34A8C4;
 }
+
+/*2nd box on left side ************************************************/
 .left-panel-inner-above {
 	font-size: 0.9rem;
 	font-weight: bold;
 	color: #454545;
-
 	padding: 15px;
 }
 #box-left-lower {
 	background: #FFFFFF;
 }
+/* Item Type Radio button panel ***************************************/
 #box-left-item-type {
 	padding: 10px;
 	border-radius: 3px;
@@ -210,6 +215,8 @@ a:hover {
 .spaced {
 	margin-bottom: 10px;
 }
+
+/* Price Boxes ***************************************************************/
 .choices {
 	padding: 20px;
 }
@@ -230,25 +237,36 @@ a:hover {
 	margin-left: 5px;
 }
 #point {
-width: 0;
-height: 0;
-border-style: solid;
-border-width: 7px 0 7px 13px;
-border-color: transparent transparent transparent #007bff;
+
 }
 .price-input {
-	width: 40px;
+	width: 30px;
 	font-size: 0.9rem;
 	border: none;
 }
+.swatch-box {
+	display: inline-block;
+	margin-right: 2px;
+	border: 1px solid lightgrey;
+	border-radius: 3px;
+	height: 21px;
+	width: 20px;
+
+}
+
+.swatch-box a {
+
+
+}
+
+/*BIG div on right, starting from top*************************************************/
 
 #right-panel h3{
 	font-size: 1.2rem;
 	margin-bottom: 3px;
 	padding-left: 15px;
-
 }
-
+/*This is the TOP (category) box ********************************************/
 .big-image {
 	box-sizing: border-box;
 	background-color: pink;
@@ -259,7 +277,16 @@ border-color: transparent transparent transparent #007bff;
 	width: 47.7%;
 	height: 260px;
 }
+.inner-white-panel {
+	width: 100px;
+	height: 50px;
+	border-radius: 5px;
+	margin: auto;
+	margin-top: 40%;
 
+	background: #FFFFFF;
+
+}
 .norm-image {
 	box-sizing: border-box;
 	background-color: lightblue;
@@ -276,3 +303,6 @@ border-color: transparent transparent transparent #007bff;
 	height: 20px;
 	border-bottom: 1px solid grey;
 }
+
+/*Product Display Div (TBA) **************************************************
+*/
