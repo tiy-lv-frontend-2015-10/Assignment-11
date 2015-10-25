@@ -116,6 +116,37 @@ h1 {
 	border-radius: 3px;
 }
 
+#signInForm {
+	position: absolute;
+	top:13.5%;
+	left:20%;
+	height:470px;
+	width:500px;
+	background-color:#fff;
+	border-radius:3px;
+	border:1px solid #5D5D5D;
+	z-index: 3;
+}
+
+#signInTab {
+	height:60px;
+	background-color: #F5F5F1;
+}
+
+#signInTab ul {
+	margin:0;
+	position: relative;
+	left:45px;
+	top:20px;
+}
+
+#signInTab li {
+	float: left;
+	padding:8px;
+	border:1px solid black;
+	font-size: 14px;
+}
+
 #signInButton a {
 	text-decoration: none;
 }
@@ -147,6 +178,8 @@ h1 {
 #categories li:hover {
 	border-bottom: 5px solid orange;
 }
+
+
 
 
 #catList {
