@@ -303,26 +303,23 @@ X
 /* change padding/margin so this moves back more left from the list*/
 }
 
-.blueSpan {
+.blueSpan a:link {
 	color: #34a8c4;
 	font-size: 12px;
-	text-decoration: none;
-}
-
-.blueSpan a {
-	color: #34a8c4;
-	font-size: 12px;
-	font-weight: bold;
 	text-decoration: none;
 }
 
 .blueSpan a:hover {
-	color: #000000;
+	color: #34a8c4;
 	font-size: 12px;
-	font-weight: bold;
-	text-decoration: none;
+	text-decoration: underline;
 }
 
+.blueSpan a:visited {
+	color: #34a8c4;
+	font-size: 12px;
+	text-decoration: none;
+}
 .categoryBarSpan a {
 	text-decoration: none;
 	color: #000000;
@@ -352,7 +349,7 @@ X
 }
 #lowerRightSearch { /* <!--This is the div for the lower right search box area--> */
 	width: 230px;
-	height: 500px;
+	height: 600px;
 	border: 2px solid #D3D3D3;
 	float: left;
 	background-color: #FFFFFF;	
@@ -374,8 +371,8 @@ X
 }
 
 #low {
-	width: 40px;
-	height: 20px;
+	width: 45px;
+	height: 25px;
 	border-right: 2px solid #D3D3D3;
 	border-bottom: 1px solid #D3D3D3;
 	border-top: 2px solid #000000;
@@ -386,8 +383,8 @@ X
 }
 
 #high {
-	width: 40px;
-	height: 20px;
+	width: 45px;
+	height: 25px;
 	border-right: 2px solid #D3D3D3;
 	border-bottom: 1px solid #D3D3D3;
 	border-top: 2px solid #000000;
@@ -405,7 +402,7 @@ X
 }
 
 .price1 img {
-	width: 28px;
+	width: 32px;
 	height: 26px;
 }
 
@@ -422,7 +419,97 @@ X
 	border-radius: 5px;
 }
 
-/* color codes are red f40b32, orange ff7f00, yellow f3cc0c, green 0ac20a, blue 0cccf3, purple a60cf3, the color boxes are 22x22 */ 
+hr { width:95%; height:.5px; background: #F0F0F0; text-align: center; margin: 0; padding: 0;}
+
+#colorSearchUL {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+.colorBox {
+	width: 22px;
+	height: 22px;
+	float: left;
+	padding: 0;
+	margin-right: 5px;
+}
+.red {
+	background-color: #f40b32;
+	border-radius: 3px;
+}
+
+.orange {
+	background-color: #ff7f00;
+	border-radius: 3px;
+}
+
+.yellow {
+	background-color: #f3cc0c;
+	border-radius: 3px;
+}
+
+.green {
+	background-color: #0ac20a;
+	border-radius: 3px;
+}
+.blue {
+	background-color: #0cccf3;
+	border-radius: 3px;
+}
+.purple {
+	background-color: #a60cf3;
+	border-radius: 3px;
+}
+.black {
+	background-color: #000000;
+	border-radius: 3px;
+}
+.white {
+	background-color: #FFFFFF;
+	border-radius: 3px;
+	border: 1px solid #F0F0F0;
+}
+
+.boxType {
+	display: none;
+}
+
+
+input[type="checkbox"] {
+	display: none;
+}
+
+.boxtype {
+	width: 20px;
+	height: 19px;
+}
+
+.buttonbox img {
+	margin-top: 10px;
+	margin-right: 20px;
+	padding-right: 20px;
+}
+
+
+.boxSpan {
+	text-decoration: none;
+	color: #34a8c4;
+	font-size: 12px;
+}
+
+.boxSpan a {
+	text-decoration: none;
+	color: #34a8c4;
+	font-size: 12px;
+}
+
+.boxSpan a:hover {
+	text-decoration: underline;
+	color: #34a8c4;
+	font-size: 12px;
+}
+
 
 
 /* 
