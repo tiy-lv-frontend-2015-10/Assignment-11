@@ -128,6 +128,7 @@ a:hover {
 }
 #main-nav .main-nav-link a {
 	font-family: Arial, sans-serif;
+	text-decoration: none;
 	font-size: 0.9rem;
 	color: #454545;
 }
@@ -138,15 +139,16 @@ a:hover {
 #left-panel {
 	display: inline-block;
 	margin-top: 30px;
-	margin-right: 3%;
-	width: 28%;
+	width: 25%;
 	font-family: Arial, sans-serif;
+	border: 1px solid blue;
 }
 #right-panel {
 	display: inline-block;
 	vertical-align: top;
 	margin-top: 30px;
-	width: 67%;
+	/*margin-left: 2%;*/
+	width: 74%;
 	border: 1px solid blue;
 }
 
@@ -231,4 +233,39 @@ a:hover {
 	width: 40px;
 	font-size: 0.9rem;
 	border: none;
+}
+
+#right-panel h3{
+	font-size: 1.2rem;
+	margin-bottom: 3px;
+	padding-left: 15px;
+
+}
+
+.big-image {
+	box-sizing: border-box;
+	background-color: pink;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 2%;*/
+	margin-right: 0;
+	width: 47.7%;
+	height: 260px;
+}
+
+.norm-image {
+	box-sizing: border-box;
+	background-color: lightblue;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 2%;
+	margin-right: 0;
+	margin-top: 20px;
+	width: 31%;
+	height: 200px;
+}
+
+#bottom-line {
+	height: 20px;
+	border-bottom: 1px solid grey;
 }
