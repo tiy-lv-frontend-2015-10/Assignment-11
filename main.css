@@ -18,13 +18,11 @@ a:hover {
 	height:80px;
 	background: #fff;
 	width:100%;
-
-
-
+	margin:auto;
 }
 
-#wrapperNav {
-	width:1000px;
+.wrapperNav {
+	max-width: 1050px;
 	margin:auto;
 }
 
@@ -77,6 +75,7 @@ h1 {
 	position: relative;
 	top:35px;
 	margin: 0px;
+	right:50px;
 }
 
 
@@ -130,11 +129,14 @@ h1 {
 }
 
 #categories {
+	
 	height:40px;
 	border-bottom:1px solid #E1E3DF;
 	background: #fff;
 	color:#5D5D5D;
 	margin-bottom: 30px;
+	width: 100%;
+	position: relative;
 
 }
 
@@ -143,10 +145,7 @@ h1 {
 	border-bottom: 5px solid orange;
 }
 
-.wrapperDiv {
-	width:900px;
-	margin:auto;
-}
+
 #catList {
 	margin:0;
 	position: relative;
