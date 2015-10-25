@@ -127,6 +127,9 @@ h1 {
 	border:1px solid #DADBD6;
 	z-index: 3;
 }
+.hidden {
+	display: none;
+}
 
 #signInTab {
 	height:60px;

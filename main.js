@@ -1,5 +1,10 @@
 $(document).ready(function(){
 
+
+
+$("#signInButton").on("click",function(){
+	$("#signInForm").toggleClass("hidden");
+});
 	var mapData = data.results.map(function(obj){
 		return {
 			'title': unescape(obj.title),
