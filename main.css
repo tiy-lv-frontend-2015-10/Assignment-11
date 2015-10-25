@@ -176,11 +176,11 @@ h3 {
 }
 
 #categoryGrid {
-	height:427px;
-	width:735px;
+	height:447px;
+	width:717px;
 	float: left;
 	position: relative;
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid #E1E3DF;
 }
 
 
@@ -284,6 +284,9 @@ h3 {
 }
 hr {
 	margin-top:30px;
+	border:none;
+	height: 1px;
+	background-color:#E1E3DF;
 }
 img {
 	border-radius:3px;
@@ -372,7 +375,7 @@ img {
 .colorDiv {
 	height:18px;
 	width:18px;
-	border:1px solid black;
+	border:1px solid #E1E3DF;
 	float: left;
 	margin-right: 6px;
 	border-radius:2px;
@@ -489,6 +492,18 @@ li {
 	color:#AFAFB9
 }
 
+#related {
+	width:500px;
+	height:150px;
+	margin:auto;
+}
+
+.relatedList {
+	float: left;
+	margin-right: 60px;
+	font-size: 12px;
+}
+
 
 #subscribeDiv {
 	text-align: center;
@@ -498,6 +513,7 @@ li {
 
 #subContainer {
 	margin:25px;
+	padding-bottom: 20px;
 	width:80%;
 	border:10px solid #EFEFEB;
 	margin:auto;
@@ -529,11 +545,12 @@ li {
 #footerLinks {
 	width: 100%;
 	margin-left:20px;
+
 }
 
 .footerList {
 	position: relative;
-	top:20px;
+	top:50px;
 	float: left;
 	text-align: justify;
 	margin-right:35px;
@@ -542,6 +559,16 @@ li {
 
 .footerList li {
 	margin-bottom: 5px;
+}
+
+#openShopBtn {
+	background-color: #34A8C4;
+	color:white;
+	border-radius: 3px;
+	border:none;
+	height:25px;
+	font-size: 14px;
+	margin-bottom: 20px;
 }
  #btnList  {
 	margin:0;
