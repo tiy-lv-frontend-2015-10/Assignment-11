@@ -204,18 +204,26 @@ h3 {
 }
 
 
-.whiteLabel {
+.whiteLabelLarge {
 	background: white;
-	z-index: 1;
 	position: relative;
 	padding:10px;
-	margin:auto;
-	float: left;
-	top:50%;
-	left:20px;
+	width:100px;
+	text-align: center;
 	border-radius:3px;
+	margin:auto;
+	top:60%;
+}
 
-
+.whiteLabelSmall {
+	background: white;
+	position: relative;
+	padding:10px;
+	width:100px;
+	text-align: center;
+	border-radius:3px;
+	margin:auto;
+	top:60%;
 }
 
 
