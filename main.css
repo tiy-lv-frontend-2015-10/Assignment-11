@@ -60,9 +60,13 @@ h1{
 	padding: 16px 0px;
 }
 
-.signup ul a {
+.signup ul li  {
 	padding-left: 15px;
+	list-style: none;
+	display: inline;
+
 }
+
 
 .siBtn{
 	border: none;
@@ -161,11 +165,11 @@ PANEL2
 
 
 .panel2{
-    position: relative;
-    display: inline; 
-    float: left;
+        position: relative;
+    display: inline-block;
+    width: 15%;
     left: 75px;
-    width: 24%;
+}
 
 	
 }
@@ -194,6 +198,7 @@ PANEL2
 .popular{
     float: left;
     position: relative;
+    left:290px;
     
   
 }
@@ -341,6 +346,12 @@ button.rBtn3{
 /************************
 MAIN CONTENT
 ****************************/
+
+.cat-container{
+	position: relative;
+	display:;
+}	
+
 
 .allCat{
 

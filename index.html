@@ -19,10 +19,10 @@
 
 	<div class="signup">
 		<ul>
-		   	<a href="#">sell on Etsy</a>
-		   	<a href="#">Register</a>
-		   	<a href="#"><button class="siBtn">sign in</button></a>
-		   	<div class="cart">cart</div>
+		   <li><a href="#">sell on Etsy</a></li>
+		   	<li><a href="#">Register</a></li>
+		   	<li><a href="#"><button class="siBtn">sign in</button></a></li>
+		   	<li><div class="cart">cart</div></li>
 	   	</ul>
 	</div>
 </header>
@@ -66,7 +66,62 @@
 		</div>
 
 		<div class="top-cat">
-	
+
+		
+			<div class="panel2">
+			<span>Refine your search </span>
+				<div class="item-type"> --><!--radio button-->
+				
+					<h6>Item Type</h6>
+					<button type="radio" name="item" checked="checked" class="rBtn1" ></button><p class="radio1">All Items</p>
+					<button type="radio" name="item" checked="checked" class="rBtn2" ></button><p class="radio2">Handmade</p>
+					<button type="radio" name="item" checked="checked" class="rBtn3" ></button><p class="radio3">Vintage</p>
+
+				</div>
+
+				<div class="price"> --><!--price -->
+					<h6>Price</h6>
+						<input name="high" value="high" >
+						<span>to</span>
+						<input name="low" value="low" >
+						<button></button>
+				</div>
+
+				<div class="buttoncolor"> --> <!--filter color -->
+					<h6>Filter by Color</h6>
+						<button class="red square"></button>
+						<button class="orange square"></button>
+						<button class="yellow square"></button>
+						<button class="green square"></button>
+						<button class="blue square"></button>
+						<button class="purple square"></button>
+						<button class="black square"></button>
+						<button class="white square"></button>
+				</div>
+
+			<div class="ordering">   ordering Options--> 
+					<h6>Ordering Options</h6>
+						<input type="checkbox"><p>Accepts Etsy Gift Cards</p>
+						<input type="checkbox"><p>Customizable</p>
+						<a href="#">Choose a custom location</a>
+				</div>
+		 		
+		 		<div class="ship">
+		 		<h6>Ship To</h6>
+		 			<select>
+			 			<option Name="United States" value="United States">United States</option>
+			 			<option Name="United States" value="United States">Canada</option>
+			 			<option Name="United States" value="United States">Spain</option>
+			 			<option Name="United States" value="United States">Russia</option>
+			 			
+			 		</select>
+		 		</div>
+			</div>
+
+					
+
+		<div class="cat-container"> <!--all img container -->
+			
 			<div class="popular">
 					<span>Top categories for "Whiskey"</span> <!--top categories-->
 				<img src="http://placehold.it/350x250" />
@@ -98,59 +153,6 @@
 					</div>
 			</div>
 		</div>
-
-		
-	<!--ds		<div class="panel2">
-			<span>Refine your search </span>
-				<div class="item-type"> <!--radio button-->
-				
-					<h6>Item Type</h6>
-					<button type="radio" name="item" checked="checked" class="rBtn1" ></button><p class="radio1">All Items</p>
-					<button type="radio" name="item" checked="checked" class="rBtn2" ></button><p class="radio2">Handmade</p>
-					<button type="radio" name="item" checked="checked" class="rBtn3" ></button><p class="radio3">Vintage</p>
-
-				</div>
-
-			<!--	<div class="price"> <!--price -->
-			<!--		<h6>Price</h6>
-						<input name="high" value="high" >
-						<span>to</span>
-						<input name="low" value="low" >
-						<button></button>
-				</div>
-
-				<div class="buttoncolor"> <!--filter color -->
-			<!--		<h6>Filter by Color</h6>
-						<button class="red square"></button>
-						<button class="orange square"></button>
-						<button class="yellow square"></button>
-						<button class="green square"></button>
-						<button class="blue square"></button>
-						<button class="purple square"></button>
-						<button class="black square"></button>
-						<button class="white square"></button>
-				</div>
-
-				<div class="ordering"> <!-- ordering Options-->
-			<!--		<h6>Ordering Options</h6>
-						<input type="checkbox"><p>Accepts Etsy Gift Cards</p>
-						<input type="checkbox"><p>Customizable</p>
-						<a href="#">Choose a custom location</a>
-				</div>
-		 		
-		 		<div class="ship">
-		 		<h6>Ship To</h6>
-		 			<select>
-			 			<option Name="United States" value="United States">United States</option>
-			 			<option Name="United States" value="United States">Canada</option>
-			 			<option Name="United States" value="United States">Spain</option>
-			 			<option Name="United States" value="United States">Russia</option>
-			 			
-			 		</select>
-		 		</div>
-			</div>
-
-					-->
 
 		<div class="allCat"> <!--ALL CATEGORIES-->
 
@@ -300,6 +302,7 @@
 					</div>	
 				</div>
 		</div>
+	</div> <!--end of all cat container -->
 
 	<section class="subscribe">
 		<p>Get top trends and fresh editors' picks in your inbox with Etsy Finds.</p>
