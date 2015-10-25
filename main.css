@@ -17,13 +17,15 @@ a:hover {
 	border-bottom: 1px solid #E1E3DF;
 	height:80px;
 	background: #fff;
-	width:100%;
 	margin:auto;
+	min-width: 920px;
+
 }
 
 .wrapperNav {
-	max-width: 1050px;
+	width:100%;
 	margin:auto;
+
 }
 
 
@@ -71,11 +73,11 @@ h1 {
 	font-size: 14px;
 }
 #options {
-	float: right;
+	float: left;
 	position: relative;
 	top:35px;
 	margin: 0px;
-	right:50px;
+	left:250px;
 }
 
 
@@ -137,6 +139,7 @@ h1 {
 	margin-bottom: 30px;
 	width: 100%;
 	position: relative;
+	min-width: 920px;
 
 }
 
