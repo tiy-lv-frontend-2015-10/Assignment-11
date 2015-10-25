@@ -16,9 +16,14 @@ a:hover {
 #navBar {
 	border-bottom: 1px solid #E1E3DF;
 	height:80px;
-	width:100%;
+	
 	background: #fff;
 
+
+}
+
+#wrapperNav {
+	width:1000px;
 
 }
 
@@ -29,7 +34,7 @@ h1 {
 	left:40px;
 	top:20px;
 	margin:0px;
-	margin-right:5px;
+	margin-right:65px;
 	color:#F56400;
 	font-family:times;
 	font-weight: normal;
@@ -39,7 +44,7 @@ h1 {
 	float: left;
 	position: relative;
 	top:25px;
-	left:60px;
+	
 	height:30px;
 	width:230px;
 	background: #FFFFFF;
@@ -53,8 +58,8 @@ h1 {
 	border:1px solid #bfbaba;
 }
 #searchButton {
-	position: absolute;
-	left:362px;
+	position: relative;
+	float: left;
 	top:25px;
 	height:34px;
 	width:80px;
@@ -70,7 +75,9 @@ h1 {
 #options {
 	float: right;
 	position: relative;
-	top:15px;
+	top:35px;
+	margin: 0px;
+
 
 
 }
