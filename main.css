@@ -16,7 +16,6 @@ a:hover {
 #navBar {
 	border-bottom: 1px solid #E1E3DF;
 	height:80px;
-	
 	background: #fff;
 
 
@@ -24,6 +23,7 @@ a:hover {
 
 #wrapperNav {
 	width:1000px;
+	margin:auto;
 
 }
 
@@ -148,6 +148,7 @@ h1 {
 
 .wrapperDiv {
 	width:900px;
+	margin:auto;
 }
 #catList {
 	margin:0;
