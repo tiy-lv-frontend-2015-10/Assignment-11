@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-var categories = dataChunks.etsy_main_categories;
+var categories = data.etsy_main_categories;
 
 var categoryTemplate = $('#categoryTemplate').text();
 
