@@ -120,31 +120,97 @@ h1 {
 	position: absolute;
 	top:13.5%;
 	left:20%;
-	height:470px;
-	width:500px;
+	height:480px;
+	width:550px;
 	background-color:#fff;
 	border-radius:3px;
-	border:1px solid #5D5D5D;
+	border:1px solid #DADBD6;
 	z-index: 3;
 }
 
 #signInTab {
 	height:60px;
 	background-color: #F5F5F1;
+	margin-bottom:20px;
 }
 
 #signInTab ul {
 	margin:0;
 	position: relative;
 	left:45px;
-	top:20px;
+	top:26px;
 }
 
 #signInTab li {
 	float: left;
-	padding:8px;
-	border:1px solid black;
+	padding:9px;
+	border:1px solid #E1E3DF;
+	border-bottom:none;
 	font-size: 14px;
+}
+
+#default {
+	background-color: white;
+
+}
+
+.btnForm {
+	width:200px;
+	height:35px;
+	border:none;
+	border-radius:3px;
+	color:white;
+}
+
+#alignDiv {
+	margin-left: 70px;
+	width:430px;
+
+}
+
+#emailInput {
+	width:195px;
+	height:25px;
+}
+#passwordInput {
+	width:195px;
+	height:25px;
+}
+
+#staySignedIn {
+	margin:15px 0 15px 0;
+}
+#alignDiv p {
+	font-size: 14px;
+}
+#facebookBtn {
+	display: block;
+	background:#3B5998;
+	margin-left: 70px;	
+	margin-bottom: 8px;
+}
+
+#googleBtn {
+	display: block;
+	background:#DC4E41;
+	margin-left: 70px;
+}
+#passwordInput {
+	display: block;
+}
+
+#signInBtnForm {
+	display: block;
+	background:#34A8C4;
+
+}
+
+#hrForm {
+	margin-top:15px;
+}
+
+#passQuestions {
+	font-size: 12px;
 }
 
 #signInButton a {
