@@ -53,6 +53,8 @@ X
 	height: 80px;
 	margin: 0px;
 	padding: 0px;
+	margin-left: 30px;
+	margin-right: 20px;
 	display: inline;
 }
 
@@ -65,6 +67,7 @@ X
 	display: inline;
 	margin-top: 20px;
 	background-color: #FFFFFF;
+	margin-left: 50px;
 }
 
 #searchBox { /*<!--this is the area with the search box -->*/
@@ -143,38 +146,78 @@ li {
 	padding-right: 3px;
 	list-style-type: none;
 	text-decoration: none;
+	height: 30px;
+	width: 400px;
 }
 
-#searchList img {
-	width: 15px;
-	height: 15px;
-	margin-top:-5px;
-}
 
 #searchList li {
 	text-decoration: none;
 	float: left;
-	padding-right: 20px;
-	margin-top:25px;
-	color: #3064e0;
+	padding-right: 15px;
+	margin-top:20px;
+	color: #D3D3D3;
 	font-size: 12px;
 	text-align: center;
-	height: 20px;
+	height: 40px;
 	margin-right: 5px;
+	border-right: 1px solid #D3D3D3;
+	width:50px;
+
 }
 
+#searchList li:first-child {
+	margin-top: 33px;
+	width: 80px;
+	border-right: none;
+	color: #3064e0;
+}
 #searchList a {
 	color: #34a8c4;
 	text-decoration: none;
 }
-
-.blueLine {
-	border: 1px #3064e0 solid;
-	border-radius: 5px;
-	margin-right: 10px;
-	padding-left: 10px;
-	width: 40px;
+.navRightList a {
+	color: #D3D3D3;
 }
+#home img {
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	color: #D3D3D3;
+}
+#home a {
+	color: #000000;
+}
+
+#favorites img {
+	width: 20px;
+	height: 20px;
+	text-align: center;
+}
+#favorites a {
+	color: #000000;
+}
+
+#you img {
+	width: 20px;
+	height: 20px;
+	text-align: center;
+}
+#you a {
+	color: #000000;
+}
+
+#cart img {
+	width: 20px;
+	height: 20px;
+	text-align: center;
+}
+#cart a {
+	color: #000000;
+}
+
+
+
 
 #navHeader { /*<!--This is the navigation header-->*/
 	height: 43px;
@@ -347,7 +390,7 @@ X
 	height: 30px;
 	float: left;
 	display: inline-block;
-	margin-left: 115px;
+	margin-left: 130px;
 }
 #lowerRightSearch { /* <!--This is the div for the lower right search box area--> */
 	width: 230px;
@@ -440,6 +483,23 @@ hr { width:95%; height:.5px; background: #F0F0F0; text-align: center; margin: 0;
 .red {
 	background-color: #f40b32;
 	border-radius: 3px;
+	color: #f40b32;
+	text-decoration: none;
+}
+
+.red a {
+	text-decoration: none;
+	color: #f40b32;
+}
+
+.red a: hover {
+	text-decoration: none;
+	color: #f40b32;
+}
+
+.red a: visited {
+	text-decoration: none;
+	color: #f40b32;
 }
 
 .orange {
@@ -447,31 +507,139 @@ hr { width:95%; height:.5px; background: #F0F0F0; text-align: center; margin: 0;
 	border-radius: 3px;
 }
 
+.orange a {
+	text-decoration: none;
+	color: #ff7f00;
+}
+
+.orange a: hover {
+	text-decoration: none;
+	color: #ff7f00;
+}
+
+.orange a: visited {
+	text-decoration: none;
+	color: #ff7f00;
+}
+
 .yellow {
 	background-color: #f3cc0c;
 	border-radius: 3px;
+}
+
+.yellow a {
+	text-decoration: none;
+	color: #f3cc0c;
+}
+
+.yellow a: hover {
+	text-decoration: none;
+	color: #f3cc0c;
+}
+
+.yellow a: visited {
+	text-decoration: none;
+	color: #f3cc0c;
 }
 
 .green {
 	background-color: #0ac20a;
 	border-radius: 3px;
 }
+
+.green a {
+	text-decoration: none;
+	color: #0ac20a;
+}
+
+.green a: hover {
+	text-decoration: none;
+	color: #0ac20a;
+}
+
+.green a: visited {
+	text-decoration: none;
+	color: #0ac20a;
+}
+
 .blue {
 	background-color: #0cccf3;
 	border-radius: 3px;
 }
+
+.blue a {
+	text-decoration: none;
+	color: #0cccf3;
+}
+
+.blue a: hover {
+	text-decoration: none;
+	color: #0cccf3;
+}
+
+.blue a: visited {
+	text-decoration: none;
+	color: #0cccf3;
+}
+
 .purple {
 	background-color: #a60cf3;
 	border-radius: 3px;
 }
+
+.purple a {
+	text-decoration: none;
+	color: #a60cf3;
+}
+
+.purple a: hover {
+	text-decoration: none;
+	color: #a60cf3;
+}
+
+.purple a: visited {
+	text-decoration: none;
+	color: #a60cf3;
+}
+
 .black {
 	background-color: #000000;
 	border-radius: 3px;
+}
+
+.black a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.black a: hover {
+	text-decoration: none;
+	color: #000000;
+}
+
+.black a: visited {
+	text-decoration: none;
+	color: #000000;
 }
 .white {
 	background-color: #FFFFFF;
 	border-radius: 3px;
 	border: 1px solid #F0F0F0;
+}
+
+.white a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.white a: hover {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.white a: visited {
+	text-decoration: none;
+	color: #FFFFFF;
 }
 
 .boxType {
@@ -514,7 +682,7 @@ hr { width:95%; height:.5px; background: #F0F0F0; text-align: center; margin: 0;
 	font-size: 12px;
 	color: #000000;
 	width: 200px;
-	height: 25px;
+	height: 30px;
 	border-top: 1px solid #D3D3D3;
 	border-right:1px solid #D3D3D3;
 	border-left:1px solid #D3D3D3;
@@ -611,7 +779,72 @@ X
 	float:left;
 }		
 
+#homeLivingBox {
+	width: 130px;
+	height: 40px;
+	position: absolute;
+	top: 160px;
+	left: 350px;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 5px;
+}
 
+#artCollectiblesBox {
+	width: 140px;
+	height: 40px;
+	position: absolute;
+	top: 160px;
+	left: 660px;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 5px;
+}
+
+#weddings {
+	width: 100px;
+	height: 40px;
+	position: absolute;
+	top: 310px;
+	left: 320px;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 5px;
+}
+
+#clothing {
+	width: 100px;
+	height: 40px;
+	position: absolute;
+	top: 310px;
+	left: 522px;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 5px;
+}
+
+#paperParty {
+	width: 160px;
+	height: 40px;
+	position: absolute;
+	top: 310px;
+	left: 690px;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	text-align: center;
+	padding-top: 5px;
+}
+
+.fancy {
+	text-align: center;
+	font-size: 13px;
+	font-weight: bold;
+	font-family: "Georgia", "Times New Roman", "serif";
+}
 
 
 /* 
@@ -622,6 +855,20 @@ x
 x
 X
 5. PRODUCT BOXES - LOWER AREA */
+
+#heartPic {
+	float: left;
+	position: absolute;
+	margin-top: 3px;
+	margin-left:13%;
+}
+#heartPic img {
+	width: 18px;
+	height: 18px;
+	opacity: 0.4;
+}
+
+
 
 #allCategories {
 	width: 300px;
@@ -693,6 +940,32 @@ X
 	float: right;
 	padding: 0;
 	margin-top: 8px;
+}
+
+.shipToArrow {
+	width: 0px; 
+	height: 0px; 
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;	
+	border-top: 6px solid #000000;
+	float: right;
+	padding: 0px;
+	margin: 0px;
+	margin-top: 1px;
+	padding-right: 5px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+#shipToArrow {
+	float: right;
+	padding: 0px;
+	margin: 0px;
+	display: inline-block;
+	margin-top: 5px;
+	padding-right: 5px;
+	height: 12px;
+
 }
 
 #pictureContainer { /*<!-- This is the div for the 16 lines of products at the bottom--> */

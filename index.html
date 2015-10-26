@@ -16,10 +16,11 @@
 
 		<div id="searchListDiv"> <!--this is the the section with the links and search box on the top right-->
 			<ul id="searchList">
-				<li class="blue"><a href="#">Sell on Etsy</a><hguy567/li>
-				<li><a href="#">Register</a></li>
-				<li class="blueLine"><a href="#">Sign in</a></li>
-				<li><a href="#"><img src="assets/cart.png"></br>Cart</a></li>
+				<li id="sellonEtsy"><span = "spanBlue"><a href="#">Sell on Etsy</a></span></li>
+				<li class="navRightList" id="home"><a href="http://www.etsy.com"><img src="assets/home.jpg"></br>Home</a></li>
+				<li class="navRightList" id="favorites"><a href="#"><img src="assets/heart.png"></br>Favorites</a></li>
+				<li class="navRightList" id="you"><a href="#"><img src="assets/head.jpg"></br>You</a></li>
+				<li class="navRightList" id="cart"><a href="#"><img src="assets/cart.png"></br>Cart</a></li>
 			</ul>
 		</div> <!-- searchList-->
 
@@ -65,13 +66,23 @@
 		</div> <!-- categoryBar-->
 			<!--<div id="topBox"> <!-- This is the div around the top two lines of products-->
 				<div id="boxOne"> <!-- This is the div for the top line of items for sale-->
-					<div id="boxOneItemOne" class="twoAcross"> <img src="https://img1.etsystatic.com/053/0/11050440/il_570xN.770280705_bk6y.jpg"></div>
-					<div id="boxOneItemTwo" class="twoAcross"><img src ="https://img0.etsystatic.com/057/3/9997414/il_340x270.745560744_9880.jpg"></div>
-				</div> <!-- boxOne -->
+						<div id="boxOneItemOne"> <img src="https://img1.etsystatic.com/053/0/11050440/il_570xN.770280705_bk6y.jpg">
+							<div id="homeLivingBox"><span class="fancy">Home & Living</span></br><span class="blueSpan"><a href="https://www.etsy.com/search/home-and-living?q=whiskey&ref=esearch_group0">11,258 Items</a></span></div>
+						</div>
+						<div id="boxOneItemTwo"><img src ="https://img0.etsystatic.com/057/3/9997414/il_340x270.745560744_9880.jpg"><div id="artCollectiblesBox"><span class="fancy">Art & Collectibles</span></br><span class="blueSpan"><a href="https://www.etsy.com/search/art-and-collectibles?q=whiskey&ref=esearch_group1">4,504 Items</a></span></div>
+						</div>
+					</div> <!-- boxOne -->
 				<div id="boxTwo"> <!-- This is the div for the second line of items for sale-->
-					<div id="boxTwoItemOne" class="threeAcrossTop"> <img src="https://img0.etsystatic.com/100/0/8057725/il_340x270.830898650_50z5.jpg"></div>
-					<div id="boxTwoItemTwo"class="threeAcrossTop"> <img src="https://img0.etsystatic.com/057/1/10345019/il_340x270.763319240_5yxw.jpg"></div>
-					<div id="boxTwoItemThree"class="threeAcrossTop"><img class="top3"src="https://img0.etsystatic.com/070/0/9138920/il_340x270.820008594_2juk.jpg"></div>
+					<div id="boxTwoItemOne"> <img src="https://img0.etsystatic.com/100/0/8057725/il_340x270.830898650_50z5.jpg">
+						<div id="weddings"><span class="fancy">Weddings</span></br><span class="blueSpan"><a href="https://www.etsy.com/search/weddings">3,393 Items</a></span></div>
+					</div>
+					<div id="boxTwoItemTwo"> <img src="https://img0.etsystatic.com/057/1/10345019/il_340x270.763319240_5yxw.jpg">
+						<div id="clothing"><span class="fancy">Clothing</span></br><span class="blueSpan"><a href="https://www.etsy.com/search/clothing?q=whiskey&ref=esearch_group3">1,749 Items</a></span></div>
+					</div>
+						
+					<div id="boxTwoItemThree"><img class="top3"src="https://img0.etsystatic.com/070/0/9138920/il_340x270.820008594_2juk.jpg">
+						<div id="paperParty"><span class="fancy">Paper & Party Supplies</span></br><span class="blueSpan"><a href="https://www.etsy.com/search/paper-and-party-supplies?q=whiskey&ref=esearch_group4">1,332 Items</a></span></div>
+					</div>
 				</div> <!-- boxTwo -->
 			</div> <!--topBox-->
 			<div id ="refineYourSearch">
@@ -102,14 +113,14 @@
 			<div id="colorSearch">
 				<p><span class="categoryBarSpan">Filter by Color</span></br>
 				<ul id="colorSearchUL">
-					<li class="red colorBox"><a href="#"></a></li>
-					<li class="orange colorBox"><a href="#"></a></li>
-					<li class="yellow colorBox"><a href="#"></a></li>
-					<li class="green colorBox"><a href="#"></a></li>
-					<li class="blue colorBox"><a href="#"></a></li>
-					<li class="purple colorBox"><a href="#"></a></li>
-					<li class="black colorBox"><a href="#"></a></li>
-					<li class="white colorBox"><a href="#"></a></li>
+					<li class="red colorBox"><a href="#">xx</a></li>
+					<li class="orange colorBox"><a href="#">xx</a></li>
+					<li class="yellow colorBox"><a href="#">xx</a></li>
+					<li class="green colorBox"><a href="#">xx</a></li>
+					<li class="blue colorBox"><a href="#">xx</a></li>
+					<li class="purple colorBox"><a href="#">xx</a></li>
+					<li class="black colorBox"><a href="#">xx</a></li>
+					<li class="white colorBox"><a href="#">xx</a></li>
 				</ul>
 				</br></br>
 			</div>
@@ -140,7 +151,7 @@
 
 
 				<p><span class="categoryBarSpan">Ship To</span></br>
-				<p class="shipTo"><a href="#">United States<span class="downArrow"><img src="assets/downarrow.jpg"></span></a></span></p>
+				<p class="shipTo"><a href="#">United States<span id="shipToArrow" class="shipToArrow"></span></a></span></p>
 
 
 
@@ -169,7 +180,9 @@
 	 			
 	 			{{#mapData}}
 				<div id = "itemContainer">
+				<div id="heartPic"><a href="#"><img src="assets/heart.png"/></a><a href="#"><img src="assets/hamburger.png"/></a></div>
 	 			<a href={{url}}><img id="image" src ="{{url_170x135}}"/></a>
+
 	 		
 	 			<p id="itemTitle">{{title}}</p>
 				<p id="shopName">{{shop_name}}
