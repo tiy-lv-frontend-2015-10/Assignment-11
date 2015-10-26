@@ -279,7 +279,16 @@ width: 250px;
 #whiskeyProducts{
 	list-style: none;
 	display: inline-block;
-	width: 800px;
+	width: 1000px;
+}
+#whiskeyProducts div{
+	width: 250px;
+	height: 300px;
+	font-size: 13px;
+}
+#whiskeyProducts div img{
+	height: 200px;
+	width: 250px;
 }
 #whiskeyProducts li{
 	padding-left: 10px;
