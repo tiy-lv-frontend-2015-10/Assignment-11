@@ -4,7 +4,15 @@ $(document).ready(function(){
 
 $("#signInButton").on("click",function(){
 	$("#signInForm").toggleClass("hidden");
+	$("#masterContainer").toggleClass("overlay");
 });
+
+$("#cat1").on("click",function(){
+	$("#catDiv").toggleClass("displayBlock");
+});
+
+
+
 	var mapData = data.results.map(function(obj){
 		return {
 			'title': unescape(obj.title),
