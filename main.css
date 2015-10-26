@@ -521,7 +521,10 @@ hr {
 	border:1px solid #CFCBC8;
 	text-align: center;
 }
-
+#to {
+	font-size: 14px;
+	color:#555555
+}
 #priceHigh {
 	width:60px;
 	height:30px;
@@ -652,6 +655,10 @@ li {
 
 #myList:hover #hamburger {
 	display: block;
+}
+
+#myList:hover {
+	  box-shadow: 1px 1px 1px #E1E3DF;
 }
 #myList ul {
 	padding: 0px;
