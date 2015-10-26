@@ -9,8 +9,12 @@ $("#signInButton").on("click",function(){
 
 $("#cat1").hover(function(){
 	$(".catDiv").toggleClass("displayBlock");
-	
 });
+
+
+
+
+
 
 
 
