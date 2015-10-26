@@ -154,12 +154,13 @@ li {
 #searchList li {
 	text-decoration: none;
 	float: left;
-	padding-right: 15px;
+	padding-right: 20px;
 	margin-top:25px;
 	color: #3064e0;
 	font-size: 12px;
 	text-align: center;
 	height: 20px;
+	margin-right: 5px;
 }
 
 #searchList a {
@@ -170,8 +171,9 @@ li {
 .blueLine {
 	border: 1px #3064e0 solid;
 	border-radius: 5px;
-	text-align: center;
+	margin-right: 10px;
 	padding-left: 10px;
+	width: 40px;
 }
 
 #navHeader { /*<!--This is the navigation header-->*/
@@ -201,7 +203,7 @@ li {
 	float: left;
 	text-decoration: none;
 	padding-right: 20px;
-	padding-left: 20px;
+	padding-left: 40px;
 	font-size: 13px;
 	margin: 0 auto;
 }
@@ -264,7 +266,7 @@ X
 	margin-right: 20px;
 	margin-left:25px;
 	margin-bottom: 0px;
-	padding: 0px;
+	padding-bottom: 0px;
 }
 /* 
 X
@@ -345,11 +347,11 @@ X
 	height: 30px;
 	float: left;
 	display: inline-block;
-	border: 1px solid red;
+	margin-left: 115px;
 }
 #lowerRightSearch { /* <!--This is the div for the lower right search box area--> */
 	width: 230px;
-	height: 600px;
+	height: 800px;
 	border: 2px solid #D3D3D3;
 	float: left;
 	background-color: #FFFFFF;	
@@ -362,6 +364,7 @@ X
 	line-height: 1.75em;
 	margin-right: 25px;
 	position: relative;
+	margin-left: 115px;
 }
 
 #priceLowtoHigh {
@@ -476,10 +479,6 @@ hr { width:95%; height:.5px; background: #F0F0F0; text-align: center; margin: 0;
 }
 
 
-input[type="checkbox"] {
-	display: none;
-}
-
 .boxtype {
 	width: 20px;
 	height: 19px;
@@ -511,6 +510,44 @@ input[type="checkbox"] {
 }
 
 
+.shipTo {
+	font-size: 12px;
+	color: #000000;
+	width: 200px;
+	height: 25px;
+	border-top: 1px solid #D3D3D3;
+	border-right:1px solid #D3D3D3;
+	border-left:1px solid #D3D3D3;
+	border-bottom: 2px solid #000000;
+	margin-left: 5px;
+	text-decoration: none;
+	padding-left: 5px;
+}
+
+.shipTo a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.shipTo a:hover {
+	text-decoration: none;
+	color: #000000;
+}
+
+.shipTo a:visited {
+	text-decoration: none;
+	color: #000000;
+}
+
+.downarrow {
+	margin: 0;
+	padding: 0;
+}
+
+.shipTo img {
+	margin-left: 100px;
+}
+
 
 /* 
 X
@@ -540,7 +577,8 @@ X
 	position: relative;
 	display: inline;
 	margin-right: 5px;
-}	
+}
+
 
 #boxOne img {
 	width: 285px;
@@ -549,7 +587,7 @@ X
 	padding: 0;
 	float: left;
 	margin-right: 23px;
-}	
+}
 
 #boxTwo { /*<!-- This is the div for the second line of items for sale--> */
 	width: 650px;
@@ -600,7 +638,7 @@ X
 
 #image {
 	width: 200px;
-	height: 200px;
+	height: 198px;
 	margin-right: 20px;
 }
 
