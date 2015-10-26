@@ -41,12 +41,11 @@
 		</ul>
 	</nav>
 </div>
-  <div class="background"></div>
 
 		<div class="panel">
-			  		<p>Show results for:</p><!--panel-->
-				<ul>
-				<span id="panel-span"> All Categories </span>
+			<p>Show results for:</p><!--panel-->
+				<ul id="listContainer">
+					<li id="panel-span"> All Categories </li>	
 					<li>Home & Living </li>
 					<li>Art & Collectibles</li>
 					<li>Weddings</li>
@@ -65,7 +64,6 @@
 				</ul>
 		</div>
 
-		<div class="top-cat">
 
 		
 			<div class="panel2">
@@ -121,37 +119,37 @@
 					
 
 		<div class="cat-container"> <!--all img container -->
-			
-			<div class="popular">
-					<span>Top categories for "Whiskey"</span> <!--top categories-->
-				<img src="http://placehold.it/350x250" />
-					<div class="img-cap">
-						<p>Home & Living</p>
-						<a href"#">11,300 Items</a>
-					</div>
-				<img src="http://placehold.it/350x250" />
-					<div class="img-cap">
-						<p>Art & Collectibles</p>
-						<a href"#">4,505 Items</a>
-					</div>
-			</div>
-			<div class="most">
-				<img src="http://placehold.it/240x200" />
-					<div class="img-cap">
-						<p>Weddings</p>
-						<a href"#">3,385 Items</a>
-					</div>
-				<img src="http://placehold.it/240x200" />
-					<div class="img-cap">
-						<p>Clothing</p>
-						<a href"#">1,845 Items</a>
-					</div>
-				<img src="http://placehold.it/240x200" />
-					<div class="img-cap">
-						<p>Paper & Party Supplies</p>
-						<a href"#">1,321 Items</a>
-					</div>
-			</div>
+			<div class="top-cat">
+				<div class="popular">
+						<span>Top categories for "Whiskey"</span> <!--top categories-->
+					<img src="http://placehold.it/350x250" />
+						<div class="img-cap">
+							<p>Home & Living</p>
+							<a href"#">11,300 Items</a>
+						</div>
+					<img src="http://placehold.it/350x250" />
+						<div class="img-cap">
+							<p>Art & Collectibles</p>
+							<a href"#">4,505 Items</a>
+						</div>
+				</div>
+				<div class="most">
+					<img src="http://placehold.it/240x200" />
+						<div class="img-cap">
+							<p>Weddings</p>
+							<a href"#">3,385 Items</a>
+						</div>
+					<img src="http://placehold.it/240x200" />
+						<div class="img-cap">
+							<p>Clothing</p>
+							<a href"#">1,845 Items</a>
+						</div>
+					<img src="http://placehold.it/240x200" />
+						<div class="img-cap">
+							<p>Paper & Party Supplies</p>
+							<a href"#">1,321 Items</a>
+						</div>
+				</div>
 		</div>
 
 		<div class="allCat"> <!--ALL CATEGORIES-->
@@ -384,7 +382,19 @@
 	</footer>
 
 
-<script src="https://api.etsy.com/v2/listings/active?api_key=h9oq2yf3twf4ziejn10b717i&keywords=whiskey&includes=Images,Shop" type="x-tmpl-mustache" id="etsyTemp"></script>
+
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.0/mustache.min.js"></script>
+<script src="main.js"></script>
+<script src="data.js"></script>
+
+<script type="text/template">
+{{#count}}
+
+{{/count}}
+
+</script>
+<script id="etsyImg"></script>
 
 
 </body>
