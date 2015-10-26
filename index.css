@@ -54,6 +54,12 @@ width: 50px;}
 	background-color: white;
 }
 
+#categories li{position: relative;
+width: 250px;
+height: 350px;
+right: 400px;
+bottom: 1000px;
+font-family: Arial;}
 
 #boxes1{
 	position: relative;
@@ -67,9 +73,15 @@ width: 50px;}
 	float: left;
 	left: 400px;
 	top: 120px;
-   
-
 }
+
+#boxes2 div img{
+	width:225px;
+	height: 180px;
+}
+
+#boxes2 li{float: left;
+list-style: none;}
 
 #whiskey{position: relative;
 left: 680px;
@@ -83,20 +95,14 @@ h3{
 }
 
 #show{position: relative;
-right: 550px;
+right: 700px;
 bottom:250px;
-	}
+}
 
 
  div ul {list-style: none;}
 
 
-#categories{position: relative;
-width: 250px;
-height: 350px;
-left: 100px;
-bottom:2950px;
-font-family: Arial;}
 
 .list1{
 	color: #0192B5;
@@ -145,22 +151,6 @@ display: flex;
 
 
 
-.pagination a {position: relative;
-	left: 500px;
-	top: 1800px;
-    background: lightgrey;
-    padding-left: 10px;
-    text-decoration: none;
-	float: left;
-	font-size: 32px;
-	border: 1px solid grey;
-	
-	
-}
-.pagination a:hover {
-    background-color:white;
-    color: grey;
-}
 
 
 #Low input {position: relative;
