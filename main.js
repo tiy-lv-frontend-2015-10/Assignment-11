@@ -7,6 +7,13 @@ $("#signInButton").on("click",function(){
 	$("#masterContainer").toggleClass("overlay");
 });
 
+$("#cat1").hover(function(){
+	$(".catDiv").toggleClass("displayBlock");
+	
+});
+
+
+
 
 
 

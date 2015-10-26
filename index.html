@@ -13,7 +13,7 @@
 	<div id="navBar">
 			
 			<h1>Etsy</h1>
-			<input id="searchBar" placeholder="Search for items or shops"></input>
+			<input id="searchBar" placeholder="Search for items or shops">
 			<button id="searchButton">Search</button>
 			
 			
@@ -34,7 +34,7 @@
 		<div id="categories">
 			<div class="wrapperNav">
 			<ul id="catList">
-				<li class="dropDown">Clothing &amp; Accesories</li>
+				<li id="cat1">Clothing &amp; Accesories</li>
 				<li id="cat2">Jewelery</li>
 				<li id="cat3">Craft Supplies &amp; Tools</li>
 				<li id="cat4">Weddings</li>
@@ -46,7 +46,7 @@
 			</div>
 		</div>
 
-		<div class="catDiv">
+		<div class="catDiv" class="hidden">
 			<div class="catleft">
 				<ul>
 					<li>Accessories</li>
@@ -79,7 +79,7 @@
 				<li><a href="#">Bath &amp; Beauty</a></li>
 				<li><a href="#">Shoes</a></li>
 				<li><a href="#">Books, Movies &amp; Music</a></li>
-				<li><a href="#">Electronics &amp; Accessories</li>
+				<li><a href="#">Electronics &amp; Accessories</a></li>
 				<li><a href="#">Toys &amp; Games</a></li>
 				<li><a href="#">Pet Supplies</a></li>
 			</ul>
@@ -121,18 +121,19 @@
 
 			<span id="itemType">Item Type</span>
 			<ul id="radioList">
-				<li><input type="radio" class="btn"><a href="#">All items</a></input></li>
-				<li><input type="radio" class="btn"><a href="#">Handmade</a></input></li>
-				<li><input type="radio" class="btn"><a href="#">Vintage</a></input></li>
+				<li><input type="radio" class="btn"><a href="#">All items</a></li>
+				<li><input type="radio" class="btn"><a href="#">Handmade</a></li>
+				<li><input type="radio" class="btn"><a href="#">Vintage</a></li>
 			</ul>
 			
 			
 
 			<h3>Price</h3>
-			<input id="priceLow" placeholder="Low"></input>
+			<input id="priceLow" placeholder="Low">
 			<span id="to">to</span>
-			<input id="priceHigh" placeholder="High"></input>
-			<button id="goBtn" placeholder="High"></button>
+			<input id="priceHigh" placeholder="High">
+			<button id="goBtn"><div id="triangle"></div></button>
+
 			
 			<hr />
 
@@ -153,15 +154,15 @@
 			<h3>Ordering Options</h3>
 
 			<ul id="checkList">
-				<li><input class="btn" type="checkbox"><a href="#">Accepts Etsy Gift Cards</a></input></li>
-				<li><input class="btn"  type="checkbox"><a href="#">Customizable</a></input></li>
+				<li><input class="btn" type="checkbox"><a href="#">Accepts Etsy Gift Cards</a></li>
+				<li><input class="btn"  type="checkbox"><a href="#">Customizable</a></li>
 			</ul>
 			
 			<h3>Shop Location</h3>
 
 			<ul id="radioList">
-				<li><input type="radio" class="btn"><a href="#">Anywhere</a></input></li>
-				<li><input type="radio" class="btn"><a href="#">United States</a></input></li>
+				<li><input type="radio" class="btn"><a href="#">Anywhere</a></li>
+				<li><input type="radio" class="btn"><a href="#">United States</a></li>
 				<li><a href="#">Choose a custom Location</a></li>
 			</ul>
 
@@ -218,7 +219,7 @@
 
 			<h2 id="topTrends">Get top trends and fresh editors' picks in your inbox with Etsy Finds.</h2>
 			
-			<input id="emailBar" placeholder="Enter your email"></input>
+			<input id="emailBar" placeholder="Enter your email">
 			<button id="emailBtn">Subscribe</button>
 		
 
@@ -301,12 +302,12 @@
 		
 			
 		<div id="end">
-			<span id="copyright">&copy;2015 Etsy, Inc.</span>
+			<span id="copyright">&copy; 2015 Etsy, Inc.</span>
 
 			<ul id="documents">
-				<li>Legal</li>
-				<li>Privacy</li>
-				<li>Interest-based ads</li>
+				<li><a href="#">Legal</a></li>
+				<li><a href="#">Privacy</a></li>
+				<li><a href="#">Interest-based ads</a></li>
 			</ul>
 		</div>	
 
@@ -324,10 +325,10 @@
 	
 	<div id="alignDiv">
 		<p>Email or Username</p>
-		<input id="emailInput"></input>
+		<input id="emailInput">
 		<p>Password</p>
-		<input id="passwordInput"></input>
-		<input id="staySignedIn" type="checkbox">Stay signed in</input>
+		<input id="passwordInput">
+		<input id="staySignedIn" type="checkbox">Stay signed in
 		<button class="btnForm" id="signInBtnForm">Sign in</button>
 		<hr id="hrForm" />
 
