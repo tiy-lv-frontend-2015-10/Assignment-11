@@ -29,13 +29,13 @@ $(document).ready(function(){
 //*****************************************************************
 
 // find and display pics of Home & Living and Art & Collectibles
-var row1 = data.filter(function(listing) {
-	var pics = {};
-	var hl_count = 0;
-	var ac_count = 0;
-	if listing.results.taxonomy_path[0] === "Home & Living"
-		hl_count = 1;
-		
-}
+// var row1 = data.filter(function(listing) {
+// 	var pics = {};
+// 	var hl_count = 0;
+// 	var ac_count = 0;
+// 	if listing.results.taxonomy_path[0] === "Home & Living"
+// 		hl_count = 1;
+//
+// }
 
 });
