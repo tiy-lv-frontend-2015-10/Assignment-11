@@ -7,9 +7,7 @@ $("#signInButton").on("click",function(){
 	$("#masterContainer").toggleClass("overlay");
 });
 
-$("#cat1").on("click",function(){
-	$("#catDiv").toggleClass("displayBlock");
-});
+
 
 
 
@@ -19,7 +17,8 @@ $("#cat1").on("click",function(){
 			'price': obj.price,
 			'shop_name': obj.Shop.shop_name,
 			'currency_code':obj.currency_code,
-			'url_170x135': obj.Images[0]['url_170x135']
+			'url_170x135': obj.Images[0]['url_170x135'],
+			'url':obj.url
 		};
 	});
 
