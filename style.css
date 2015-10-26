@@ -248,4 +248,7 @@ input #button {
   color: #78c042;
   margin-top: -18px; }
 
+@media (max-width: 1024px) {
+  min-width: 500px; }
+
 /*# sourceMappingURL=style.css.map */

@@ -278,7 +278,6 @@ input #button {
 #pictureContainer {
   width: 800px;
   float: right;
-
 }
 
 #itemTitle {
@@ -313,6 +312,9 @@ input #button {
   margin-top: -18px;
 }
 
+@media (max-width: 1024px) {
+  min-width: 500px;
+}
 
 
 
