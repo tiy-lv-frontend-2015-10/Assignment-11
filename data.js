@@ -4320,11 +4320,11 @@ next_page: 2
 
 etsy_main_categories: [
 	"Home & Living",
-	"Weddings",
 	"Art & Collectibles",
+	"Weddings",
 	"Clothing",
-	"Jewelry",
 	"Paper & Party Accessories",
+	"Jewelry",
 	"Accessories",
 	"Bags & Purses",
 	"Bath & Beauty",

@@ -5,7 +5,7 @@ body {
 }
 
 .container {
-	width: 1080px;
+	width: 1090px;
 	margin: 0 auto;
 }
 a:link {
@@ -280,20 +280,30 @@ input[type=radio]:checked + label {
 	background-color: pink;
 	display: inline-block;
 	vertical-align: top;
-	margin-left: 2%;*/
+	margin-left: 2%;
 	margin-right: 0;
 	width: 47.7%;
 	height: 260px;
 }
 .inner-white-panel {
-	width: 100px;
-	height: 50px;
+	text-align: center;
+	max-width: 190px;
+	padding: 10px;
 	border-radius: 5px;
-	margin: auto;
+	margin:  0 auto;
 	margin-top: 48%;
 	background: #FFFFFF;
-
 }
+.white-title {
+	font-weight: bold;
+	font-size: 1.1rem;
+}
+.white-link {
+	font-size: 0.8rem;
+	font-family: Arial, sans-serif;
+	color: #34A8C4;
+}
+
 .norm-image {
 	box-sizing: border-box;
 	background-color: lightblue;
@@ -310,6 +320,9 @@ input[type=radio]:checked + label {
 	height: 20px;
 	border-bottom: 1px solid grey;
 }
+
+
+/*  Product Display Div  ***************************************************/
 .inner-button-panel {
 	display: none;
 	float: right;
@@ -341,5 +354,134 @@ input[type=radio]:checked + label {
 	padding: 4px 3px 0 3px;
 }
 
-/*Product Display Div (TBA) **************************************************
-*/
+/* Pic footer columns ********************************************************/
+.low-header {
+	font-family: Arial, sans-serif;
+	font-size: 0.9rem;
+	margin-top: 15px;
+	margin-left: 2%;
+}
+#friggin-bold-goddammit {
+	font-weight: bold;
+}
+.pic-footer {
+	display: inline-block;
+	vertical-align: top;
+	width: 25%;
+	margin-left: 2%;
+	margin-top: 20px;
+	/*border: 1px solid blue;*/
+}
+
+.pic-footer li {
+	padding-bottom: 10px;
+}
+
+.teal {
+	font-family: Arial, sans-serif;
+	font-size: 0.9rem;
+	color: #34A8C4;
+}
+
+#pagination-bar {
+	border: 1px solid #BAB2B2;
+	margin-top: 20px;
+	margin-left: 2%;
+	margin-right: 31.2%;
+	margin-bottom: 20px;
+}
+.paginator {
+	display: inline-block;
+	padding: 15px 15px 15px 15.6px;
+	margin-right: -2px;
+	border-right: 1px solid #BAB2B2;
+	color: black;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	background: white;
+}
+.paginator.actuated, .paginator.darker {
+	background: #F5F5F1;
+}
+
+.footer {
+	width: 1090px;
+	margin: auto;
+	height: 800px;
+}
+
+.newsletter {
+	margin-top: 20px;
+	margin-bottom: 40px;
+	border: 8px solid #E8E8E1;
+	border-radius: 4px;
+	padding: 30px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 0.9rem;
+}
+.middle-newsletter {
+	margin: auto;
+}
+.email {
+	display: inline-block;
+	margin-top: 10px;
+}
+
+.email input {
+	padding: 8px;
+	font-family: Arial, sans-serif;
+	font-size: 0.9rem;
+	width: 260px;
+	border: 1px solid lightgrey;
+	border-radius: 4px;
+	margin-right: 10px;
+}
+
+.subscribe {
+	display: inline-block;
+	margin-top: 10px;
+	background: #34A8C4;
+	font-size: 0.9rem;
+	font-family: Arial, sans-serif;
+	color: white;
+	padding: 12px;
+	border-radius: 4px;
+}
+
+.footer-links {
+	width: 980px;
+	margin: auto;
+}
+
+.f-link-col {
+	display: inline-block;
+	vertical-align: top;
+	width: 19%;
+	height: 320px;
+
+}
+#o-shop {
+	margin-top: 10px;
+	background: #34A8C4;
+	font-size: 0.9rem;
+	font-family: Arial, sans-serif;
+	color: white;
+	padding: 5px 15px;
+	border-radius: 4px;
+}
+.f-link-col p, a {
+	font-family: Arial, sans-serif;
+	font-size: 0.8rem;
+	padding: 8px 8px 8px 0;
+}
+.f-link-col a {
+	color: #34A8C4;
+}
+
+#passion {
+	line-height: 1.5;
+}
+#blah {
+	margin-top: 20px;
+}
