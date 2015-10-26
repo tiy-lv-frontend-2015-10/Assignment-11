@@ -2,7 +2,8 @@ body {font-family: arial, sans-serif;}
 
 #container {
     padding: 1em 0em;
-    width: 1300px;
+    width: 1500px;
+    background-color: rgb(245, 245, 241);
 }
 
 #main {
@@ -30,7 +31,8 @@ h1 {
 .headerRight {
     color: rgb(0, 146, 183);
     font-size: 1.2em;
-    float: right;
+    float:right;
+    margin-left: 70px;
 }
 
 #signInBtn {
@@ -67,6 +69,14 @@ img#cart{
     color: rgb(85, 85, 85);
 }
 
+#topCatMargin {
+    padding-left: 400px;
+}
+
+navBar a:link {}
+navBar a:visited {}
+navBar a:hover {}
+
 .fl {float: left;}
 
 .fr {float: right;}
@@ -91,12 +101,10 @@ a:active {}
     padding: 4px;
 }
 
-#allCategories li a {
+#allCategories li {
     color: rgb(0, 138, 173);
     line-height: 2em;
 }
-
-
 
 #itemType {
     background-color: white;
@@ -154,6 +162,74 @@ ul {list-style: none;}
     padding: 0 0 0 6em;
 }
 
-#whiskeyDecanter {float: left;}
-#jackDaniel {float: left;}
-#whiskeyBottle {float: left;}
+#whiskeyDecanter {
+    float: left;
+    margin-left: 250px;
+    padding: 0 70px;
+    line-height: 1.6em;
+}
+#jackDaniel {
+    float: left;
+    padding: 0 70px;
+    line-height: 1.6em;
+}
+#whiskeyBottle {
+    float: left;
+    padding: 0 70px;
+    line-height: 1.6em;
+}
+
+.relatedToMargin {
+    margin-left: 320px;
+}
+
+#subscribe {
+    border: 3px solid rgb(239, 239, 235);
+    margin: auto;
+    width: 1300px;
+    background-color: rgb(239, 239, 235);
+    text-align: center;
+    padding: 2em;
+}
+
+#inputEmail {
+    padding: 1em;
+}
+
+#subscribeBtn {
+    padding: 1em;
+    background-color: rgb(43, 168, 198);
+    color: white;
+    border: 1px solid rgb(0, 146, 183);
+    border-radius: 5px;
+}
+
+#siteIndex {
+    background-color: rgb(245, 245, 241);
+    width: 1500px;
+}
+
+#divSite1 {
+    float: left;
+    padding: 1em 3em;
+}
+
+#divSite2 {
+    float: left;
+    padding: 1em 3em;
+}
+
+#divSite3 {
+    float: left;
+    padding: 1em 3em;
+}
+
+#divSite4 {
+    float: left;
+    padding: 1em 3em;
+}
+
+#divSite5 {
+    float: left;
+    padding: 1em 3em;
+}
