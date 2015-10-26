@@ -150,6 +150,12 @@
 
 			<!--<div id="clearfix"></div> <!--this is to clear the area between the two product areas-->
 
+			<div id="allCategories">
+			<span class="blueSpan" id="allCategoriesSpan"><a href="https://www.etsy.com/search?q=whiskey">All Categories</a></span><span class="whiskey"> "whiskey" </span><span class="results">(26,106 Results)</span></div>
+			<div id="relevancy"><span class="results">Sort by:</span><span class="relevancy">&nbsp;Relevancy</span><div class="downArrowCSS"></div>
+			</div>
+
+
 			<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 			
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.0/mustache.min.js"></script>
@@ -163,7 +169,7 @@
 	 			
 	 			{{#mapData}}
 				<div id = "itemContainer">
-	 			<img id="image" src ="{{url_170x135}}"/>
+	 			<a href={{url}}><img id="image" src ="{{url_170x135}}"/></a>
 	 		
 	 			<p id="itemTitle">{{title}}</p>
 				<p id="shopName">{{shop_name}}
