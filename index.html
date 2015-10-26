@@ -188,15 +188,19 @@
 		</div>
 		<div class="main_right">
 			<p class="top">Top categories for "whiskey"</p>
-			<div class="images">
-				<div class="main_imgs">
-					<img src="https://placehold.it/340x270">
-					<img src="https://placehold.it/340x270">
+			<div class="imagesContainer">
+				<div id="mainImgs">
+					<ul>
+						<li><img class="s_img1" src="https://placehold.it/340x272"></li>
+						<li><img class="s_img1" src="https://placehold.it/340x272"></li>
+					</ul>	
 				</div>
-				<div class="small_imgs">
-					<img src="https://placehold.it/227x280">
-					<img src="https://placehold.it/227x280">
-					<img src="https://placehold.it/227x280">
+				<div id="smallImgs">
+					<ul>
+						<li><img class="s_img1" src="https://placehold.it/227x180"></li>
+						<li><img class="s_img2" src="https://placehold.it/227x180"></li>
+						<li><img class="s_img3" src="https://placehold.it/227x180"></li>
+					</ul>
 				</div>
 			</div>
 		</div>
@@ -205,5 +209,23 @@
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.0/mustache.min.js"></script>
 	<script type="text/javascript" src="items.js"></script>
 	<script type="text/javascript" src="main.js"></script>
+	<script type="x-tmpl-mustache" id="whiskeyImages">
+	{{#images}}
+	<ul>
+		<li><img src="{{url_170x135}}" /></li>
+		<li><img src="{{url_170x135}}" /></li>
+	</ul>
+	{{/images}}
+	</script>
+	<script type="x-tmpl-mustache" id="smallWhiskeyImages">
+	{{#smallImgs}}
+	<ul>
+		<li><img src="{{url_75x75}}" /></li>
+		<li><img src="{{url_75x75}}" /></li>
+		<li><img src="{{url_75x75}}" /></li>
+	</ul>
+	{{/smallImgs}}
+	</script>
+	}
 </body>
 </html>

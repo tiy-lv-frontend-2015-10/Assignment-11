@@ -396,8 +396,25 @@ select:hover {
 	font-weight: bold;
 }
 
-.main_imgs {
+#mainImgs ul {
 	margin: 0px;
 	padding: 0px;
+}
+
+#mainImgs li {
+	list-style: none;
+	float: left;
+	padding-left: 10px;
+}
+
+#smallImgs ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+#smallImgs li{
+	list-style: none;
+	float: left;
+	padding-left: 10px;
 }
 
