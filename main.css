@@ -23,12 +23,12 @@ a:hover {
 	height:80px;
 	background: #fff;
 	margin:auto;
-	min-width: 920px;
+	width: 100%;
 
 }
 
 .wrapperNav {
-	width:100%;
+	min-width:1050px;
 	margin:auto;
 
 }
@@ -252,7 +252,7 @@ h1 {
 	margin-bottom: 30px;
 	width: 100%;
 	position: relative;
-	min-width: 920px;
+	min-width: 1050px;
 	font-size: 14px;
 
 }
