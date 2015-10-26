@@ -95,13 +95,13 @@ a:visited {}
 a:hover {text-decoration: underline;}
 a:active {}
 
-#allCategories {
+#allCategoriesList {
     background-color: white;
     width: 300px;
-    padding: 4px;
+    padding: 0 20px;
 }
 
-#allCategories li {
+#allCategoriesList li {
     color: rgb(0, 138, 173);
     line-height: 2em;
 }
