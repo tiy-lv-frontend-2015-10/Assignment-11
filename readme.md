@@ -1,1 +1,1 @@
-wakka wakka eh eh
+The css kept messing up so i tried to fix I will try to finnish it up along with the javascrpt.
