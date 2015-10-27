@@ -299,6 +299,14 @@ width: 250px;
 	float:left;
 	display: inline-block;
 }
+#whiskeyProducts a{
+	text-decoration: none;
+	color: #575757;
+}
+#whiskeyProducts a p{
+	text-decoration: none;
+	color: #AAAAAA;
+}
 
 .related ul{
 	list-style: none;
