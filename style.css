@@ -1,16 +1,17 @@
 #wrapper{
 	background-color:#F5F5F1;
-	width: 1450px;
+	width: 1440px;
 }
 #header{
 	height: 80px;
-	width: 1000px;
+	width: 1440px;
 	background-color: #FFFFFF;
-	padding:0px 220px 0px 220px;
+	margin:0px 220px,
 }
 #header h1{
 	display: inline-block;
 	float: left;
+	padding-left: 210px;
 }
 #header h1 img{
 	height: 40px;
@@ -45,7 +46,7 @@ padding-left: 15px;
 .userOpts{
 list-style: none;
 display: inline-block;
-padding-left: 275px;
+padding-right: 255px;
 float: right;
 padding-top: 5px;
 margin-bottom: 5px;
@@ -81,7 +82,7 @@ border-radius: 10%;
 	border-top: 1px solid #E1E3DF;
 	border-bottom: 1px solid #E1E3DF;
 	height: 50px;
-	width: 1450px;
+	width: 1440px;
 	margin: 0px;
 	background-color: #FFFFFF;
 }
@@ -97,14 +98,17 @@ border-radius: 10%;
 .navigator a {
 	color: #3E3E3E;
 	text-decoration: none;
-
+}
+.navigator a:hover{
+	text-decoration: underline;
 }
 #pageBody{
-	margin:0px 220px 0px 220px;
-	width: 1100px;
+	width: 1000px;
+	padding: 0px 220px;
 }
 .showResults{
 	display: inline-block;
+	float: left;
 }
 .showResults h3{
 	font-size: 13px;
@@ -133,8 +137,7 @@ border-radius: 10%;
 }
 #topCategories{
 	display: inline-block;
-	float: right;
-	width: 800px;
+	width: 750px;
 }
 .topCategories h4{
 	display: inline-block;
@@ -267,8 +270,7 @@ width: 250px;
 }
 #allWhiskey{
 	display: inline-block;
-	margin: 20px;
-	width: 500px;
+	width: 750px;
 }
 #allWhiskey h6{
 	display: inline-block;
@@ -279,16 +281,18 @@ width: 250px;
 #whiskeyProducts{
 	list-style: none;
 	display: inline-block;
-	width: 1000px;
+	width: 750px;
+	margin: 0px;
+	padding: 0px;
 }
 #whiskeyProducts div{
-	width: 250px;
+	width: 220px;
 	height: 300px;
 	font-size: 13px;
 }
 #whiskeyProducts div img{
-	height: 200px;
-	width: 250px;
+	height: 210px;
+	width: 220px;
 }
 #whiskeyProducts li{
 	padding-left: 10px;
@@ -297,12 +301,12 @@ width: 250px;
 }
 #bottom{
 	margin:0px 220px 0px 220px;
-	width: 1100px;
+	width: 1000px;
 	clear: both;
 }
 .subscribeBox{
 	border: 10px solid #EFEFEB;
-	width: 1000px;
+	width: 800px;
 	height: 150px;
 	font-size: 15px;
 	text-align: center;
