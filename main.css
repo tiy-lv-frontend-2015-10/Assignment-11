@@ -1,0 +1,81 @@
+body {
+    color: #222;
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+a {
+    color: #0192B5;
+    text-decoration: none;
+    background: transparent;
+}
+
+ul, li {
+    list-style-position: outside;
+    padding-left: 18px;
+}
+
+.etsy-logo a {
+    display: block;
+    width: 40px;
+    height: 50px;
+    background: url(assets/etsylogo.png) transparent no-repeat center center;
+    background-size: 100%;
+    color: #f45800;
+    margin-top: 2px;
+    text-indent: -10000em;
+    overflow: hidden;
+}
+
+#myList {
+  list-style: none;
+}
+
+.row2 {
+    width: 226px;
+    height: 180px;
+    margin-right: 7px;
+    margin-left: 7px;
+    
+}
+
+#row{
+    width: 75%;
+    display:inline;
+}
+
+.class{
+    width: 100%;
+}
+
+#column{
+    width: 100%;
+}
+
+#border{
+    width: 25%;
+    border-style: solid;
+    float: left;
+
+}
+
+
+#photo-container{
+    width: 75%;
+    display: inline;
+    
+}
+
+#whiskey-container{
+    padding-left: 329px;
+    margin-top: -44px;
+    width: 75%;    
+}
+
+
+
+
+
+
+
