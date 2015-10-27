@@ -151,8 +151,8 @@ a:hover{
 }
 
 #main_container{
-	width: 100%;
-	height: 3000px;
+	position: relative;
+	height: 2740px;
 	background: #f5f5f1;
 }
 
@@ -165,7 +165,7 @@ a:hover{
 
 .main{
 	float: left;
-	width: 20%;
+	width: 250px;
 	margin-left: 11%;
 }
 
@@ -386,6 +386,8 @@ select:hover {
 
 
 .main_right{
+	width: 715px;
+	display: inline-block;
 	float: left;
 }
 
@@ -416,7 +418,14 @@ select:hover {
 #smallImgs li{
 	list-style: none;
 	float: left;
-	padding-left: 10px;
+	margin-left: 10px;
+}
+
+.cats {
+	font-family: sans-serif;
+	font-size: 14px;
+	margin-left: 14px;
+	padding-bottom: 10px;
 }
 
 #bottomImages ul{
@@ -433,12 +442,96 @@ select:hover {
 }
 
 
-#bottomImages div img {
+#bottomImages div img{
 	width: 225px;
 	height: 180px;
 	border-radius: 2px;
+	margin-top: 20px;
 }
 
 #bottomImages div li{
 	width:220px;
+}
+
+.bottom {
+	width: 570px;
+	height: 210px;
+	margin: auto;
+}
+
+.bottom li {
+	list-style: none;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+.bottom span {
+	position: relative;
+	right: 100px;
+}
+
+.b_list {
+	float: left;
+}
+
+.b_list li{
+	margin: 10px;
+	color: #3CB1CB;
+}
+
+.bottom_container{
+	background-color: #f5f5f1;
+}
+
+.bottom p {
+	font-family: sans-serif;
+	margin: 0px;
+	font-size: 13px;
+	margin-left: 10px;
+	float: right;
+}
+
+.bottom a {
+	color: #3CB1CB;
+}
+
+.bottom a:hover{
+	text-decoration: underline;
+}
+
+.email_container {
+	background-color: #f5f5f1;
+	border-top: 1px solid #c0c0c0;
+	border-bottom: 1px solid #c0c0c0;
+}
+
+.email{
+	width: 500px;
+	height: 100px;
+	margin: auto;
+	padding: 0px;
+}
+
+.email_input {
+	position: relative;
+    height: 30px;
+    width: 200px;
+    left: 30px;
+    border-radius: 3px;
+    border: 1px solid #BCB7B3;
+    font-size: 14px;
+    font-family: sans-serif;
+    padding-left: 14px;
+}
+
+.button {
+	position: relative;
+	width: 92px;
+	height: 38px;
+	left: 40px;
+	border-radius: 3px;
+	border: 1px solid #0099cc;
+	background-color: #2F98B1;
+	color: white;
+	font-size: 14px;
 }
