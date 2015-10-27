@@ -404,7 +404,8 @@ select:hover {
 #mainImgs li {
 	list-style: none;
 	float: left;
-	padding-left: 10px;
+	padding-left: 10px;	
+	padding-bottom: 10px; 
 }
 
 #smallImgs ul {
@@ -418,3 +419,26 @@ select:hover {
 	padding-left: 10px;
 }
 
+#bottomImages ul{
+	margin: 0px;
+	padding:0px;
+}
+
+#bottomImages li{
+	list-style: none;
+	float: left;
+	padding-left: 16px;
+	font-size: 10px;
+	font-family: sans-serif;
+}
+
+
+#bottomImages div img {
+	width: 225px;
+	height: 180px;
+	border-radius: 2px;
+}
+
+#bottomImages div li{
+	width:220px;
+}

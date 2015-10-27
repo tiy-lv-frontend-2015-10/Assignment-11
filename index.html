@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -110,7 +111,7 @@
 			</ul>
 		</div>
 	</div>
-	<div id="main_container" class="clearfix">
+	<div id="main_container">
 		<div class="main">
 			<h5 class="h_0">Show results for:</h5>
 			<div class="categories">
@@ -191,8 +192,8 @@
 			<div class="imagesContainer">
 				<div id="mainImgs">
 					<ul>
-						<li><img class="s_img1" src="https://placehold.it/340x272"></li>
-						<li><img class="s_img1" src="https://placehold.it/340x272"></li>
+						<li><img class="img1" src="https://placehold.it/340x222"></li>
+						<li><img class="img2" src="https://placehold.it/340x222"></li>
 					</ul>	
 				</div>
 				<div id="smallImgs">
@@ -200,6 +201,14 @@
 						<li><img class="s_img1" src="https://placehold.it/227x180"></li>
 						<li><img class="s_img2" src="https://placehold.it/227x180"></li>
 						<li><img class="s_img3" src="https://placehold.it/227x180"></li>
+					</ul>
+				</div>
+				<div class="borderLine">
+					<p>All Categories > "whiskey" (26,233 Results)</p>
+				</div>
+				<div id="bottomImages">
+					<ul>
+						<li><img src="https://placehold.it/227x180"></li>
 					</ul>
 				</div>
 			</div>
@@ -210,22 +219,19 @@
 	<script type="text/javascript" src="items.js"></script>
 	<script type="text/javascript" src="main.js"></script>
 	<script type="x-tmpl-mustache" id="whiskeyImages">
-	{{#images}}
 	<ul>
-		<li><img src="{{url_170x135}}" /></li>
-		<li><img src="{{url_170x135}}" /></li>
+		{{#images}}
+		<div>
+		<li>
+			<img src="{{url_170x135}}" />
+			<span>{{title}}</span>
+			<p>{{shop}}
+			${{price}}</p>
+		</li>
+		</div>
+		{{/images}}
 	</ul>
-	{{/images}}
 	</script>
-	<script type="x-tmpl-mustache" id="smallWhiskeyImages">
-	{{#smallImgs}}
-	<ul>
-		<li><img src="{{url_75x75}}" /></li>
-		<li><img src="{{url_75x75}}" /></li>
-		<li><img src="{{url_75x75}}" /></li>
-	</ul>
-	{{/smallImgs}}
-	</script>
-	}
+
 </body>
 </html>

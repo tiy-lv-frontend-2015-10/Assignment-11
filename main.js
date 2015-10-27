@@ -2,30 +2,21 @@ $(document).ready(function(){
 	
 	var images = items.results.map(function(imageOne){
 		return {
-			url_170x135: imageOne.Images[1].url_170x135
+			title: imageOne.title.substring (0,31) + "...",
+			price: imageOne.price + " " + imageOne.currency_code,
+			shop: imageOne.Shop.shop_name,
+			url_170x135: imageOne.Images[0].url_170x135
 	};
-
-	var smallImages = items.results.map(function(imageTwo){
-		return {
-			url_75x75: imageTwo.Images[0].url_75x75
-	};
-
-
-});
+    
+  });
 
 var whiskeyHome = {
 	"images": images
-}
+};
 
-var whiskeyImages = $("#whiskeyImages").html();
+var whiskeyImages = $("#whiskeyImages").text();
 var whiskeyHTML = Mustache.render(whiskeyImages, whiskeyHome);
-$("#mainImgs").html(whiskeyHTML);
-
-var smallWhiskey = {
-	"smallImages": smallImages
-}
+$("#bottomImages").html(whiskeyHTML);
 
 
-var smallWhiskeyImages = $("#smallWhiskeyImages").html();
-var whiskeyHTML = Mustache.render(smallWhiskeyImages, smallWhiskey);
-$("#smallImgs").html(whiskeyHTML);
+});
