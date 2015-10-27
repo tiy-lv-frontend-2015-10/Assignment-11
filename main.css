@@ -142,7 +142,7 @@ a:hover {
 #left-panel {
 	display: inline-block;
 	margin-top: 30px;
-	width: 25%;
+	width: 23%;
 	font-family: Arial, sans-serif;
 	/*border: 1px solid blue;*/
 }
@@ -151,7 +151,7 @@ a:hover {
 	vertical-align: top;
 	margin-top: 30px;
 	/*margin-left: 2%;*/
-	width: 74%;
+	width: 72%;
 	/*border: 1px solid blue;*/
 }
 /*LEFT PANEL styling***********************************************************/
@@ -231,6 +231,9 @@ input[type=radio]:checked + label {
 #price p {
 	display: inline-block;
 }
+#price {
+margin-left: -15px;
+}
 .price-box {
 	display: inline-block;
 	border: 1px solid #BAB2B2;
@@ -251,7 +254,8 @@ input[type=radio]:checked + label {
 }
 .swatch-box {
 	display: inline-block;
-	margin-right: 2px;
+	margin-right: 4px;
+	margin-left: -5px;
 	border: 1px solid lightgrey;
 	border-radius: 3px;
 	height: 21px;
@@ -262,11 +266,18 @@ input[type=radio]:checked + label {
 .swatch-box a {
 
 }
-
-.chkbx {
-	margin-right: 40px;
+.chx {
+	margin-left: -5px;
 }
-
+.chkbx {
+	margin-right: 52px;
+}
+.shp {
+	margin-left: -5px;
+}
+#floor {
+	margin-left: -8px;
+}
 /*BIG div on right, starting from top*************************************************/
 
 #right-panel h3{
@@ -277,22 +288,44 @@ input[type=radio]:checked + label {
 /*This is the TOP (category) box ********************************************/
 .big-image {
 	box-sizing: border-box;
-	background-color: pink;
 	display: inline-block;
 	vertical-align: top;
+	position: relative;
 	margin-left: 2%;
 	margin-right: 0;
-	width: 47.7%;
-	height: 260px;
+	width: 47%;
+	height: 230px;
+	margin-bottom: 40px;
+	z-index: -3;
 }
-.inner-white-panel {
+.big-image img {
+	width: 100%;ß
+}
+.inner-white-panel-top {
 	text-align: center;
 	max-width: 190px;
+	position: absolute;
+	top: 40px;
+	left:100px;
 	padding: 10px;
 	border-radius: 5px;
 	margin:  0 auto;
 	margin-top: 48%;
 	background: #FFFFFF;
+	z-index: 2;
+}
+.inner-white-panel-next {
+	text-align: center;
+	max-width: 220px;
+	position: absolute;
+	top: 10px;
+	left: 20%;
+	padding: 10px;
+	border-radius: 5px;
+	/*margin-left -50%;*/
+	margin-top: 48%;
+	background: #FFFFFF;
+	z-index: 2;
 }
 .white-title {
 	font-weight: bold;
@@ -304,16 +337,117 @@ input[type=radio]:checked + label {
 	color: #34A8C4;
 }
 
+/*TOP of Product Display panel*********************************************/
 .norm-image {
 	box-sizing: border-box;
-	background-color: lightblue;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 2%;
+	margin-right: 0;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	width: 30.5%;
+	height: 180px;
+	position: relative;
+	z-index: -3;
+}
+
+.product-square {
+	box-sizing: border-box;
 	display: inline-block;
 	vertical-align: top;
 	margin-left: 2%;
 	margin-right: 0;
 	margin-top: 20px;
-	width: 31%;
+	margin-bottom: 20px;
+	width: 30%;
 	height: 200px;
+	position: relative;
+	z-index: -3;
+}
+
+.norm-image img {
+	width: 100%;
+}
+.product-square img {
+	width: 100%;
+}
+
+.inner-button-panel {
+	display: none;
+	position: absolute;
+	top: 1px;
+	right: -7px;
+}
+
+.like-heart {
+	display: inline-block;
+	vertical-align: top;
+	position: absolute;
+	top: 5px;
+	right: 55px;
+	width: 20px;
+	height: 20px;
+	padding: 5px;
+	background: white;
+	border-radius: 4px;
+	background: white;
+}
+.like-burger {
+	display: inline-block;
+	vertical-align: top;
+	position: absolute;
+	top: 5px;
+	right: 12px;
+	width: 20px;
+	height: 20px;
+	padding: 5px 15px 5px 5px;
+	background: white;
+	border-radius: 4px;
+	background: white;
+}
+/*heart & hamburger*/
+.icon {
+	height: 20px;
+	width: 20px;
+}
+
+/*down arrow*/
+
+.like-plus {
+	display: inline-block;
+	position: absolute;
+	top: 20px;
+	right: 3px;
+}
+.down-arrow {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 8px 5px 0 5px;
+	border-color: #b5bec9 transparent transparent transparent;
+}
+
+
+
+.factoids {
+	height: 40px;
+	width: 100%;
+	background: white;
+}
+.title-text, .price, .shop-name {
+font-family: Arial, sans-serif;
+font-size: 0.85rem;
+}
+.price {
+	padding: 10px 0 0 0;
+	color: #95C353;
+	float:right;
+}
+.shop-name {
+	padding: 10px 0 0 0;
+	color: #AAAAAA;
+	float: left;
 }
 
 #bottom-line {
@@ -322,37 +456,8 @@ input[type=radio]:checked + label {
 }
 
 
-/*  Product Display Div  ***************************************************/
-.inner-button-panel {
-	display: none;
-	float: right;
-}
+/*  Product Display Div END ***************************************************/
 
-.like {
-	box-sizing: border-box;
-	display: inline-block;
-	background: white;
-	margin: 3px 3px 3px -1px;
-	border-radius: 4px;
-}
-
-.like-plus {
-	display: inline-block;
-	padding-bottom: 8px;
-	margin-right: 3px;
-	margin-left: -4px;
-	width: 0;
-	height: 0;
-	border-style: solid;
-	border-width: 8px 5px 0 5px;
-	border-color: #b5bec9 transparent transparent transparent;
-}
-
-.icon {
-	height: 20px;
-	width: 20px;
-	padding: 4px 3px 0 3px;
-}
 
 /* Pic footer columns ********************************************************/
 .low-header {
@@ -387,7 +492,7 @@ input[type=radio]:checked + label {
 	border: 1px solid #BAB2B2;
 	margin-top: 20px;
 	margin-left: 2%;
-	margin-right: 31.2%;
+	margin-right: 30.2%;
 	margin-bottom: 20px;
 }
 .paginator {
