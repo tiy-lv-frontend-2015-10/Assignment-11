@@ -54,11 +54,16 @@
                     <li><a href="https://www.etsy.com/search/pet-supplies?q=whiskey&customizable=true">Pet Supplies</a></li>
                 </ul>
             </div><!--closes all categories-->
+            
             <div id="topCatWhiskey">
-                
-                
-                
+                <img class="blankImages" src="#" width="350px" height="235"/>
+                <img class="blankImages" src="#" width="350px" height="235px"/>
+                <p></p>
+                <img class="blankImages fl" src="#" width="228px" height="180px"/>
+                <img class="blankImages" src="#" width="225px" height="180"/>
+                <img class="blankImages" src="#" width="225px" height="180"/>   
             </div><!--closes top cat whiskey-->
+            
             <p><b>Refine your search</b></p>
             <div id="itemType">
                 <ul>
@@ -99,7 +104,12 @@
                 <p><a>Choose a custom location</a></p>
             </div><!--closes item type-->    
            
-            <div id="allCatWhiskey"></div><!--closes all cat whiskey-->
+            <div id="allCatWhiskey"><!--Mustache insert-->
+               
+                
+                
+                
+            </div><!--closes all cat whiskey-->
         </div><!--closes main-->
         <div id="relatedToWhiskey">
             <p class="relatedToMargin">Related to <b>whiskey</b></p>
@@ -178,46 +188,25 @@
         <div id="footer"></div><!--closes footer-->	
         
     </div><!--closes container-->
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.0/mustache.min.js"></script>
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-<script type="text/javascript" src="js/main.js"></script>
+
 <script type="text/javascript" src="js/data.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
 
-<!--Script mustache template for CATEGORIES LIST-->
-<script type="x-tmpl-mustache" id="listingTemplate">
-{{#listings}}
-    <ul>
-        <li>{{listingID}}</li>
-        <li>{{categoryId}}</li>
-        <img src="{{url_75x75}}" />
-    </ul>
-{{/listings}}
-</script>
-
-<!-- Script mustache template for TOP CATEGORIES for "whiskey"-->
-<script type="x-tmpl-mustache" id="topCatTemplate">
-    {{#topCats}}
-        <ul>
-            <li>{{}}</li>
-            <li>{{}}</li>
-            <li>{{}}</li>
-        </ul>
-    {{/topCats}}
-</script>
 
 <!-- Script mustache template for ALL CATEGORIES-->
 <script type="x-tmpl-mustache" id="allCatTemplate">
-    {{#allCats}}
+    {{#allCatUpdates}}
         <ul>
-            <li>{{all_categories.whiskey}}</li>
-            <li>{{}}</li>
-            <li>{{}}</li>
-            <li>{{}}</li>
+            <li>{{listingId}}</li>
+            <li><img class="allCatImages" src="{{url_75x75}}" /></li>
+            <li>{{price}}</li>
         </ul>
-    {{/allCats}}
+    {{/allCatUpdates}}
 </script>
 
-<script id="template" type="x-tmpl-mustache" src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.0/mustache.min.js"></script>
+
 </body>
 </html>

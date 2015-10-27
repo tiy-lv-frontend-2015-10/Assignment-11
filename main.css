@@ -99,6 +99,7 @@ a:active {}
     background-color: white;
     width: 300px;
     padding: 0 20px;
+    float: left;
 }
 
 #allCategoriesList li {
@@ -115,11 +116,26 @@ a:active {}
 
 ul {list-style: none;}
 
+#topCatWhiskey {
+    padding: 2em;
+}
+
+allCatWhiskey {
+    float: left;
+}
+
 .lowHigh {
     padding: 12px;
     border-radius: 4px;
     border: 1px solid rgb(217, 217, 217);
 }
+
+.blankImages {
+    background-color: lightgray;
+    padding: 1.5em;
+}
+
+
 
 .arrow-right {
 	width: 0; 
