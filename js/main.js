@@ -5,9 +5,10 @@ $(document).ready(function(){
     var allCatUpdates = {};
     
     allCatUpdates = data.results.map(function(obj) {
-        return {listingId: obj.listing_id,
+        return {listingId: obj.name,
                url_75x75: obj.Images[0].url_75x75,
-                price: obj.price};
+                price: obj.price
+    };
     });
     
     var catUpdates = {
@@ -18,7 +19,10 @@ $(document).ready(function(){
 var allCatTemplate = $("#allCatTemplate").text();
 var allCatHTML = Mustache.render(allCatTemplate, catUpdates);
 $("#allCatWhiskey").html(allCatHTML);
-    console.log(allCatHTML);
+
+    
+    
+    
     
     
 });//closes doc ready

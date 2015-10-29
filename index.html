@@ -104,14 +104,12 @@
                 <p><a>Choose a custom location</a></p>
             </div><!--closes item type-->    
            
-            <div id="allCatWhiskey"><!--Mustache insert-->
-               
-                
-                
-                
-            </div><!--closes all cat whiskey-->
+            <div id="allCatWhiskey"><!--Mustache insert--> </div><!--closes all cat whiskey-->
+            <p class="clearFloat"></p>
+        
         </div><!--closes main-->
-        <div id="relatedToWhiskey">
+      
+             <div id="relatedToWhiskey">
             <p class="relatedToMargin">Related to <b>whiskey</b></p>
             <ul id="whiskeyDecanter">
                 <li><a href="https://www.etsy.com/search?q=whiskey+decanter&ref=related">whiskey decanter</a></li>
@@ -200,7 +198,7 @@
 <script type="x-tmpl-mustache" id="allCatTemplate">
     {{#allCatUpdates}}
         <ul>
-            <li>{{listingId}}</li>
+            <li>{{name}}</li>
             <li><img class="allCatImages" src="{{url_75x75}}" /></li>
             <li>{{price}}</li>
         </ul>

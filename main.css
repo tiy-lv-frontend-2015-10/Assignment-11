@@ -112,6 +112,7 @@ a:active {}
     width: 300px;
     padding: 0 20px;
     line-height: 2em;
+    float: left;
 }
 
 ul {list-style: none;}
@@ -120,7 +121,7 @@ ul {list-style: none;}
     padding: 2em;
 }
 
-allCatWhiskey {
+#allCatWhiskey {
     float: left;
 }
 
@@ -248,4 +249,8 @@ allCatWhiskey {
 #divSite5 {
     float: left;
     padding: 1em 3em;
+}
+
+.allCatImages {
+    width: 200%;
 }
