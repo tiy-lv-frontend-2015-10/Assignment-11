@@ -436,6 +436,7 @@ hr {
 }
 
 #refineSearch {
+	right:320px;
 	width: 230px;
 	background-color: white;
 	border-radius: 3px;
@@ -447,6 +448,7 @@ hr {
 	padding-bottom: 10px;
 	position: relative;
 	float: left;
+	bottom: 1860px;
 }
 
 #container {
@@ -608,6 +610,7 @@ li {
 }
 
 #myList {
+	left: 170px;
 	float: left;
 	width: 228px;
 	margin: 0 16px 20px 0;
@@ -627,7 +630,7 @@ li {
 }
 
 #myListImg {
-	width: 228px;
+	width: 218px;
 }
 
 #myListTitle {
