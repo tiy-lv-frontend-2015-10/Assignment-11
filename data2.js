@@ -14,18 +14,7 @@ var listings = data.results.map(function(listing){
 var listingData = {
   "listings": listings
 };
-
-
   var images = $("#images").text();
   var listHtml = Mustache.render(images, listingData);
   $("#boxes2").html(listHtml);
 });
-
-
-
-
-
-
-
-
-
