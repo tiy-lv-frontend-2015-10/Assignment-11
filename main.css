@@ -117,12 +117,21 @@ a:active {}
 
 ul {list-style: none;}
 
-#topCatWhiskey {
-    padding: 2em;
-}
+#topCatWhiskey {padding: 2em;}
 
 #allCatWhiskey {
     float: left;
+    width: 60%;
+    margin-left: 3em;
+}
+
+#allCatWhiskey img {
+    width: 100px;
+}
+
+#allCatWhiskey ul {
+    display: inline-block;
+    padding: 1em;
 }
 
 .lowHigh {
@@ -252,5 +261,13 @@ ul {list-style: none;}
 }
 
 .allCatImages {
-    width: 200%;
+    
+}
+
+.allCatImages img {
+    padding: .5em;
+}
+
+#allCatListings ul li {
+    display: inline-block;
 }
