@@ -117,7 +117,11 @@ a:active {}
 
 ul {list-style: none;}
 
-#topCatWhiskey {padding: 2em;}
+#topCatWhiskey {
+}
+
+div#topCatWhiskey {
+}
 
 #allCatWhiskey {
     float: left;
@@ -142,7 +146,8 @@ ul {list-style: none;}
 
 .blankImages {
     background-color: lightgray;
-    padding: 1.5em;
+    padding: 1em;
+    margin-left: ;
 }
 
 

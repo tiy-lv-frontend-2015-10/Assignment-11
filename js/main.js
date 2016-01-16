@@ -5,9 +5,10 @@ $(document).ready(function(){
     var allCatUpdates = {};
     
     allCatUpdates = data.results.map(function(obj) {
-        return {listingId: obj.name,
-               url_75x75: obj.Images[0].url_75x75,
-                price: obj.price
+        return {
+            listingId: obj.name,
+            url_75x75: obj.Images[0].url_75x75,
+            price: obj.price
     };
     });
     
