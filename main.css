@@ -32,7 +32,7 @@ h1 {
     color: rgb(0, 146, 183);
     font-size: 1.2em;
     float:right;
-    margin-left: 70px;
+    margin-right: 16em;
 }
 
 #signInBtn {
@@ -120,7 +120,12 @@ ul {list-style: none;}
 #topCatWhiskey {
 }
 
-div#topCatWhiskey {
+div#topCatWhiskey img {
+    margin-left: 2em;
+}
+
+#refine {
+    margin-left: 2em;
 }
 
 #allCatWhiskey {
